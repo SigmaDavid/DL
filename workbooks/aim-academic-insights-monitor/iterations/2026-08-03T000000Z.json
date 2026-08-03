@@ -1,0 +1,1684 @@
+{
+  "name": "AIM \u2014 Academic Insights Monitor (Template)",
+  "folderId": "REPLACE_WITH_STRIDELEARNING_FOLDER_ID",
+  "description": "K12 Academic Insights Monitor \u2014 navigation + filter template shell. Header/logo, filter bars, and segmented nav toggles across 9 pages. Charts/KPIs intentionally omitted (placeholder cards mark their positions).",
+  "schemaVersion": 1,
+  "themeOverrides": {
+    "pageWidth": "large",
+    "space": {
+      "unit": "small"
+    }
+  },
+  "pages": [
+    {
+      "id": "p-target-overview",
+      "name": "Target Overview",
+      "elements": [
+        {
+          "id": "bg-p-target-overview",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-target-overview",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-target-overview",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-target-overview",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Target Overview**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-target-overview-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-target-overview-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-target-overview-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-target-overview-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-target-overview-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-target-overview-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-target-overview-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-target-overview-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "card-p-target-overview-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**% Course Passing**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Students Passing All**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Predicted Grad Rate**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Priority Indicator**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-4",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-4",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Time in Class Connect**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-5",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-5",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Time in Course**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-6",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-6",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Time in Intervention Tool**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-target-overview-7",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-target-overview-7",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Course Activity**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "addf-p-target-overview",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0E2C57",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "addfx-p-target-overview",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Additional Filters**</span>  <span style=\"color: #AEC2E0\">\u2014 slide-out pane (rendered static; button-triggered panes are unsupported in workbook-as-code)</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**COHORT GRAD YEAR**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**ETHNICITY**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**STUDENT PROGRAM**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**NEW / RETURNING**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-4",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-4",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL OF RECORD**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "af-p-target-overview-5",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "afx-p-target-overview-5",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FAY STUDENT**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "actf-p-target-overview",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0B2650",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "actfx-p-target-overview",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**ACTIVE FILTERS**</span>\n\nReport Date = 2026-08-02\n\nFT/PT Status = FT",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-school-demographics",
+      "name": "School Demographics",
+      "elements": [
+        {
+          "id": "bg-p-school-demographics",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-school-demographics",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-school-demographics",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-school-demographics",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**School Demographics**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-school-demographics-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-school-demographics-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-school-demographics-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-school-demographics-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-school-demographics-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-school-demographics-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-school-demographics-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-school-demographics-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-school-demographics-demo",
+          "controlId": "DemoView-scho",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "enrollment",
+              "persistence",
+              "mtss"
+            ],
+            "labels": [
+              "Enrollment by Program",
+              "Student Persistence & Status",
+              "MTSS Distribution"
+            ]
+          },
+          "value": "enrollment",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "card-p-school-demographics-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-school-demographics-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Student Count by Grade Band**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-school-demographics-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-school-demographics-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Enrollment by Program**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-school-demographics-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-school-demographics-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Student Count by Ethnicity**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-school-demographics-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-school-demographics-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Student Counts by School Group**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-student-engagement",
+      "name": "Student Engagement",
+      "elements": [
+        {
+          "id": "bg-p-student-engagement",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-student-engagement",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-student-engagement",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-student-engagement",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Student Engagement**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-engagement-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-engagement-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-engagement-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-engagement-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-engagement-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-engagement-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-engagement-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-engagement-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-student-engagement-cdur",
+          "controlId": "CourseDurationView-stud",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "overall",
+              "ela",
+              "math"
+            ],
+            "labels": [
+              "Overall",
+              "ELA",
+              "Math"
+            ]
+          },
+          "value": "overall",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-student-engagement-dact",
+          "controlId": "DaysActivityView-stud",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "l7d",
+              "wk4",
+              "ytd",
+              "missed"
+            ],
+            "labels": [
+              "Last 7 Days",
+              "4 Wk Avg",
+              "Year to Date",
+              "Days Missed"
+            ]
+          },
+          "value": "l7d",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-student-engagement-ccon",
+          "controlId": "ClassConnectView-stud",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "overall",
+              "ela",
+              "math"
+            ],
+            "labels": [
+              "Overall",
+              "ELA",
+              "Math"
+            ]
+          },
+          "value": "overall",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-student-engagement-trem",
+          "controlId": "RemediationView-stud",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "ela",
+              "math"
+            ],
+            "labels": [
+              "ELA",
+              "Math"
+            ]
+          },
+          "value": "ela",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "card-p-student-engagement-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-student-engagement-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Course Duration (Last 7 Days)**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-student-engagement-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-student-engagement-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Days with Course Activity**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-student-engagement-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-student-engagement-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Required Class Connect Sessions (Last 7 Days)**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-student-engagement-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-student-engagement-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Time in Remediation**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-academics",
+      "name": "Academics",
+      "elements": [
+        {
+          "id": "bg-p-academics",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-academics",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-academics",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-academics",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Academics**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-academics-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-academics-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-academics-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-academics-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE BAND**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-academics-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-academics-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-academics-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-academics-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-academics-subj",
+          "controlId": "AcademicsSubject-acad",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "ela",
+              "math"
+            ],
+            "labels": [
+              "ELA",
+              "Math"
+            ]
+          },
+          "value": "ela",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-academics-prate",
+          "controlId": "PassingRatesView-acad",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "percent",
+              "grades",
+              "all"
+            ],
+            "labels": [
+              "Percent Passing",
+              "Grade Details",
+              "Passing All"
+            ]
+          },
+          "value": "all",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "card-p-academics-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-academics-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Growth Assessment**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-academics-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-academics-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Passing Rates**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-academics-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-academics-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Prior Year State Assessment**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-academics-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-academics-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Advanced Enrollment**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-graduation",
+      "name": "Graduation",
+      "elements": [
+        {
+          "id": "bg-p-graduation",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-graduation",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-graduation",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-graduation",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Graduation**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-graduation-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-graduation-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-graduation-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-graduation-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-graduation-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-graduation-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-graduation-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-graduation-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-graduation-gsubj",
+          "controlId": "CourseSubject-grad",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "all",
+              "ela",
+              "ele",
+              "his",
+              "mth",
+              "none",
+              "sci"
+            ],
+            "labels": [
+              "Select all",
+              "ELA",
+              "ELE",
+              "HIS",
+              "MTH",
+              "No Subj",
+              "SCI"
+            ]
+          },
+          "value": "ela",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "card-p-graduation-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-graduation-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**High School Passing Details**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-graduation-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-graduation-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Failing Courses by Count**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-graduation-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-graduation-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**High School Course Details**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-graduation-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-graduation-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**High School Drop Out**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-mtss",
+      "name": "MTSS",
+      "elements": [
+        {
+          "id": "bg-p-mtss",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-mtss",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-mtss",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-mtss",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**MTSS**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-mtss-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-mtss-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-mtss-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-mtss-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-mtss-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-mtss-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-mtss-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-mtss-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "kind": "control",
+          "id": "nav-p-mtss-ccs",
+          "controlId": "ClassConnectMode-mtss",
+          "controlType": "segmented",
+          "source": {
+            "kind": "manual",
+            "valueType": "text",
+            "values": [
+              "invited",
+              "attended"
+            ],
+            "labels": [
+              "Invited",
+              "Attended"
+            ]
+          },
+          "value": "invited",
+          "style": {
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "card-p-mtss-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-mtss-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**MTSS Tier Alignment**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-mtss-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-mtss-1",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Required Class Connect Sessions**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-mtss-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-mtss-2",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Current Tier 1 Recommendation Details**</span>",
+          "verticalAlign": "start"
+        },
+        {
+          "id": "card-p-mtss-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-mtss-3",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Course Passing Rate**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-student-details",
+      "name": "Student Details",
+      "elements": [
+        {
+          "id": "bg-p-student-details",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-student-details",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-student-details",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-student-details",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Student Details**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-details-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-details-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-details-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-details-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-details-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-details-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-student-details-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-student-details-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "bulk-p-student-details",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "bulkx-p-student-details",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**BULK STUDENT IDS**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Enter Student IDs&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;<span style=\"color: #AEC2E0\">\u2190 INCLUDES / EXCLUDES IDs (comma or new line)</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "card-p-student-details-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-student-details-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Student Details**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-definitions",
+      "name": "Definitions",
+      "elements": [
+        {
+          "id": "bg-p-definitions",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-definitions",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-definitions",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-definitions",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Definitions**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-definitions-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-definitions-0",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**SCHOOL**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-definitions-1",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-definitions-1",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**GRADE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;All &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-definitions-2",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-definitions-2",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**FULL/PART TIME**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;FT &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "flt-p-definitions-3",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "fltx-p-definitions-3",
+          "kind": "text",
+          "body": "<span style=\"color: #BCD0EC\">**REPORT DATE**</span>\n\n<span style=\"background-color: #EAF1FA\">&nbsp;&nbsp;Latest Date &#9662;&nbsp;&nbsp;</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "card-p-definitions-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-definitions-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Metric Definitions**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    },
+    {
+      "id": "p-version-history",
+      "name": "Version History",
+      "elements": [
+        {
+          "id": "bg-p-version-history",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": null
+          }
+        },
+        {
+          "id": "hdr-p-version-history",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#0A1E44",
+            "borderRadius": "round"
+          }
+        },
+        {
+          "id": "logo-p-version-history",
+          "kind": "image",
+          "url": "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"
+        },
+        {
+          "id": "ttl-p-version-history",
+          "kind": "text",
+          "body": "# <span style=\"color: #FFFFFF\">**Version History**</span>\n\n<span style=\"color: #AEC2E0\">Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237</span>",
+          "verticalAlign": "middle"
+        },
+        {
+          "id": "card-p-version-history-0",
+          "kind": "container",
+          "style": {
+            "backgroundColor": "#123C74",
+            "borderRadius": "round",
+            "borderColor": "#1E4E8C",
+            "borderWidth": 1
+          }
+        },
+        {
+          "id": "cardx-p-version-history-0",
+          "kind": "text",
+          "body": "### <span style=\"color: #FFFFFF\">**Version History**</span>",
+          "verticalAlign": "start"
+        }
+      ]
+    }
+  ],
+  "layout": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-target-overview\">\n  <GridContainer elementId=\"bg-p-target-overview\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 44\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-target-overview\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-target-overview\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-target-overview\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-target-overview-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-target-overview-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-target-overview-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-target-overview-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-target-overview-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-target-overview-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-target-overview-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-target-overview-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-0\" type=\"grid\" gridColumn=\"1 / 9\" gridRow=\"7 / 15\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-1\" type=\"grid\" gridColumn=\"9 / 17\" gridRow=\"7 / 15\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-2\" type=\"grid\" gridColumn=\"17 / 25\" gridRow=\"7 / 15\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-3\" type=\"grid\" gridColumn=\"1 / 9\" gridRow=\"15 / 23\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-4\" type=\"grid\" gridColumn=\"9 / 17\" gridRow=\"15 / 23\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-4\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-5\" type=\"grid\" gridColumn=\"17 / 25\" gridRow=\"15 / 23\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-5\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-6\" type=\"grid\" gridColumn=\"1 / 9\" gridRow=\"23 / 31\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-6\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-target-overview-7\" type=\"grid\" gridColumn=\"9 / 17\" gridRow=\"23 / 31\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-target-overview-7\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"addf-p-target-overview\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"31 / 43\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"addfx-p-target-overview\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n        <GridContainer elementId=\"af-p-target-overview-0\" type=\"grid\" gridColumn=\"1 / 5\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"af-p-target-overview-1\" type=\"grid\" gridColumn=\"5 / 9\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"af-p-target-overview-2\" type=\"grid\" gridColumn=\"9 / 13\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"af-p-target-overview-3\" type=\"grid\" gridColumn=\"13 / 17\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"af-p-target-overview-4\" type=\"grid\" gridColumn=\"17 / 21\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-4\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"af-p-target-overview-5\" type=\"grid\" gridColumn=\"21 / 25\" gridRow=\"3 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"afx-p-target-overview-5\" gridColumn=\"1 / 25\" gridRow=\"1 / 5\"/>\n        </GridContainer>\n        <GridContainer elementId=\"actf-p-target-overview\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"7 / 12\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n          <LayoutElement elementId=\"actfx-p-target-overview\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n        </GridContainer>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-school-demographics\">\n  <GridContainer elementId=\"bg-p-school-demographics\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 27\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-school-demographics\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-school-demographics\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-school-demographics\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-school-demographics-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-school-demographics-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-school-demographics-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-school-demographics-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-school-demographics-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-school-demographics-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-school-demographics-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-school-demographics-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <LayoutElement elementId=\"nav-p-school-demographics-demo\" gridColumn=\"5 / 21\" gridRow=\"7 / 9\"/>\n      <GridContainer elementId=\"card-p-school-demographics-0\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-school-demographics-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-school-demographics-1\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-school-demographics-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-school-demographics-2\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-school-demographics-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-school-demographics-3\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-school-demographics-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-student-engagement\">\n  <GridContainer elementId=\"bg-p-student-engagement\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 33\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-student-engagement\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-student-engagement\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-student-engagement\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-engagement-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-engagement-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-engagement-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-engagement-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-engagement-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-engagement-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-engagement-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-engagement-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <LayoutElement elementId=\"nav-p-student-engagement-cdur\" gridColumn=\"5 / 21\" gridRow=\"7 / 9\"/>\n      <LayoutElement elementId=\"nav-p-student-engagement-dact\" gridColumn=\"5 / 21\" gridRow=\"9 / 11\"/>\n      <LayoutElement elementId=\"nav-p-student-engagement-ccon\" gridColumn=\"5 / 21\" gridRow=\"11 / 13\"/>\n      <LayoutElement elementId=\"nav-p-student-engagement-trem\" gridColumn=\"5 / 21\" gridRow=\"13 / 15\"/>\n      <GridContainer elementId=\"card-p-student-engagement-0\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"16 / 24\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-student-engagement-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-student-engagement-1\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"16 / 24\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-student-engagement-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-student-engagement-2\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"24 / 32\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-student-engagement-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-student-engagement-3\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"24 / 32\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-student-engagement-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-academics\">\n  <GridContainer elementId=\"bg-p-academics\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 29\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-academics\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-academics\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-academics\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-academics-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-academics-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-academics-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-academics-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-academics-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-academics-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-academics-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-academics-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <LayoutElement elementId=\"nav-p-academics-subj\" gridColumn=\"5 / 21\" gridRow=\"7 / 9\"/>\n      <LayoutElement elementId=\"nav-p-academics-prate\" gridColumn=\"5 / 21\" gridRow=\"9 / 11\"/>\n      <GridContainer elementId=\"card-p-academics-0\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"12 / 20\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-academics-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-academics-1\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"12 / 20\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-academics-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-academics-2\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"20 / 28\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-academics-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-academics-3\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"20 / 28\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-academics-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-graduation\">\n  <GridContainer elementId=\"bg-p-graduation\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 27\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-graduation\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-graduation\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-graduation\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-graduation-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-graduation-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-graduation-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-graduation-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-graduation-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-graduation-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-graduation-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-graduation-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <LayoutElement elementId=\"nav-p-graduation-gsubj\" gridColumn=\"5 / 21\" gridRow=\"7 / 9\"/>\n      <GridContainer elementId=\"card-p-graduation-0\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-graduation-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-graduation-1\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-graduation-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-graduation-2\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-graduation-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-graduation-3\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-graduation-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-mtss\">\n  <GridContainer elementId=\"bg-p-mtss\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 27\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-mtss\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-mtss\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-mtss\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-mtss-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-mtss-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-mtss-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-mtss-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-mtss-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-mtss-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-mtss-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-mtss-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <LayoutElement elementId=\"nav-p-mtss-ccs\" gridColumn=\"5 / 21\" gridRow=\"7 / 9\"/>\n      <GridContainer elementId=\"card-p-mtss-0\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-mtss-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-mtss-1\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"10 / 18\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-mtss-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-mtss-2\" type=\"grid\" gridColumn=\"1 / 13\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-mtss-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-mtss-3\" type=\"grid\" gridColumn=\"13 / 25\" gridRow=\"18 / 26\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-mtss-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-student-details\">\n  <GridContainer elementId=\"bg-p-student-details\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 20\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-student-details\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-student-details\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-student-details\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-details-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-details-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-details-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-details-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-details-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-details-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-student-details-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-student-details-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"bulk-p-student-details\" type=\"grid\" gridColumn=\"6 / 20\" gridRow=\"7 / 10\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"bulkx-p-student-details\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-student-details-0\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"11 / 19\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-student-details-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-definitions\">\n  <GridContainer elementId=\"bg-p-definitions\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 16\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-definitions\" type=\"grid\" gridColumn=\"1 / 11\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-definitions\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-definitions\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-definitions-0\" type=\"grid\" gridColumn=\"11 / 15\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-definitions-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-definitions-1\" type=\"grid\" gridColumn=\"15 / 18\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-definitions-1\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-definitions-2\" type=\"grid\" gridColumn=\"18 / 22\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-definitions-2\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"flt-p-definitions-3\" type=\"grid\" gridColumn=\"22 / 25\" gridRow=\"1 / 6\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"fltx-p-definitions-3\" gridColumn=\"1 / 25\" gridRow=\"1 / 6\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-definitions-0\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"7 / 15\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-definitions-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"p-version-history\">\n  <GridContainer elementId=\"bg-p-version-history\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 16\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n      <GridContainer elementId=\"hdr-p-version-history\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"1 / 7\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"logo-p-version-history\" gridColumn=\"1 / 25\" gridRow=\"1 / 4\"/>\n        <LayoutElement elementId=\"ttl-p-version-history\"  gridColumn=\"1 / 25\" gridRow=\"4 / 7\"/>\n      </GridContainer>\n      <GridContainer elementId=\"card-p-version-history-0\" type=\"grid\" gridColumn=\"1 / 25\" gridRow=\"7 / 15\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\">\n        <LayoutElement elementId=\"cardx-p-version-history-0\" gridColumn=\"1 / 25\" gridRow=\"1 / 3\"/>\n      </GridContainer>\n  </GridContainer>\n</Page>"
+}

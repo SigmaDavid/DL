@@ -1,0 +1,427 @@
+diff --git a/skills/sigma-company-dashboard-v2/assets/stride_logo_navy.datauri.txt b/skills/sigma-company-dashboard-v2/assets/stride_logo_navy.datauri.txt
+new file mode 100644
+index 0000000..f8118cf
+--- /dev/null
++++ b/skills/sigma-company-dashboard-v2/assets/stride_logo_navy.datauri.txt
+@@ -0,0 +1 @@
++data:image/png;base64,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
+\ No newline at end of file
+diff --git a/skills/sigma-company-dashboard-v2/assets/stride_logo_white.datauri.txt b/skills/sigma-company-dashboard-v2/assets/stride_logo_white.datauri.txt
+new file mode 100644
+index 0000000..cc4943a
+--- /dev/null
++++ b/skills/sigma-company-dashboard-v2/assets/stride_logo_white.datauri.txt
+@@ -0,0 +1 @@
++data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABB4AAABmCAYAAABsmFKMAAAsCElEQVR4nO3deZxcZZn28d8NURZZOoIvKCIdVJQBJKCIuAZGRXAhMorLOGw6vq5s4vYqkKDiroCog1sC6jgqSGAQcSPBBRCFREBAQNIIKCiQZl/1ev94TifVp6u6azlVT1X39f18zqe7qqvOuaq6qrvOfZ5zP0Gfk/RU4CnAJsDmwJOALYtlM2BdYIPiay/cD9wLjAI3FcufgeuBW4G/A9dGxB09ymM2Y606iAXAMZk2v9fsRZybadtmZmZmZgNjVu4AAJLWA7YCdgV2BrYAtgG2pU8y1livWDYlFUTqkjQCXEcqTPwG+B1wZUTc14OMZmZmZmZmZn0hy069pCcC2wF7AC8DtgfWypGli4aLBeDAsSslXQr8EvgZcHlE3NDrYFWTtByY2+PNnhsRe/V4m2bWBZLOAObn2DRwREQcn2HbZmZmZjNGzwoPkvYGXgo8F9iB3p0a0W92LpZDgYclXQKcC/wwIn6XNZmZmZmZmZlZxbpaeJD0GmA/YE9go25ua0A9CnhOsSyQ9FfgO8D3IuI3WZOZmZmZmZmZVaDy0xskzZV0lKTbge8Dr8VFh2Y9HjgCuEjSLyUdlDuQmZmZmZmZWScqKTxIWl/SXpLOIzVSPBZ4bBXrnsGeD3xD0kpJRxd9MczMzMzMzMwGSseFB0nPAX4KnAPsDjy603XaOMPAQmC5pLdnzmJmZmZmZmbWkrYLD5LmSPoRcCGpYaR116bAlyRdL2le7jBmZmZmZmZmzWi58FCcVnEEcCVpKkzrrTnAUknfljQ7dxgzMzMzMzOzybRUeJD0OOBM4LPM3Okw+8Ubgd9J2j53EDMzMzMzM7NGmi48SHo2sBx4cffiWIu2Bi6W9KbcQczMzMzMzMzqaarwIGlP4NfAFt2NY21YDzhV0sLcQczMzMzMzMzKpiw8SNoX+B4wq/txrE0BHC3pyNxBzMzMzMzMzGpNWniQtBPwVWCj3sSxDn1S0ptzhzAzMzMzMzMb07DwIOnxwGnAY3sXxzq0FvAFSdvlDmJmZmZmZmYGk58+8QlS80IbLOsB35e0S0TcmzuMWZf9F7Ak07avy7RdMzMzM7OBUrfwIOkNwP49zmLV2Rb4EnBA7iBm3TR7EbcAt+TOYWZmZmZmjTU61WJBL0NYV7yp6NFhZmZmZmZmls2EwoOktwLbZMhi1VoL+EzuEGZmZmZmZjaz1Rvx8M6ep7Bueb6k5+cOYWZmZmZmZjPXuMKDpB2AZ2TKYtV7NPAfuUOYmZmZmZnZzFVuLvmWLCmsm94s6T0RcU/uIGbWe5IeB2wBbAlsDmwCbEyaAWfM/cADwO3A34BbgRuA2/y3o/9J2gAYIk1/vUmxbAhsBKwPrFPnbg+Qfu+jpN/77aRGrXdHxG1dD21mZmYzSrnw8IosKbpDwIPAI8XSyLrF13WA6HaoDNYGXg18s4vbyPG8TTYVrNmMJGlnYCfSzDYvBHYkjXzqZJ1/BVYAvwf+ACyLiJs6S2qtkvR40u/zKaRC0jakEYpbUr+w0Mm2HgFuAv4IXAXcSPrd/z4iPIuMmZmZtWz1zpukDYGtM2Zp1a3AhaQPRiOko3N/Jx3FeQB4mOYKD48i7ZyvQ/qAvg6pGPEY0hGkLYA5wNOAYeDpxX0GyV5MUniQtCewuIP1P66D+7Zr92KHKKf/jIizG/1Q0iuBr/QwT613R8RpnaxA0kak184uwPak98J6pPdIrwo/p0XEuxv9UNKRwHt6lKXstRHxq0zbXk3S3sDrgT1IIxrWrngTjy+WvYrLj0i6DPgNcGpEXFTx9gyQ9BTgtcALgKey5v3XC7NI/++GgT1rrn9A0rWkYsTZwHkRcXOPMpmZmdkAq9152C1biub8CTirWFZExGiuIJK2Ap5F+iD+LNJRp34eLTFVg8n1SDssg2Rt8mfeYIqf58w4Vba6JG1L2ondh/54XU/1ODZgwJ7jKkh6Hql/y+tJp0300ixg52J5u6Q/AV8nFYmu7XGWaUPS5sDLSP9XXgRsljdRXesCOxTLfgCSriH9Xz47Is7PmM3MzMz6WG3hYbtsKSZ3AfDRiPhR7iBjIuIG0giL0wEkPQN4FenI61C+ZA1tIWnDiLg7dxDrT8VR88OAF5O/2GB1SFofeAPwZvqrUPxk4DjgKEk/Aj4UEVdnzjQQilFF+wBvBF5C9aNVemEb4EjgSEnXAz8GPhcR1+WNZWZmZv2kdlaLLbKlqO8h4JiIeF4/FR3qiYjLIuKjpHNtjyE17OonawHPyR3C+o+knSVdDvyQtOPjokMfkrQPcC3wNfqr6FBrPWBf4CpJp0gazpynb0l6mqQvArcBp5JGOgxi0aFsa+DtwLWSfi3p5bkDmZmZWX+oLTxkGzbcwEcj4tjcIVoREfcUmV8D9Nvogm1zB7D+Iul44Lek/g3WhyTtJulCYAnwhMxxWrE/cJGkXP03+pKkZ0v6LrAceAeD1y+oFc8FzpZ0cVE4MzMzsxmstvCwbsNb9d4vI+IjuUO0KyLOAQ4iNbfsF7n7IVifkLSNpCuBQxn/N8D6hKTZxRHxZQzuaKXNgM9IukjSnNxhcpK0vaQfkBpy7kfvmkT2g12AJZL+KGle7jBmZmaWR7/udHTUjb8fRMTpwO9y56ixfu4Alp+kZwK/wiNg+pakHUkFh3fQ4VSYfWJX4JeS9sgdpNckPU7SMaT/Ba/OnSezbYCfSvqupEEavWNmZmYV6NfCw6W5A1RkSe4ANfppRItlIGl34DzyTH9qTZD0ZlLR4RmZo1RtC+C/Jf1n7iC9IuklwE+BBaQpaC01tN4PuEDS/rnDmJmZWe/UzmrxSLYUE92TO0BFfkX/FB/6afSF9ZikbYBFwEa5s1h9khYCR+fO0UWbASdLujsi/id3mG6S9BHSLEcz6ZSKVmwFnFKM7lngGZfMzMymv9rCwwPZUky0Se4AVYiIi/DwWstM0ubAd0kf9q0PSVoMHJA7Rw8EsFjSaEScmztM1SRtBnwGeFPuLAPiCGA3SftGxC25w5iZmVn31J5q0U9HHA7KHcBsGvk4MDd3CKtP0teZGUWHMesA35b0/NxBqlRMH/oTXHRo1W6kGVB2zB3EzMzMuqe28PC3bCkmer2kD+cOYTboJO0NHJg7h9Un6aPAwblzZPBY4ARJs3MHqYKkLYGlTL/eHL2yFfBDSf+SO4iZmZl1R23h4Q/ZUky0NvARSbdI+pSkV/gDiVlbPps7gNUn6XDgQ7lzZLQz8P7cITolaWvgF8Bw5iiDbgvSyIftcwcxMzOz6tX2eLg4W4rGNgPeWyxIuhu4HrgZuBH4K3AvqT/F/cAdpFNGVgF3Fj97GHgoIu7qdXiznCTtBzw9dw6bSNKzgU/lztEHjpR0Zu4Q7SpGbCzCRYeqbEga+fC8iLgpdxgzMzOrzurCQ0SMSrqB/m5AtyGwY7E04xFSUeIhSQ8V3z9Qc/3Y17tJRYq7SAWLO4FRUgFjFXAf8GBxm/uLr/dFxJ1VPCizLlmQO4BNJOmxwJmML/zOVGsDxzK4Mxl9Cnhh7hDTzJOA0yTt6f+xZmZm00f5g++v6e/CQ6tmARt0Yb0PAvdJuhe4rVhuIRUr7iou3wz8Gbg5Im7sQgazyewCbJs7hNV1KrB57hB95MXAlblDtErSu4C35M4xTe0KfBE36jQzM5s2yoWH7wJvzBFkwKxTLLOBJ05145pTRP4G/B24CriiWP4SEfd1L6rNUPvlDmATSXoZ8PLcOfrQQPXwkbQNadpM6543SvpFRHwldxAzMzPrXLnwcB6pJ8KjMmSZzsZOEalL0jXAcmAF6cjfxZ7T3Dq0ae4ANp6kzYAv585hlfgEqfjc7x4kjcS7k3RK4QPAY0gjAYeKpV9P+QngY5J+FhHX5w5jZmZmnRn3gSMi7inmlH9bpjwz1TbF8rri8kOS/gBcDXwP+GlE3JsrnJlV4kDchHDgSToAeHXuHA3cCiwhnTZ5KangsKre/w9JG5AKlE8C5gJ7k/pVrNejrM3YlNRH4zW5g5iZmVln6h3pWATsD6zf4yy2xqOBnYrlDcAjkn4NfBP4iXtGmA0WSUPAB3LnsEp8OHeAkt8DZwGnRsR1zd4pIu4hNfUcIU0HeiKApH1JvSv2oD9GdexbNJr8ce4gZmZm1r61yldExMXAuRmyWGOzgBcBXwOulXSOpH494mZmE32ANKzdBpiktwFPyZ2jsAzYOyLmRsTRrRQdJhMRP4iIvUmF769Xsc4OBfC53CHMzMysMxMKD4WPALf3Mog1bR1gL+AHkq6WdKgkn89v1qckPQZ3558u3p07APAHYN+I2D0iftStjUTEVRHxFlLR+4pubadJ20qanzmDmZmZdaBu4SEiVgCf720Ua8PTgOOBSyT9R+YsZlbfXsAWuUNYZyS9lPyzb3wSeH5EnNGrDUbELyJiB/LO4hHAkRm3b2ZmZh1q2M06Ij4maVfglT3MY+15EnCqpA8Ar4iIlbkDmdlqb88doA13FcsoqQ/AAzU/26hYNiZNKdyvsyI0I1q47YHdCtGEO4BDIuLbuQJExHsljQAnZYrwXEnPiYiLMm3fzMzMOjDVB8YDgR8Dz+p+FKvAvwBXSXpPRHwxdxizma6YQnNe7hyTeAi4HPgNcBVwYURc0soKJG0JbAc8E9ie9Hg3rzZmXpKeCOybafO3AG+MiKWZtr9aRHxR0iPAF4G1e7150qgHz3BhZmY2gCYtPETEHZJeS+qYvUNvIlmH1gFOkvRk4MMRcV8T91lOZ9PDfYJ02kcvrQAW9nibZRdm3n6n7gROJ0299wfgwbxx6rold4AOvZLGvXRyugH4LHB2pyOkill2bqSmKbGk3Ul9LV4HPKaT9feJ3cgzw8PDwIH9UHQYExEnSxomzywte0vaKCLuyrBtMzMz68CUQ2QjYkTSc4GleOTDIDkc2FjSu6cqPkTEDaQdkbZIOqbd+3bglohYkmG708ElwKci4nu5g8wAr80doOQK4Khuv3eKHeWlkt4HHAG8k3RqxqB6XYZtCvhIP04jGREflLQtsE+PN70uaapPz3JhZmY2YJo6ElfM9/1C4NPdjWMVO5jUjMwM4DbgvRHxLBcdeiZ3M8Ixj5AKDjv0smAXEbdHxIeAZ5OmfxxU22fY5gUR8ZEM223WO+n9KKkAdu/xNs3MzKwCTTcFi4j7gfdJuoA048Vwt0JZpd4l6Y6IyDEqwfrHLcCeEXFZ7iAzhaTnAE/MnYPUIPKVEfGrXAEi4hpgd0mfBN6XK0c7itPWntrrzQLfKV5D/exs4N96vM3nStosIm7t8XbNzMysAy13I4+IJZKWAscC72hnHdZzH5B0WkRcnjuIZfFXYF6x82e9s3PuAKQZKfbql5kAIuL9kjYg/e8YFLvR+z4dQb7ZI/rdbFIhyIUHM5sWir45c4Gh4qpRYCQiVvQwwxCpOXRthtGIWFbR+ofJ/Bgtv7Y+TEXEnRFxKDAHOJk0jNf616OBL+UOYVk8DLzMRYcset1wtZ7D+6XoMCYi3gn8LneOFmydO4CNE8BLc4ew/iZpscb7p6R5Fa5/QWn953WwroPUnpa2KWl5nedkqMV1LG0y26ritocq7XBOtd7y72vSxydp9xZuW35+/9nCeiXpjsmeJ0krS8/plI+3uN+QpGMkrQRWAmcAi4rlDGB5se5Fza6zHZIOVDqgvKpOhqXF77KtDN16jHV+R7XP/9Ak99tpkvu28hpqZJXS6/74Fh/PytJ6Jn3NNbkOSVowye3Lf8O+Uec2s4vHVOv6KXLMqZPj82M/7+goTkTcFBFvA55MmtlgpJP1WVc9X9KBuUNYz33Mp1dks13m7S+NiK9lztDIAaTRGINg29wBbIK9cgew/iVpNhMbnwawf4Y4fUHSHNLR5loBHNalTQ6Rjp4fD1yv9pqQz1OFxaIOzKbi50lp5qflwAImP3V9GDgQuFRS1RnmKBUcFjH5tN9DRYaWfo/FY1xJ84/xPEkHNLv+Scyd5GfzKlj/ZIaKbRxKk89X8TwN11nPiyrIc0irBYxaEbEKOKF09fAUr8VyAWNl7ToqGT4aEX+OiA+SGqntA5yGh0H2o4E6t9o6dj2pH4vlkXvEw1GZt99QRFxJzfSbfe7puQPYBHNzB7C+Np81w7nHXd/Jh/AB12gH6IU92HYAx7RRRAjg6OrjtKWjHbhaxUHA82itV95s4HNVFR+KQtR5tLYjPvZ7bGZn+sBi/UMtrH8OsKjNItWYYPLZll7VwbpbNfZ8HTbF7eoVW4JUvOhUx0WziFjA+IEFARxd7/0g6dWMf00JWBgRq+9f6XmrEXF/RJwVEa8FngK8mlSEuK7K7Vjbti0qazYzfMvz3WeVs7Hkyoj4dcbtN+MzuQM0aavcAWyCtVsZxmozTqORDUOkI6v9TsBBTSwntrDORkdPOx1VcH6dXIcBS0q3a7eIMK1GPRQ7/ItKV48CC4GdgNkREcX3p5RuF6Tiw9xOc1C/8LGQNGtQbYaDmLjTeYyk+Y1W3OJjbLT+eS08lpFi/WMmKzzMLd2vXY3eo/V+Z3V30mH1c9VolMe8iopdVRTNDi5dbvR+KE91vSIiys9Jb0h6hqT9JX1L0p/rnP9hvfH1Lvxul2d4HD+q+nFUTdL8DM/LmH9IekLu56DbNPEctV562SS5Ns2YS5L6fqde0oaSbsz8PEmTHI2QtHHucFbXPyVN9uHSZihNPL+43Dug7V4Mpe10s8dDwx4Eba7/1VM8J02PjNTEHg8Tzguvue3xzT6uOpkmfW7V2x4PY+5QnYKnWujxUOf5u36K29frLdDRa1gTX7v/1CTFDKX31Kpy7gof4xxN7E8wVR+BWis1/vVTt8+DJv5uy6/Pbr2GGvaXqbPeRaXLCyZ7HkrrKj+Hk65HTfR4KN3+jNLtx/WhqPccqc7vvWeduiPisog4NSLeFBFPIlWeXwp8CPgacBHjK1bWHf6wNjNcHRF/yR1iBlsv8/Z/mnn7U4qIu4Hf5s4xhc1zB7CG5uYOYH2p9uihgMXAsprr5tX7MDzN1Y4AEel869Ga6w5Qd05BmXCks4XnfkXN9zlHPYzUfD+bDk79kLQTUwxDL4uIRYx//ULnR8LLR9gXTzazRESMO0e/MFzvd6I0qrr2+mYe40omHlEfVmvF5d+XLs+vc5vaUT8ijdapXEQsZeL+7HCDmx9S872AI0o/76QvzUjtdip4jx/B+MdVHvVQfm8srvd77/UUYasVM2P8NCKOi4j/jIjdgC1JfSJeQ3qAnwXOJDVgGc2VdZrZRNKuuUNY112QO8AMt3Hm7f8x8/ab1e/FscfkDmB1Ba2dH20zR+1O1dhUgLU7GMFgnG5RCaWh3PNrrloREctJn63HDFFNI7uqCDi15nLOXg8jjN/xP7CDwlV5h3+0yWHoJxQZTiAN5986IkbbCaCJjQzLz/VkGSA9H0tIp/nUy1CvWHBmnevGKXbWR2qvovn3qRh/ak9Qv3dJ7Wt8hN5NiFD3/5UmNnw9s2jmuKzmuroFniYIOLbmchW9HuoVoA5RmrnkIMY/xpWl7a82q5MQVYuIe4CrimUCSesDG5GOQj0JeELx/eakJ3V90pHGDYBNSH9Mh+izx9kHdgF+kzuEddWfcgeY4XL/zRnNvP1mjeYOMIWNcgewhjbMHcD6S52dqiXF11MY31zxEFKn/ZlgXs33tTuZi1mzIzzWyG7KHcQWzS1dHp3syHfJKtLvb35xeZ6keUUhqdeOZc3zOFYEKR+hb8aOpcsrmrlTRCxhYs+Mdk0oMDXznEbEKkmzmyh4lB/jshaKJOcz/v3bbDFsOCJWShqpuf98an5HSjPdzKu5z2W01viyaUVBoXbdIh1ALzumdJslxfdnMf71tg8TR700YxmpuDJcXD5E0vHtFq0KJ5D+boytc6ygUR5p1nCUS+4Pxy2JiPuA+4BbaPINC+lcYtIRyA1JRYnHFF/XLb6uB6xD+pD5aGDt4rpZwKOK6zYq1rEx6QW1Yc16Bs0zcgewrvt77gBmTXgkdwAbWJvmDmB9p/zh90xIR+okLWPNh/mhjDuxzQhJK6e4zdKIaGbn95DS5SXF1xWkwu9QcXmepKEOd0oAKIZ0H8DE4s6S8m2ncCJrCg9jO/zL2g7WHkXE0tLr50BJx7ZQRBkzXLpcPj2gF8oZRpq9Y5Ovjbmly608xvJth1p8TZ7JmpkghiQN1/yOanMJOKOFXE0rChz1RufcUOe6cmFlrPC3mPFNGg+QtLCN9+ZWpKLZWO+GsSLBghbXs1pRgDqY1Jx0THkWkpHJRvIMVOGhXcW5xHdXuU5J65EKDxvXLHNIO/U7kmb1yNnVfjIuPEx//8gdwLJaO3eAJs2I/0HWFY/LHcD6R/GBf9xQ9oioPYJ/PuOPIu5P73diWzHc4c/HegrMrblqxdiOWESMSjqT8aMeDqP1nZKDimHWU2k49LqBoYhYLOkU1mTMMephqPhaHvXwDWCPFtc1XLp8Z/kGkhbTeJaD1TcDDo6IxS1uHybO0jTSxjomM1S6POExTmK0wfrqXV/P+YyfgnI+cHzxffkUkPNJ+2ztCkm1M3cMFctcJj4HI+UeGkrTTg7XXLV6ZEixc7+MmkIp6bEsbjlkxCJJR1PhqIc6hbhaYor3RbYeD4OumDr0toj4U0RcGhFLI+IbEXFYROweEVsC/wp8C6i0Q3EFtsgdwGyaezjz9nP3mGjWUO4ANrA2yR3A+sr80uXyaQPlI3Dzu9RQsZ/U7oTVO5e//Jy8qks5lgJ7tDBCIFjzv2Fh6fpe93oYgtU9CJbVXN8v03y2ajR3gC5aVvN9MH5EQe33K1p4LU7mwJplPmlHfKh0m1XU3xGvLYSIie/Fs2q+HyuUtqu2YWVHDVJrHEz911LdhpK1fLSpiyLiPOA8SV8AfkU6baMfDEnaNCJuyx3EbJq6K/P2twcmnY6qTzw5d4ApjOYOYA0N4mmO1j3lD+YjpR3DYPz5zkOkHYbju5qqfYun+Hm9odtl5aHco6XnZKj087ldGlEw3O4di9NkJox6qCJUG+r1eljWwv1HGP9c5DhAUB6BMFzx+kcZ/7pq5TEO1blutNk71xkp8CJYPRpqbs1NuzKbRR1LgSPKO+JFD4jyqJYova5HSj9v+1SoiDij9LwcJunEVtdTWudKSScw/jSLVTQxqsmFhx6IiIuLc2K+mTtLYd1iGWSDnt+mt/szb38vxlfM+46kjYHdcueYwu25A1hD6+cOYP2h+CA/r3T1YUzexT1IR/iP70amDikimjl9ofEKJnaZD2BR/VuPu02rjezOZ3yRZGNgJ8bvWM0hHYTbuc0h3ocXuYaKjMfQ2mkblagzxHxe0dC0WaOly8N1brOE+qc/1Db060R53UMVrLO8/rk1l8vNJicz4TSQNl4vtadUDUmay/hTKkR1p1jVrme0WO4knVZ05iRH/ueVLjf73jyM9vszlItmh9F5j5Fy8bOp5rEuPPTOOcBt9EdDrFkM/u9+du4AZo1ExG2SckbYK+fGm7QbfX5KSETcmPn3aGZTO3Tqm9Q1T9Lc8vnX00S7p0202sju+nq9BopRCrUN6IZpc4RJcSS79ujqi8g3nW55B+4QWutBMLfmcr0ZJpZQpwmnpHZf4/Uy1Co3YWxI0tiUl2fSeLaK8mOc28KR+nIfhnZ2jMuPbx4TXytVjHhQRLRSdKpVbvjarP1ps/BQp2h2ABmKdwBrSVql/tEPO+VdERF3ADfmzjGNPDV3ALMp3Jxx21tJmp9x+814e+4ATVqVYZs3AZuETcY9qmxMeYelWcHE3hADT2kEyPw27z5E89MYNhQTeyIEnTU2P4E1O/g5ej2kDU98XPNbuHu578iQmjhtRGn0ylAL25nMCsYXSsaKJ81kmEcqHp0BrJK0oM5Ny49xbCaFqdZfbrZYO71kK1Yw/nWyI+NHXbQyvWflNLHhayuGm3m9TKK20DBE+wWQjqxFmp6yX3TSYXQQ5B5+PZ2srzSEyqxfrci8/SwfzJoh6VnAK3LnaNLVGbb5BNr/cGI2YygNdR+uvQp4NbB7g+WE0iqyfPjusnmlyytp/HzszsQCQVVH15vpQ9GUiFjF+N/dcFXrbkN5GtO5zdypKFqM1F4FfEPScKP7FEWkyv6X13keIZ3z33AmjQYZRJ0+JHUeI6SZFIanWP/nSldPOiVjI8XjW1Fz1TzW/H5E/lNQy++t5bT23my3yFqvaDbc7ro6MQu4N8eGG5gP/DZ3iC56Uu4AhQeKZdC9lPw7d2aNXA68POP2d5J0RESU/6FnpdRJ/jsMzqxKl9P7XhRrAW9k/FBlM5uovMO0LNJw9boklXesh1RNQ8WdNH56vUbOnCxfIRocTS5b2WDnrLyTuGyyx6eJPTLabmTXZSeQfndDOUPExIaXrTgC+EHN5TnAUklLSKMFRorrh0g7mYdR/eM9gfE9IwJYXBxNP4XxhYMDGmQ4NhqfnnEw4/93zQZWKk0VWrv+Ieo/RjGxuNOKs1jzeh4u/WxFB+utQu1oIgEnTPHe3Inx780D1NqpUGW1pwplMYvUPKtfhq2/W9LJEfHn3EGqJumlwBNz5yg8QH8VnNr1Dklf6cN/jmaQjjLldpykGyPi+7mD1PgS8JTcIVpwbabtHiTp2On4/9CsCprYHb7etHTjRDrXeYTxO12H0HnDuSHSMPSp3EBzQ8iPmfomLKX0eIsdleHaq5g4jWbZEtIR56HicqeN7BqZ28mdY2Kvh5wW0kbhIdIMAwsZ/xiGmboZ6ggVHaEunsd9ScWBoZofHUhzr+HjI2LBJOtfWucxtrL+YzssBDa672gFBca21TmdBKbuN7GE8aNBhkgH6Re3kyEm9nroubVIDQ/7xYbADyVtlDtIFxyZO0CNuyLi7twhKrAV8OXcIcwa6IfRW+sA35tsGGWvSNpY0teBN+TO0qJrMm13Lfz3zWwy8+pc10zjuHJxYl4xEms6KA/lHplqZ6vO8HRovzllrXJzwLkVPM+1vR6yiYiVTDxlodn7LiAVLpp1AhU3AoyI5cDO1J9BoxEBh0fE4U2sfwFpdEcrVgEHTVbUaEbx2Ebr/KiKppKdKE/5u2KSUSPA6tfZstqr6qynVVmaSo5Ziz54A5dsD5wvaevcQaoi6ePAS3LnqDGSO0CFXi/pjOn0erHpofjnd1PuHIVFkr4oafMcG5e0G3ABnQ2fzOW35OuFtJekozJt26zflT+AL5vqg3xhQmd/mjsSOwjKjSGXNXm/8qiIuR02soOJR2XHRlK0rUGPglwW0uY+VLFzPYdUBGu0jmXA7hFxWLvbmSLDyoiYAxzE5KcgjJKe860j4vgW1v951jzGkUluOkJ6LreOOjOktKnc5LLdZpWVqNPwtZmRSGMmzNTRSQGv6PXQcv+MqoSkY6h+OFUV7gZOBD4REffkDtMOSVsBXyA1UYvMcWp9NSLeWtXKJC0nfyO0O4GfA98ELoyIWzPnoZhV4IxMmz+owj/gfas4DzbXsMu9IuLcyW4g6Rz6a2rLG4FPRcRJvdhYURA8htTsbcNebLMNh0/1YUrSVcDTexNnggeBf4+I0zNt38zMuqgo8gwVyyhNHA3vQoYh0mf5ruQoGsIPseZ0g0rXb4NhFqmjZj/aEPgQ8C5JpwGnRMQvM2dqiqQXAf9OGlK8QeY49Vxc8fr6oTC0MbBvsSDpLlL/kjtIRaxuWJjzfDEbCKfRX4WHLYEvSDoa+BZwWkRcUOUGimmRX0l6L+4JPKrK9WdyDvkKD+sA35F0SET8V6YM40jaBfgq6e9uzzcPvD4iqv4/ZmaWRT98liz6pS3r4vpXdGvdNjhmAZfkDjGFjYE3A2+WdDNwGfBr4JfAFRFxR85wkjYgfZh/HvAC0jmH/TJ7RSNVN0sbrXh9VdioWLo5RevJXVy3TQ/fITVTXCd3kJLHAYcDh0u6hXQu7pXAhaS/DzdFxKT9f4q/fY8lHb3YnjXzZT+b/hrhVYUf0Pr5qlV6FPBlSXMj4m0ZcyBpP+C/SJ3Kc3gAyD6izczMzFozKyJulvR30gfRfrdFsaw+gijpHtJ0ZzcAfwRuJp1XfTfpA8p9xdcHgX8ADxdf61kLeDTpQ/M6pMLMusWyEWlu9SeQZqd4KvCM4vIguSciqm6wkrX4Y9avIuJ+SefSwdzLPbB5sexJKkYAIAngEdKIpgeB+0nDJGfRnyO5uulKKuwq3oH/K+klwCER8cNebrgYhvsB4P293G4dv4mIGzJnMDMzsxbNKr6eDmQ9itKBDUhzrE81z/ojxTJZ4QFSkaH263RzURfWuaoL6zSbLr5BfxceJjOLzHOm94Ni+rHTgffkzgJsDZwt6cfASRFxdrc3WMyK8kHgad3e1lRRgJ9lzmBmZmZtWKv4mqsBXi+NjV7YkDWNU+otYyMcpqv/7cI6+6Vzv1nfiYizmF4zycxUX80doGRP4H8l3SjpOEmV9qCQ9AxJn5V0K6k7fe6iw5jv5g5gZmZmrRsb8XAxqdv5lhmzWPc9DHy7C+vNPTeuWb/7PP0zBZi1ISL+KOl/SY0z+8kTSaMRPlj061hK6tnxF+BqUj+Eh0r3GSvEbwxsQjplcGPSqYy7ALsC6/UifIsuiYiqexSZmZlZD8yC1MlU0s9Ic7na9HVWRNxe9Uoj4reS7iRPh3OzQXAqcBSwae4g1pGP03+Fh1qbk2ZTekPNdSL16Kg1izUHHgaFgA/nDmFmZmbtWavm+0+Qjojb9PWVLq77511ct9lAK6ap+n+5c1hnIuJC4Me5c7QoWHMK4dgyaEUHgMsiYtCeezMzMyusLjxExDVAT7tkW0/9KCJ+0sX1d3PdZtPB94AVuUNYx44E7s0dYoYR8LncIczMzKx9a5Uuvxf4Z44g1nXdPtr6fSafLcRsRouIO0k7rTbAIuIK4DO5c8wwv4uIU3OHMDMzs/aNKzxExHXARzJlse45MSJWdHMDEXEH8PVubsNs0EXEz4GTc+foQ1fnDtCKiFgAXJY7xwwhBne6bzMzMyuURzwAfBq4ptdBrGt+Cyzs0ba+CNzVo22ZDaSIeBtwXe4cfeQ3DFjhobAfsCp3iGlOwFERcWnuIGZmZtaZCYWHiLgXeA1Q+ewH1nM3AW8pRiN0XURcBvx3L7ZlNuD+Dbg7d4g+8YncAdoREX8E9mfiVJVWneUR8bHcIczMzKxz9UY8EBGXA2/F/R4G2UPAEUUxoJc+AIz0eJtmA6V4X74F90U5OyKW5A7Rrog4G/dG6pYbgb1zhzAzM7Nq1C08AETED4B39TCLVech4ICI+H6vN1w00HsbaYismTUQEd8DjsqdI6NbgHfnDtGpiDiRVHD137zq3AjsHhG35g5iZmZm1WhYeACIiC+TurDP9KNyg+Qu4N8j4n9yBSjmWn9/ru2bDYqI+Djwodw5MnlvRIzkDlGFiPg0cEjuHNPEzcA+EfGn3EHMzMysOpMWHgAi4rPAK0hHp6y/XQfsFRGn5Q5SfBA/KXcOs34XEccBM+k89n8Ah0fEt3IHqVJEnAS8ktRbx9pzNfCCiFieO4iZmZlVa8rCA0BEnAu8BLi4u3GsA2cBL4yIC3IHGRMR7wa+lDuHWb+LiA8DhwEPZ47SCwsi4vjcIbqh6PnwSuDK3FkG0E+Al0XEytxBzMzMrHpNFR4AIuKKiNgVOA5PmdhPVgL/NyL2iYi/5g5TFhHvBD4MPJI7i1k/i4gTgFcB0/W8dgGHRsRHcwfppohYERHbkUZ83Z87zwC4hzQCZs+IuCF3GDMzM+uOpgsPYyLiQ8BzgDOqj2MteAj4JPDsiPhK7jCTKaZDexbgD5VmkyhGl+0K/Cp3lordTBqRdWLuIL1SjPh6AXBN7ix97GfArtN1BIyZmZmt0XLhASAiroqIfYE9gKV4KrFeWgUsAp4aER+IiNtyB2pGRPwe2Bn4LD4KaNZQRNwQES8A3kd6vw+6nwNzI2K6FVOmFBGXRMTTSDP9jGSO00+uBeZHxEsiwqelmJmZzQBtFR7GRMTSiNgD2B34H+C+SlJZPbeQZorYMSIOjog/5w7Uqoi4IyKOBHYEvkEatWFmdRQNWp8FfJ/BnKrxNuD1EfHiQSmQdktEnAzsBLyTtNM9U10KHATsHBFn5g5jZmZmvdNR4WFMRPwiIt4AbEM6snNpFes17ga+RToy9PiI+FRE3Jg7VKci4tqIeDPwTOBE0jm+ZlYSEddHxH7AS4Ercudp0l3Ap4HtIuK7ucP0i4gYjYgvRcQ2wD7ABQxmQalV9wNnAi+PiGdGxOKI8N98MzOzGWZWlSuLiJuBk4GTJW1F6u69O+mUjKEqtzVNPQD8nlS4OTsizsmcp6si4grgUOBQSf8G7E3awXpi1mBmfSYifgbsIOmFpPfMK4BH5001wUrSyLePR8TducP0s4g4CzhL0hzgDaT/lc/Jm6pSdwHLSDNVLI6Ie/PGMTMzs9wqLTzUKrpTnwScJGlDYHvg2aSdy92ADbu17QHyT+APpHOgfwb8PiJm5BzwEXE6cLqk9YAdSMOSX0UaFbFZzmxm/SIifgH8QtK2wH7AW4En5E3Fj4CvAudFxJ2ZswyUYurI44DjJG1P+nv3OuBf6b/C0lRuAn4AnAOsiIjpOjuLmZmZtaFrhYdaxdGvC4vlBABJW5DO9d+VtKO5GfBU4HG9yNRjDwGXk44I/hX4LbACuC4i3GixRvF8XFwsJwNI2gjYGphLeo08CdgYWB/YoPh+XWA9YJ0exn1wip8/DIz2IEc9D2Tabq89QL7n+OFM2yUirgIWAgsl7Qy8ifS3dFdg7S5v/i+kpsI/IY3MuqOCdf6dfM0Xq8jfsWIE2BXAKQCSdiSNGHwuMAz8C/CYXPlqPAxcRpqt41rgl6RCw4zu42FmZmaTi9wByiRtTtrJ3KRY5gCbk4bfb1Fctx7pA9i6mWJC2um8n9SfYBS4lfSB/GbStJG3F8t1g9gI0swGj6RNgF2A7Ugjy3YkjYhYv43VPQT8jbSDeQlpZ/N3EXF1NWmtVUWR6QmkQv3TSIXYLYH/Q/qfuD7t/V8UqTn0/aRi3t9IDY1vIhXMbyL9n7smIjw9qJmZmbXs/wP+pnhphKg8YAAAAABJRU5ErkJggg==
+\ No newline at end of file
+diff --git a/skills/sigma-company-dashboard-v2/scripts/company.py b/skills/sigma-company-dashboard-v2/scripts/company.py
+index 5f12b2a..18bc931 100644
+--- a/skills/sigma-company-dashboard-v2/scripts/company.py
++++ b/skills/sigma-company-dashboard-v2/scripts/company.py
+@@ -1343,6 +1343,42 @@ STATEMENTS = {
+                    "from a Sigma report specification — synthetic data, not a "
+                    "real account."),
+     },
++    "stride": {
++        "spec_name": "Stride — Family Enrollment Statement (July 2026)",
++        "page_name": "Enrollment Statement",
++        "manage_url": "stridelearning.com/account",
++        "service_label": "Family Support",
++        "service_phone": "1-866-968-7512",
++        "period": "07/01 – 07/31/2026",
++        "sect_rewards": "LEARNING CREDITS SUMMARY",
++        "sect_summary": "ENROLLMENT SUMMARY",
++        "sect_category": "CHARGES BY CATEGORY",
++        "sect_activity": "ENROLLMENT & BILLING ACTIVITY",
++        "sect_messages": "YOUR ACCOUNT MESSAGES",
++        "headline": [("Balance Due", None), ("Learning Credits", None),
++                     ("Payment Due Date", "08/25/2026")],
++        "button_label": "Enrollment statement ↗",
++        "rewards_total": "Total learning credits",
++        "h_formulas": [("src", 'Sum([Statement Activity/Amount])', "MONEY"),
++                       ("src-rw", 'Sum([Rewards Summary/Points])', "NUM0")],
++        "msg_body": ("Fall 2026 re-enrollment is now open. Confirm each student's "
++                     "course plan by 08/15/2026 to hold their seat and keep any "
++                     "need-based financial aid applied to this account. Public "
++                     "school programs remain tuition-free; private, dual-enrollment "
++                     "and career-certification courses are billed as shown above. "
++                     "Learning Credits earned this term carry forward automatically."),
++        "warn1": ("**Attendance & participation:** State-funded online public "
++                  "school programs require documented daily attendance and course "
++                  "progress. Sustained non-participation may affect enrollment "
++                  "eligibility and any per-pupil funding tied to it."),
++        "warn2": ("**Financial aid & payment:** Need-based grants are applied per "
++                  "term and must be reconfirmed at re-enrollment. Paying the "
++                  "balance due by the date above keeps dual-enrollment and "
++                  "certification courses active for the coming term."),
++        "footer": ("Public school programs are tuition-free where offered. "
++                   "Illustrative statement generated from a Sigma report "
++                   "specification — synthetic data, not a real account."),
++    },
+ }
+ 
+ 
+@@ -1409,29 +1445,75 @@ _DL_MEDALLION = [
+ ]
+ 
+ 
++# --- Stride: family enrollment & billing activity, learning credits, summary --
++# A two-student household spanning an Online Public School (tuition-free) and a
++# Career Academy, plus private/dual-enrollment/certification courses that are
++# billed. Amounts sum to the Balance Due headline; Points are learning credits.
++_ST_ACTIVITY = [
++    ("07/01", "07/02", "Fall Term Enrollment — K12 Online Public School (Grade 8)", "Enrollment", 0.00, 0),
++    ("07/02", "07/03", "Fall Term Enrollment — Destinations Career Academy (Grade 11)", "Enrollment", 0.00, 0),
++    ("07/03", "07/05", "Course Materials Kit — Grade 8 Science & Math", "Materials", 89.00, 0),
++    ("07/05", "07/07", "Health Science Pathway Lab Kit — Career Academy", "Materials", 145.00, 60),
++    ("07/08", "07/09", "AP Biology Exam Registration", "Assessment", 97.00, 0),
++    ("07/09", "07/11", "Keystone Private Academy — Algebra II (semester)", "Tuition", 495.00, 60),
++    ("07/11", "07/12", "Technology Fee — Loaner Chromebook & LMS access", "Technology", 65.00, 0),
++    ("07/14", "07/15", "Dual Enrollment — Intro to Nursing (college credit)", "Tuition", 320.00, 120),
++    ("07/16", "07/17", "MedCerts Pathway — Pharmacy Technician module", "Tuition", 280.00, 90),
++    ("07/18", "07/20", "Enrichment — Robotics Club (fall session)", "Enrichment", 75.00, 30),
++    ("07/21", "07/22", "Assessment — NWEA MAP Growth (proctoring)", "Assessment", 25.00, 0),
++    ("07/24", "07/25", "Financial Aid Applied — Need-based grant", "Aid", -350.00, 0),
++    ("07/27", "07/28", "Learning Credit Applied — Perfect attendance", "Aid", -40.00, 0),
++    ("07/30", "07/31", "Materials — Advanced Placement review guides", "Materials", 42.00, 0),
++]
++
++_ST_CREDITS = [
++    (1, "Credits earned — Career pathway courses", 420),
++    (2, "Credits earned — Core academic courses", 360),
++    (3, "Credits earned — Dual enrollment & AP", 180),
++    (4, "Credits earned — Industry certification prep", 150),
++    (5, "Milestone bonus — Perfect attendance", 60),
++    (6, "Credits redeemed — Dual college credit", -120),
++    (7, "Balance carried forward", 950),
++]
++
++_ST_SUMMARY = [
++    (1, "Household students enrolled", "2"),
++    (2, "Active programs", "Online Public School · Career Academy"),
++    (3, "Courses in progress", "11"),
++    (4, "Credits completed this term", "36 of 48"),
++    (5, "Average attendance", "96%"),
++    (6, "Financial aid applied", "$390"),
++    (7, "Term", "Fall 2026"),
++    (8, "Family since", "2021"),
++]
++
++
+ def statement_activity_sql(cfg):
+-    if cfg["key"] != "delta":
+-        return None
+     cols = ["Transaction Date", "Post Date",
+             "Merchant Name or Transaction Description", "Category", "Amount",
+             "Points Earned"]
++    src = {"delta": _DL_FLIGHTS, "stride": _ST_ACTIVITY}.get(cfg["key"])
++    if src is None:
++        return None
+     rows = [("'%s/2026'" % t, "'%s/2026'" % pd, "'%s'" % d.replace("'", "''"),
+              "'%s'" % c, "%.2f" % amt, str(pts))
+-            for t, pd, d, c, amt, pts in _DL_FLIGHTS]
++            for t, pd, d, c, amt, pts in src]
+     return _union(rows, cols)
+ 
+ 
+ def rewards_summary_sql(cfg):
+-    if cfg["key"] != "delta":
++    src = {"delta": _DL_MILES, "stride": _ST_CREDITS}.get(cfg["key"])
++    if src is None:
+         return None
+-    rows = [(str(o), "'%s'" % d, str(p)) for o, d, p in _DL_MILES]
++    rows = [(str(o), "'%s'" % d, str(p)) for o, d, p in src]
+     return _union(rows, ["Line Order", "Description", "Points"])
+ 
+ 
+ def account_summary_sql(cfg):
+-    if cfg["key"] != "delta":
++    src = {"delta": _DL_MEDALLION, "stride": _ST_SUMMARY}.get(cfg["key"])
++    if src is None:
+         return None
+-    rows = [(str(o), "'%s'" % m, "'%s'" % v) for o, m, v in _DL_MEDALLION]
++    rows = [(str(o), "'%s'" % m, "'%s'" % v) for o, m, v in src]
+     return _union(rows, ["Line Order", "Metric", "Value"])
+ 
+ 
+@@ -2297,3 +2379,228 @@ PLUGINS["alnylam"] = {"hero": "8c93a664-6c23-4f05-9672-8b5dec130ee6",
+                       "hero_config": {"product": "p0", "revenue": "p3", "pulse": "p7"}}
+ 
+ COMPANIES["alnylam"] = ALNYLAM
++
++
++# ---------------------------------------------------------------------------
++# STRIDE INC. (NYSE: LRN) — K-12 online education + career learning.
++#
++# Stride is an ENROLLMENT x TUITION business, not a balance x rate one, so it
++# hits the "'Net Revenue' is a spread" trap head-on (HANDOFF.md §8). The clean
++# mapping (same shape Delta/NVIDIA landed on):
++#
++#   volume (bal_base)  -> program revenue ($MM)      -> "Revenue ($M)"
++#   yield_rate         -> gross margin %  (funding=0) -> "Gross margin %"
++#   Net Revenue col    -> revenue x margin = GROSS PROFIT -> "Gross profit ($M)"
++#   opex_ratio         -> SG&A as a share of gross profit
++#   Contribution col   -> gross profit - SG&A = OPERATING INCOME -> "Operating income ($M)"
++#   units_base         -> average enrollments (K)     -> "Enrollments (K)"
++#   delinq_rate        -> at-risk re-enrollment %      (the risk signal)
++#
++# Calibrated to FY2026 (ended 30 Jun 2026), reported 4 Aug 2026:
++#   Total revenue $2,518.1M  |  General Education $1,417.8M  |  Career Learning $1,100.3M
++#   Operating income $450.8M (17.9%)  |  Gross margin 37.7%
++#   Avg enrollments 243.9K  |  Revenue/enrollment $9,914
++# funding_rate is 0 on every line (no cost-of-funds analogue); the real
++# instruction/curriculum cost lives inside the gross-margin yield and the SG&A
++# in opex_ratio, so Net Revenue reads as gross profit and Contribution as
++# operating income by construction.
++# ---------------------------------------------------------------------------
++STRIDE = {
++    "key": "stride",
++    "name": "Stride",
++    "title": "Enrollment & Program Performance Command Center",
++    "domain": "K-12 online education & career learning",
++    "unit_noun": "student",
++    "volume_noun": "revenue",
++    "logo_domain": "stridelearning.com",
++    "base_table": "Enrollment Book",
++    # Palette sampled from the Stride wordmark (assets/stride_logo*.datauri.txt):
++    # the mark is white with a signature orange accent (#EF6100). navy/blues are
++    # Stride's corporate blue family; orange is the sampled accent; mint stays
++    # teal for the positive-trend indicator.
++    "palette": {
++        "navy": "#0B3556", "navy_deep": "#06223A",
++        "primary": "#0072CE", "secondary": "#2AA9E0",
++        "accent": "#EF6100", "mint": "#00C4A7",
++    },
++    "products": [
++        # name, order, balance_type, bal_base, yield, funding, fee_base,
++        # provision, delinq, opex_ratio, growth, units_base, phase, tagline,
++        # rate_label, goal_pct, status
++        #
++        # bal_base = program revenue $MM; yield = gross margin %; funding = 0.
++        # balance_type doubles as the segment colour-by (General Education /
++        # Career Learning), matching Stride's two reportable segments.
++        #
++        # General Education — Online Public Schools: the tuition-free managed
++        # public-school programs; the largest line, in gentle decline (FY26 GenEd
++        # -2.1%). Gross margin ~40%; SG&A ~half of gross profit.
++        ("Online Public Schools", 1, "General Education", 1150, .4000, 0.0, 0.0,
++         0.0, .028, .5000, -.020, 1830, 0.0,
++         "Tuition-free managed K-12 online public schools",
++         "Gross margin", .965, "On plan"),
++
++        # General Education — Private & Tuition: Keystone School and private-pay
++        # academies; smaller, higher-margin tuition revenue, modest growth.
++        ("Private & Tuition", 2, "General Education", 268, .4600, 0.0, 0.0,
++         0.0, .021, .4800, .015, 296, 0.2,
++         "Keystone & private-pay online academies",
++         "Gross margin", 1.012, "Ahead"),
++
++        # Career Learning — Middle-High School: Destinations Career Academies
++        # (grades 9-12 CTE). The growth engine (Career +15% in FY26), lower
++        # gross margin than GenEd on heavier instructional + industry-cert cost.
++        ("Middle-High Career", 3, "Career Learning", 760, .3600, 0.0, 0.0,
++         0.0, .032, .5500, .120, 1046, 0.0,
++         "Destinations Career Academies (grades 9-12 CTE)",
++         "Gross margin", 1.058, "Ahead"),
++
++        # Career Learning — Adult Skills: MedCerts, Tech Elevator and Galvanize
++        # upskilling/bootcamps. Fastest-growing, lowest margin (heavy instructor
++        # and placement cost), most SG&A-intensive.
++        ("Adult Skills", 4, "Career Learning", 340, .3000, 0.0, 0.0,
++         0.0, .045, .6000, .200, 697, 1.1,
++         "MedCerts, Tech Elevator & Galvanize upskilling",
++         "Gross margin", 1.104, "Ahead"),
++    ],
++    "alerts": [
++        ("critical", "Fall re-enrollment tracking below plan",
++         "General Education re-enrollment intent at 82% against the 88% plan "
++         "assumption for the coming term",
++         "18m ago", "Enrollment Ops — General Education", 600, "bps below plan"),
++        ("critical", "Career Learning capacity constraint",
++         "Destinations Career Academies waitlist reached 1,240 students across "
++         "6 states; instructor onboarding is lagging demand",
++         "1h ago", "Career Learning — Operations", 1240, "students waitlisted"),
++        ("warning", "Adult program completion drift",
++         "MedCerts and Tech Elevator cohort completion down 3.1pp versus the "
++         "prior cohort",
++         "3h ago", "Career Learning — Adult Skills", 310, "bps completion decline"),
++        ("warning", "Curriculum accreditation-review backlog",
++         "48 course modules are past their annual accreditation review date",
++         "4h ago", "Academic Quality", 48, "modules overdue"),
++        ("info", "New state authorization approved",
++         "A new online public school authorization expands the addressable "
++         "footprint by two states",
++         "6h ago", "Regulatory & Partnerships", 2, "new states authorized"),
++    ],
++    "agent": ("You are an analyst covering Stride's two reporting segments: "
++              "General Education (tuition-free managed online public schools plus "
++              "Keystone private/tuition academies) and Career Learning "
++              "(Destinations Career Academies for grades 9-12 and adult upskilling "
++              "via MedCerts, Tech Elevator and Galvanize). Revenue is enrollments "
++              "times revenue-per-enrollment; the margin line is gross profit after "
++              "instructional and curriculum cost. Answer with numbers from the "
++              "Enrollment Book, and speak in enrollments, revenue per enrollment, "
++              "gross margin and operating income — never balances or loans."),
++}
++
++FOOTPRINTS["stride"] = [
++    ("CA", .118), ("TX", .104), ("FL", .092), ("OH", .072), ("PA", .064),
++    ("GA", .058), ("MI", .048), ("NV", .044), ("CO", .041), ("AZ", .038),
++    ("VA", .034), ("SC", .031), ("TN", .028), ("OK", .026), ("UT", .024),
++]
++
++LABELS["stride"] = {
++    "personas": ["Executive", "Enrollment & Academic Ops"],
++    "modeler_page": "Enrollment Planning",
++    "cohort_page": "Student Segments",
++    "modeler_title": "Enrollment & Margin Scenario Modeler",
++    "shock_label": "Per-pupil funding / cost trend shock (bps)",
++    "kpi_revenue": "Gross profit ($M)",
++    "kpi_margin": "Operating income ($M)",
++    "kpi_volume": "Revenue ($M)",
++    "kpi_units": "Enrollments (K)",
++    "driver_nim": "Gross margin",
++    "driver_risk": "At-risk re-enrollment %",
++    "driver_cost": "Cost of instruction rate",
++    "driver_eff": "SG&A overhead ratio",
++    "col_volume": "Baseline revenue",
++    "col_growth": "Revenue growth %",
++    "col_yield": "Gross margin Δ bps",
++    "col_cost": "Instruction cost Δ bps",
++    "seg_product": "Program",
++    "seg_credit": "Engagement tier",
++    "seg_dd": "Support / IEP plan",
++    "seg_engage": "Attendance",
++    "seg_held": "Courses enrolled",
++    "cohort_name": "Cohort name",
++    "kpi_cohort_size": "Students in cohort",
++    "kpi_cohort_vol": "Cohort revenue",
++    "kpi_cohort_rev": "Revenue per student",
++    "kpi_cohort_risk": "Avg attrition risk",
++    # the Balance Type colour-by dimension -> Stride's reportable segments
++    "seg_type": "Segment",
++}
++
++SEGMENTS["stride"] = {
++    # engagement / proficiency band translations
++    "Near Prime": "At risk", "Prime": "Developing",
++    "Super Prime": "Proficient", "Exceptional": "Advanced",
++    "Daily": "Daily", "Weekly": "Weekly",
++    "Monthly": "Monthly", "Dormant": "Disengaged",
++    # product-name translations — member_population.sql hardcodes the 6 SoFi
++    # product names; map them to Stride programs so the cohort "Program" control
++    # shows real program names. Resulting mix: General Education ~56%
++    # (Online Public 44% + Private 12%), Career Learning ~44% (MHS 29% + Adult 15%).
++    "Personal Loans": "K12 Online Public School",       # 31%
++    "Student Refinancing": "K12 Online Public School",  # 13%  -> Online Public 44%
++    "Credit Card": "Keystone Private Academy",          # 12%  -> GenEd 56%
++    "SoFi Money": "Destinations Career Academy",        # 22%
++    "Home Loans": "Destinations Career Academy",        # 7%   -> MHS 29%
++    "SoFi Invest": "Adult Skills (MedCerts/Tech Elevator)",  # 15% -> Career 44%
++}
++
++VOCAB["stride"] = {
++    "econ": ("Revenue is enrollments times revenue per enrollment (~$9,914 in "
++             "FY2026). General Education programs are largely funded per-pupil by "
++             "state and district partners; Career Learning adds tuition, industry "
++             "certifications and employer-sponsored upskilling. The margin line is "
++             "gross profit after instructional, curriculum and technology cost; "
++             "operating income is gross profit less SG&A."),
++    "metrics": ("revenue, gross profit, operating income, average enrollments and "
++                "revenue per enrollment"),
++    "bands": ("Engagement tiers: At risk, Developing, Proficient, Advanced. "
++              "Attendance: Daily, Weekly, Monthly, Disengaged."),
++    "cohort_report": "cohort size, revenue per student and average attrition risk",
++}
++
++# Per-student economics in DOLLARS. bases are annual revenue per student by
++# engagement tier (a full-year Advanced student carries more course load and
++# ancillary revenue); rev_rate 1.0 because the bases already ARE revenue, not a
++# balance to earn a spread on. fee_per_product is incremental revenue per extra
++# course enrolled.
++POP["stride"] = {"bases": (4200, 7600, 10200, 12500), "rev_rate": 1.00,
++                 "fee_per_product": 150}
++
++# Sub-programs for the baseball-card modal. Shares are fractions of the parent
++# program's revenue, so the modal reconciles to the card. Real Stride brands.
++STRIDE["subs"] = {
++    "Online Public Schools": [
++        ("K12-Powered Public Schools", .60, 20, -1.4, "On plan"),
++        ("Stride Learning Solutions (District)", .20, 60, 3.2, "Ahead"),
++        ("George Washington University OHS", .12, 120, 1.1, "On plan"),
++        ("Insight Schools", .08, -80, -4.6, "Behind"),
++    ],
++    "Private & Tuition": [
++        ("The Keystone School", .54, 40, 2.6, "Ahead"),
++        ("Private Academy (tuition)", .30, -20, 0.8, "On plan"),
++        ("International & Tutoring", .16, 90, 4.2, "Ahead"),
++    ],
++    "Middle-High Career": [
++        ("Destinations Career Academies", .64, 30, 11.8, "Ahead"),
++        ("Career Prep & CTE Electives", .22, -40, 6.4, "On plan"),
++        ("Industry Certifications (HS)", .14, 110, 18.2, "Ahead"),
++    ],
++    "Adult Skills": [
++        ("MedCerts (healthcare)", .42, 50, 16.0, "Ahead"),
++        ("Tech Elevator (software)", .30, -30, 22.4, "Ahead"),
++        ("Galvanize (data & cyber)", .18, -60, 12.1, "On plan"),
++        ("Employer & Government Programs", .10, 140, 28.5, "Ahead"),
++    ],
++}
++
++# Native marker strip, no bespoke plugin (per the build request).
++PLUGINS["stride"] = {"hero": None, "hero_label": None, "ticker": None}
++
++COMPANIES["stride"] = STRIDE
+diff --git a/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py b/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
+index 9e35b8f..0c00816 100644
+--- a/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
++++ b/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
+@@ -17,21 +17,25 @@ import urllib.error
+ import urllib.parse
+ import urllib.request
+ 
+-ENV_FILE = pathlib.Path.home() / ".sigma-portals" / "staging.env"
+-TOKEN_CACHE = pathlib.Path("/tmp/.tok_staging")
++ENV_FILE = pathlib.Path.home() / ".sigma-portals" / "prod.env"
++TOKEN_CACHE = pathlib.Path("/tmp/.tok_prod")
+ TOKEN_TTL = 55 * 60
+ 
+-BASE = "https://api.staging.sigmacomputing.io"
+-ORG_ID = "8c99818a-90b3-4cae-bdb7-cf69a741171a"
++# Repointed 2026-08-11 to the production US-A org (Stride build). The default
++# injected SIGMA_BASE_URL uses the hyphenated host `api-us-a…` which the agent
++# proxy rejects (502); the dotted `api.us-a…` host is the reachable one.
++BASE = "https://api.us-a.aws.sigmacomputing.com"
++ORG_ID = "2be5e6bd-91bf-4555-af8e-7a478785c5b8"
+ 
+-# Discovered 2026-08-07 on papercranestaging.
+-FOLDER_CLAUDE_BUILDER = "a758d7ee-8c23-423d-9d60-5b635d9e9b58"
++# "Stride Learning" folder created under My Documents in the prod org.
++FOLDER_CLAUDE_BUILDER = "69f26de8-e33a-4b60-bcae-d0829f0b3b7b"
+ 
+-# Most staging connections have disabled warehouse credentials. This one resolves
+-# SQL at create time (checked 2026-08-07); it is also what the reference
+-# "Microsoft — Executive App" workbook uses. `verify` does NOT resolve SQL, so a
+-# bad connection only surfaces on create.
+-CONN_SNOWFLAKE = "a9d45cfe-ff65-4515-8193-a7072602a1ee"
++# The org's "Stride-POC" Snowflake connection. The generator's SQL is pure
++# generated (Snowflake GENERATOR/SEQ4, no source tables), so any live-warehouse
++# connection resolves it. `verify` does NOT resolve SQL, so a bad connection
++# only surfaces on create. Fallback if disabled: "Sigma Sample Database"
++# 50155c31-3cc6-4f26-9751-79be3d4c6895.
++CONN_SNOWFLAKE = "a466ec39-a940-4e59-a7b7-417cd26bf985"
+ 
+ 
+ class SigmaError(RuntimeError):
+@@ -59,8 +63,8 @@ def _read_env():
+ 
+ def _fetch_token():
+     env = _read_env()
+-    cid = env["SIGMA_STAGING_CLIENT_ID"]
+-    csec = env["SIGMA_STAGING_CLIENT_SECRET"]
++    cid = env["SIGMA_PROD_CLIENT_ID"]
++    csec = env["SIGMA_PROD_CLIENT_SECRET"]
+     cred = base64.b64encode(("%s:%s" % (cid, csec)).encode()).decode()
+     req = urllib.request.Request(
+         BASE + "/v2/auth/token",

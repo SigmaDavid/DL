@@ -54,8 +54,15 @@ the UI (see below).
   element — wrap numerics in `Number(...)` before `Avg/Sum`
   (e.g. Total Course Duration, Days With Activity).
 
+## AI prompts (grounded, 2026-08-11)
+All three prompts were tightened: they feed only verified scalars and instruct
+the model to "use ONLY the figures given, never invent numbers/percentages/
+breakdowns, output two sentences with no preamble." Verified output now stays
+grounded (Target Overview 83%/75%, School Demographics 543,150 students @ 83%,
+Student Engagement 5.2 hrs / 0.8 days) with no fabricated breakdowns and no
+"here is a summary" preamble.
+
 ## Caveats
-- AI summaries are LLM-generated and can state specifics not in the prompt
-  (e.g. School Demographics invented grade-band/ethnicity %s from only the
-  total count). Tighten prompts / feed more grounded numbers to reduce this.
+- AI summaries are still LLM-generated (llama3.1-8b) and non-deterministic —
+  wording varies per render; the grounding rules keep the numbers honest.
 - Cloudflare intermittently challenges writes via the agent proxy; retry.

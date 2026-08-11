@@ -30,11 +30,14 @@ els["CVldGmESth"]["body"]=val("ELA"); els["YTr5ZDNQeu"]["body"]=val("MTH")
 els["eLYytFqTHv"]["body"]=f'<p style="text-align: center"><span style="color: {SUB}">*Deploying in a future update*</span></p>'
 els["tk3xK3bcFV"]["body"]=('<p class="h-large" style="text-align: center"><span style="color: '
   f'{WHITE}">**4+ DAYS**</span></p>\n\n<p class="p-large" style="text-align: center"><span style="color: #FF5A47">0%</span></p>')
-ai("z-ai1",'You are a K-12 academic operations analyst. In two concise sentences summarize the '
- 'Academic Insights Monitor status for school leaders. Overall course passing " '
- '& Text(Round(Avg([Student Base/Course Passing])*100,0)) & "%, students passing all courses " '
- '& Text(Round(Avg([Student Base/Pass All Flag])*100,0)) & "%, across " '
- '& Text(Sum([Student Base/Student Count])) & " students. Name one strength and one area to watch.')
+RULES=('Output ONLY two sentences with no preamble, header, label, or bullet points. '
+ 'Use ONLY the figures given below and never invent or estimate any other numbers, '
+ 'percentages, rates, or breakdowns. ')
+ai("z-ai1",'You are a K-12 academic operations analyst for school leaders. '+RULES+
+ 'Figures: overall course passing rate " & Text(Round(Avg([Student Base/Course Passing])*100,0)) '
+ '& "%, students passing all courses " & Text(Round(Avg([Student Base/Pass All Flag])*100,0)) '
+ '& "%, total students " & Text(Sum([Student Base/Student Count])) & ". '
+ 'Name one strength and one area to watch using only these figures.')
 T("z-chat",
   f'### <span style="color: {ORANGE}">**💬 Ask AIM Assistant**</span>\n\n'
   f'<span style="color: {WHITE}">Chat with your custom AIM agent here.</span>\n\n'
@@ -64,9 +67,11 @@ for eid,msg in [("0VaR8i9M_A","Enrollment by Program charts and table coming soo
                 ("ZFp_lLjyVN","Student Persistence &amp; Status charts coming soon"),
                 ("W8JMbfp_Xd","MTSS Distribution charts coming soon")]:
     els[eid]["body"]=f'<p style="text-align: center"><span style="color: {SUB}">*{msg}*</span></p>'
-ai("z-ai2",'You are a K-12 enrollment analyst. In two concise sentences summarize the school '
- 'demographic composition for leaders. Total students " & Text(Sum([Student Base/Student Count])) '
- '& ". Comment on grade-band spread and ethnic diversity at a high level, and note one thing to monitor.')
+ai("z-ai2",'You are a K-12 enrollment analyst for school leaders. '+RULES+
+ 'Do not mention any grade-band or ethnicity percentages. '
+ 'Figures: total enrolled students " & Text(Sum([Student Base/Student Count])) '
+ '& ", overall course passing rate " & Text(Round(Avg([Student Base/Course Passing])*100,0)) & "%. '
+ 'Summarize enrollment scale and overall academic standing only.')
 P2=['<Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="NMOiOt_wFj">',
  E("i0oVTk_vQI","1 / 5","1 / 3"),E("pK7k5cY_Y0","5 / 25","1 / 3"),E("8ngwpWk253","1 / 25","3 / 4"),
  E("8vCct9RQWr","1 / 7","4 / 6"),E("hjR0kekSIT","7 / 13","4 / 6"),E("ryvflNYopn","13 / 19","4 / 6"),E("c8tajZ3Usn","19 / 25","4 / 6"),
@@ -87,10 +92,12 @@ els["0NS3iR049U"]["body"]=('### <span style="color: '+WHITE+'">Required Class Co
   '<p style="text-align: center"><span style="color: '+SUB+'">*Chart coming soon*</span></p>')
 els["-k7RqAzYwl"]["body"]=('### <span style="color: '+WHITE+'">Time in Remediation</span>\n\n'
   '<p style="text-align: center"><span style="color: '+SUB+'">*Chart coming soon*</span></p>')
-ai("z-ai3",'You are a K-12 student-engagement analyst. In two concise sentences summarize engagement '
- 'for leaders. Average course duration over the last 7 days is " '
- '& Text(Round(Avg([Student Base/Total Course Duration L 7 D]),1)) & " hours, average days with activity " '
- '& Text(Round(Avg([Student Base/Days W Act L 7 D]),1)) & ". Note one positive signal and one risk.')
+ai("z-ai3",'You are a K-12 student-engagement analyst for school leaders. '+RULES+
+ 'Figures: average course duration last 7 days " '
+ '& Text(Round(Avg(Number([Student Base/Total Course Duration L 7 D])),1)) & " hours, '
+ 'average days with activity last 7 days " '
+ '& Text(Round(Avg(Number([Student Base/Days W Act L 7 D])),1)) & ". '
+ 'Note one positive signal and one risk using only these figures.')
 P3=['<Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="PncQor0EDL">',
  E("6Kpv0katuw","1 / 5","1 / 3"),E("g8GbQOrroR","5 / 25","1 / 3"),E("5-YFytlIwy","1 / 25","3 / 4"),
  E("pUPQWdYowV","1 / 7","4 / 6"),E("w4GlP5MckU","7 / 13","4 / 6"),E("m-GEZmngmO","13 / 19","4 / 6"),E("gPXt3U8BEM","19 / 25","4 / 6"),

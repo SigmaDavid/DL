@@ -21,6 +21,12 @@ def style_filters(ids):
         els[cid]["style"]={"backgroundColor":WHITE,"borderRadius":"round"}
         if isinstance(els[cid].get("name"),str): els[cid]["name"]=els[cid]["name"].replace(" Filter","")
 
+# ---- KPI readability: value text was #ffffff (white on the white KPI card =
+# invisible) on 4 KPIs, theme-dark on the rest. Force all to readable dark navy.
+for e in doc["elements"]:
+    if e.get("kind")=="kpi-chart":
+        e.setdefault("value",{})["color"]="#00205b"
+
 # ============================ PAGE 1: Target Overview ============================
 style_filters(["7udbR5xYkD","hjOAiV49PM","Kp-0bfZOwB","_Auo1suVH0"])
 def val(l): return (f'<p style="text-align: center"><span style="color: {WHITE}">**{l}**</span></p>\n\n'

@@ -4,6 +4,13 @@ Live workbook: **AIM AI** (`b7422acd-c347-47f8-a4ea-b014ea915c0d`)
 https://app.sigmacomputing.com/stridelearning/workbook/AIM-AI-5zNPJbgz8VC6vNQ3i1AHNj
 Folder: My Documents · API base: `https://api.us-a.aws.sigmacomputing.com`
 
+## KPI font-color fix (2026-08-11)
+
+The 4 "Course Passing / Students Passing All" KPIs had `value.color:"#ffffff"`
+(white) on the **white** KPI card → invisible; the other 6 used
+`colors-textNeutral`. Set all 10 `kpi-chart` `value.color` to `#00205b` (dark
+navy) for readable, uniform numbers. Verified via PDF export.
+
 ## What was done (2026-08-11)
 
 Edited the 3 dashboard pages (Target Overview, School Demographics, Student

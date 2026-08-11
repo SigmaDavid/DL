@@ -15,13 +15,19 @@ LABEL  = "#BCD0EC"   # filter label text
 SUB    = "#AEC2E0"   # subtitle text
 INPUT  = "#EAF1FA"   # light 'All' input chip
 INK    = "#0A1E44"
+ORANGE = "#E8730C"   # active nav-pill accent (matches AIM report)
 
-LOGO_URL = "https://REPLACE-WITH-YOUR-HOST.example.com/aim-logo.png"  # placeholder — swap for a public HTTPS URL (asset committed at workbooks/aim-academic-insights-monitor/assets/aim-logo.png)
+# The AIM logo already uploaded in the stridelearning org (harvested from the
+# existing "AIM Template" workbook). Org-scoped upload key — renders the real
+# logo on publish. A copy of the image is committed at assets/aim-logo.png.
+LOGO_KEY = "2be5e6bd-91bf-4555-af8e-7a478785c5b8/fe7ac478-b589-49b6-9d3b-bf956668cc05.png"
 SUBTITLE = 'Report Date: 08/02/2026 &nbsp;|&nbsp; Student Count: 8,237'
 
 # ------------------------------------------------------------------ builders
 def card_style(bg=CARD, border=BORDER, width=1, radius="round"):
-    s = {"backgroundColor": bg, "borderRadius": radius}
+    s = {"backgroundColor": bg}
+    if radius:
+        s["borderRadius"] = radius
     if border and width:
         s["borderColor"] = border
         s["borderWidth"] = width
@@ -36,22 +42,27 @@ def container(cid, style=None):
 def text(tid, body, valign="middle"):
     return {"id": tid, "kind": "text", "body": body, "verticalAlign": valign}
 
-def image(iid, url):
-    return {"id": iid, "kind": "image", "url": url}
+def image(iid, key):
+    return {"id": iid, "kind": "image",
+            "source": {"kind": "upload", "key": key},
+            "style": {"fit": "contain"}}
 
 def segmented(sid, control_id, values, labels, active=None, name=None):
+    # name="" suppresses the auto-humanized controlId label above the pills
+    # (the doc's toggles carry no label). selectedColor tints the active pill
+    # orange to match the AIM report accent.
     e = {
         "kind": "control",
         "id": sid,
         "controlId": control_id,
         "controlType": "segmented",
+        "name": name or "",
         "source": {"kind": "manual", "valueType": "text",
                    "values": values, "labels": labels},
         "value": active,
         "style": {"borderRadius": "round"},
+        "optionStyle": {"style": "pill", "selectedColor": ORANGE},
     }
-    if name:
-        e["name"] = name
     return e
 
 def filter_box_body(label, value):
@@ -153,7 +164,7 @@ def build_page(pg):
     logo = f"logo-{pid}"
     ttl = f"ttl-{pid}"
     els += [container(hdr, style=card_style(bg=PAGE, border=None, width=0)),
-            image(logo, LOGO_URL), text(ttl, title_body(pg["title"]), "middle")]
+            image(logo, LOGO_KEY), text(ttl, title_body(pg["title"]), "middle")]
     hdr_children = [
         f'        <LayoutElement elementId="{logo}" gridColumn="1 / 25" gridRow="1 / 4"/>',
         f'        <LayoutElement elementId="{ttl}"  gridColumn="1 / 25" gridRow="4 / 7"/>',
@@ -268,7 +279,7 @@ for pg in PAGES:
 
 spec = {
     "name": "AIM — Academic Insights Monitor (Template)",
-    "folderId": "REPLACE_WITH_STRIDELEARNING_FOLDER_ID",
+    "folderId": "3c5422bd-6d61-4739-ac4e-de8aec9a66c1",  # stridelearning → My Documents
     "description": "K12 Academic Insights Monitor — navigation + filter template shell. "
                    "Header/logo, filter bars, and segmented nav toggles across 9 pages. "
                    "Charts/KPIs intentionally omitted (placeholder cards mark their positions).",

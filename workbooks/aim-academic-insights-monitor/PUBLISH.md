@@ -1,7 +1,20 @@
 # Publishing the AIM template to stridelearning
 
-This spec was authored but **not published** — the Sigma REST API host was
-unreachable from the build session (see step 1). Follow these steps to publish.
+> **UPDATE 2026-08-11 — already published.** This workbook is live in
+> stridelearning → My Documents:
+> - id `9311230d-49bc-4d10-9b67-3ba06881efeb`
+> - https://app.sigmacomputing.com/stridelearning/workbook/AIM-Academic-Insights-Monitor-Template-4tvHCSn0YuRgHFSlXPPUHF
+> - Working API base: `https://api.us-a.aws.sigmacomputing.com` (dotted
+>   `us-a`; the injected hyphenated `api-us-a...` host was egress-blocked).
+> - `folderId` and logo are already resolved (My Documents; org upload key).
+>
+> The steps below are retained for re-publishing or publishing elsewhere. The
+> only outstanding action is the refinement PUT (nav-label suppression + orange
+> pills), which a transient Cloudflare write-challenge blocked — retry:
+> `export SIGMA_BASE_URL="https://api.us-a.aws.sigmacomputing.com"`
+> then `scripts/api/publish-workbook.sh put 9311230d-49bc-4d10-9b67-3ba06881efeb workbooks/aim-academic-insights-monitor/spec.json`
+
+The original notes (from when the API host was unreachable) follow.
 
 ## 1. Restore API egress (required — the build session couldn't reach the API)
 

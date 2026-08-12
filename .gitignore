@@ -35,3 +35,6 @@ docs/twells89-review.md
 
 # Token cache (if anything writes one locally)
 .sigma-token
+
+# Cloned generator repo (github.com/cmiller-coder/millersigma) — do not vendor here
+millersigma/

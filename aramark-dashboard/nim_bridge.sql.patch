@@ -1,0 +1,24 @@
+diff --git a/skills/sigma-company-dashboard-v2/sql/nim_bridge.sql b/skills/sigma-company-dashboard-v2/sql/nim_bridge.sql
+index 9e389c9..8b9ea90 100644
+--- a/skills/sigma-company-dashboard-v2/sql/nim_bridge.sql
++++ b/skills/sigma-company-dashboard-v2/sql/nim_bridge.sql
+@@ -1,14 +1,11 @@
+ -- Net revenue -> contribution profit bridge for the waterfall chart.
+--- Re-derives from the same product constants as loan_book.sql so the two agree;
++-- Re-derives from the same product constants as loan_book.sql so the two agree.
++-- Uses the shared product-constants substitution (products_cte) rather than a
++-- hardcoded SoFi block, so the bridge reflects the ACTIVE company's economics
++-- (columns are referenced by name, so the extra products_cte columns are inert);
+ -- aggregates the trailing-twelve-month window into signed bridge steps ($MM).
+ WITH product AS (
+-    SELECT 'Personal Loans' AS product, 17500 AS bal_base, 0.1320 AS yield_rate, 0.0410 AS funding_rate,
+-           22.0 AS fee_base, 0.0360 AS provision_rate, 0.380 AS opex_ratio, 0.052 AS annual_growth, 0.0 AS phase
+-    UNION ALL SELECT 'Student Refinancing',  9800, 0.0640, 0.0410,  6.0, 0.0050, 0.340, 0.028, 1.1
+-    UNION ALL SELECT 'Home Loans',           4200, 0.0680, 0.0410, 14.0, 0.0030, 0.520, 0.115, 2.2
+-    UNION ALL SELECT 'Credit Card',          1150, 0.2150, 0.0410,  5.0, 0.0850, 0.460, 0.140, 0.6
+-    UNION ALL SELECT 'SoFi Money',          38000, 0.0000, 0.0000, 45.0, 0.0000, 0.620, 0.180, 1.7
+-    UNION ALL SELECT 'SoFi Invest',             0, 0.0000, 0.0000, 18.0, 0.0000, 0.700, 0.095, 2.8
++__PRODUCTS__
+ ),
+ months AS (
+     SELECT DATEADD('month', SEQ4(), DATE '2024-08-01') AS period_month, SEQ4() AS month_index

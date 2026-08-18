@@ -8,6 +8,9 @@
 # Vendor mirror of upstream skills (refresh via scripts/refresh-vendor.sh)
 vendor/
 
+# Ad-hoc clone of RyanLauderback/ryan-workbook-skill for inspection only
+ryan-workbook-skill/
+
 # Iteration scratch
 workbooks/*/iterations/*.tmp
 workbooks/*/iterations/*.draft.json

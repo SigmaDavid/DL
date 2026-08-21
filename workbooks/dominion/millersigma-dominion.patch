@@ -1,0 +1,252 @@
+diff --git a/skills/sigma-company-dashboard-v2/assets/dominion_logo_white.datauri.txt b/skills/sigma-company-dashboard-v2/assets/dominion_logo_white.datauri.txt
+new file mode 100644
+index 0000000..38ac17d
+--- /dev/null
++++ b/skills/sigma-company-dashboard-v2/assets/dominion_logo_white.datauri.txt
+@@ -0,0 +1 @@
++data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUzIiB2aWV3Qm94PSIwIDAgMTUwIDUzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBpZD0iSGVhZGVyIC0gTG9nbyAtIFdoaXRlIiBjbGlwLXBhdGg9InVybCgjY2xpcDBfMTI0OV8xODg0KSI+CjxnIGlkPSJHcm91cCI+CjxwYXRoIGlkPSJWZWN0b3IiIGQ9Ik0zNS41MDI0IDQuMzI0MDVDMzIuNzAzMSAyLjMxMjc4IDI5LjQ4MzcgMC45NzU2MDQgMjYuMDkxNyAwLjQxNTMyMUMyMi42OTk4IC0wLjE0NDk2MyAxOS4yMjU1IDAuMDg2NTY4MSAxNS45MzYyIDEuMDkyMTFMMC4xMTc0MzIgNS45MDg1VjE1LjA5NzZMMzUuNTAyNCA0LjMyNDA1Wk00My4yNTc0IDE0LjM3MDNDNDIuMTUxMiAxMS40ODczIDQwLjQ1NjIgOC44NzA5OSAzOC4yODI0IDYuNjkxMjdMMC4xMTg2ODIgMTguMzEwNlYyNy40OTk3TDQzLjI1ODcgMTQuMzY5TDQzLjI1NzQgMTQuMzcwM1pNNDQuMzQ3NCAyNi40MzgzQzQ0LjkwOTkgMjMuNDkgNDQuODc5OSAyMC4zODc5IDQ0LjE2MTIgMTcuMzA0N0wwLjExNzQzMiAzMC43MTlWMzkuOTA4MUw0NC4zNDc0IDI2LjQzODNaTTI4Ljk2NzQgNDMuNTI3QzM1Ljg5ODcgNDEuNDE4MiA0MS4wNTI0IDM2LjI0MzggNDMuMzc0OSAyOS45NTM5TDAuMTE3NDMyIDQzLjExOThWNTIuMzA4OUwyOC45Njc0IDQzLjUyN1pNNTUuNzE4NyA3LjYyOTA5SDYxLjM3OTlDNjYuMDg3NCA3LjYyOTA5IDY4Ljk0MjQgMTAuNTQ1OSA2OC45NDI0IDE1LjA4NUM2OC45NDI0IDE5LjYyMjggNjYuMDg3NCAyMi41NDA5IDYxLjM3OTkgMjIuNTQwOUg1NS43MTc0TDU1LjcxODcgNy42MjkwOVpNNjEuMTgxMiAxOS4xNjE0QzYzLjY3MTIgMTkuMTYxNCA2NS4wNTg3IDE3LjU4MiA2NS4wNTg3IDE1LjA3ODdDNjUuMDU4NyAxMi41NTAxIDYzLjY2NDkgMTAuOTcxOSA2MS4xODEyIDEwLjk3MTlINTkuNTcxMlYxOS4xNTUxSDYxLjE4MTJWMTkuMTYxNFpNNzUuNjEyNCAyMi43ODE2QzcyLjI5MjQgMjIuNzgxNiA3MC4wMDEyIDIwLjQ0OTcgNzAuMDAxMiAxNy4wNzE1QzcwLjAwMTIgMTMuNjk3MiA3Mi4yOTI0IDExLjM2NjUgNzUuNjEzNyAxMS4zNjY1Qzc4Ljk1NzQgMTEuMzY2NSA4MS4yMjQ5IDEzLjY5ODQgODEuMjI0OSAxNy4wNzAzQzgxLjIyNDkgMjAuNDQ5NyA3OC45NTc0IDIyLjc4MTYgNzUuNjEyNCAyMi43ODE2Wk03NS42MTI0IDE0LjUwMDFDNzQuNDQyNCAxNC41MDAxIDczLjc4NjIgMTUuNTY2NSA3My43ODYyIDE3LjA3MTVDNzMuNzg2MiAxOC41NzUzIDc0LjQ0MjQgMTkuNjI0IDc1LjYxMjQgMTkuNjI0Qzc2LjgwODcgMTkuNjI0IDc3LjQ2NDkgMTguNTgxNiA3Ny40NjQ5IDE3LjA3MDNDNzcuNDY0OSAxNS41NzE1IDc2LjgwODcgMTQuNDk4OCA3NS42MTI0IDE0LjQ5ODhWMTQuNTAwMVpNOTUuNzg2MiAxMS4zNjY1Qzk4LjA3NzQgMTEuMzY2NSA5OS40OTYyIDEyLjkyMDcgOTkuNDk2MiAxNS4zNzQ5VjIyLjU0MDlIOTUuNjY4N1YxNi4zMDAxQzk1LjY2ODcgMTUuMzc0OSA5NS4yNzc0IDE0LjcyMDcgOTQuNDIzNyAxNC43MjA3QzkzLjc2NjIgMTQuNzIwNyA5My4yMDI0IDE1LjEzNDEgOTMuMDExMiAxNS44ODY3VjIyLjU0MDlIODkuMjA3NFYxNi4zMDAxQzg5LjIwNzQgMTUuMzc0OSA4OC44MTc0IDE0LjcyMDcgODcuOTYzNyAxNC43MjA3Qzg3LjMwNjIgMTQuNzIwNyA4Ni43MTg3IDE1LjEzNDEgODYuNTUxMiAxNS44ODY3VjIyLjU0MDlIODIuNzIzN1YxMS42MTIzSDg2LjU1MTJWMTIuNTEzNUM4Ny4xMTM3IDExLjgzNTQgODguMTYxMiAxMS4zNzI4IDg5LjM4MTIgMTEuMzcyOEM5MC43NzQ5IDExLjM3MjggOTEuNzQ3NCAxMS45MDg1IDkyLjQwMzcgMTIuNjg2MkM5My4wNTM3IDEyLjAwMTggOTQuMTc0OSAxMS4zNjY1IDk1Ljc4NjIgMTEuMzY2NVpNMTA1LjM5OSAyMi41NDA5SDEwMS41NzFWMTEuNjEyM0gxMDUuMzk5VjIyLjU0MDlaTTEwNy40NzQgMTEuNjEzNUgxMTEuMzAxVjEyLjU2MjdDMTExLjkwNyAxMS44ODQ2IDExMi45ODYgMTEuMzcyOCAxMTQuMjQ5IDExLjM3MjhDMTE2LjY5IDExLjM3MjggMTE4LjEyNiAxMi45NTA5IDExOC4xMjYgMTUuMzgxMlYyMi41NDcySDExNC4zMTdWMTYuMjk4OEMxMTQuMzE3IDE1LjM5ODggMTEzLjg1MiAxNC43NDQ2IDExMi44OCAxNC43NDQ2QzExMi4xMjUgMTQuNzQ0NiAxMTEuNDkyIDE1LjE4MiAxMTEuMjk1IDE1LjkzNDZWMjIuNTM5NkgxMDcuNDY3VjExLjYxMUgxMDcuNDc0VjExLjYxMzVaTTEyNC4wMjkgMjIuNTQwOUgxMjAuMjAxVjExLjYxMjNIMTI0LjAyOVYyMi41NDA5Wk0xMzEuMTI3IDIyLjc4MTZDMTI3LjgwNyAyMi43ODE2IDEyNS41MTUgMjAuNDQ5NyAxMjUuNTE1IDE3LjA3MTVDMTI1LjUxNSAxMy42OTcyIDEyNy44MDcgMTEuMzY2NSAxMzEuMTI3IDExLjM2NjVDMTM0LjQ3MSAxMS4zNjY1IDEzNi43MzkgMTMuNjk4NCAxMzYuNzM5IDE3LjA3MDNDMTM2LjczOSAyMC40NDk3IDEzNC40NzEgMjIuNzgwNCAxMzEuMTI2IDIyLjc4MDRMMTMxLjEyNyAyMi43ODE2Wk0xMzEuMTI3IDE0LjUwMDFDMTI5Ljk1NiAxNC41MDAxIDEyOS4zIDE1LjU2NjUgMTI5LjMgMTcuMDcxNUMxMjkuMyAxOC41NzUzIDEyOS45NTYgMTkuNjI0IDEzMS4xMjcgMTkuNjI0QzEzMi4zMjIgMTkuNjI0IDEzMi45NzkgMTguNTgxNiAxMzIuOTc5IDE3LjA3MDNDMTMyLjk3OSAxNS41NzE1IDEzMi4zMjIgMTQuNDk4OCAxMzEuMTI3IDE0LjQ5ODhWMTQuNTAwMVpNMTM4LjIyNSAxMS42MTM1SDE0Mi4wNTJWMTIuNTYyN0MxNDIuNjYgMTEuODg0NiAxNDMuNzM3IDExLjM3MjggMTQ1LjAwMSAxMS4zNzI4QzE0Ny40NDEgMTEuMzcyOCAxNDguODc5IDEyLjk1MDkgMTQ4Ljg3OSAxNS4zODEyVjIyLjU0NzJIMTQ1LjA3NVYxNi4yOTg4QzE0NS4wNzUgMTUuMzk4OCAxNDQuNjExIDE0Ljc0NDYgMTQzLjYzNyAxNC43NDQ2QzE0Mi44ODIgMTQuNzQ0NiAxNDIuMjQ1IDE1LjE4MiAxNDIuMDUyIDE1LjkzNDZWMjIuNTM5NkgxMzguMjI1VjExLjYxMVYxMS42MTM1Wk0xMjAuMjAxIDcuNjI5MDlIMTI0LjAyOVYxMC4zNDkzSDEyMC4yMDFWNy42MjkwOVpNMTAxLjU3MSA3LjYyOTA5SDEwNS4zOTlWMTAuMzQ5M0gxMDEuNTcxVjcuNjI5MDlaTTY4LjM5NzQgMjkuNDY2MUg3Mi4yMjQ5VjMwLjQxNjVDNzIuODMyNCAyOS43MzgzIDczLjkwOTkgMjkuMjI1MyA3NS4xNzg3IDI5LjIyNTNDNzcuNjE5OSAyOS4yMjUzIDc5LjA1NjIgMzAuODA0NyA3OS4wNTYyIDMzLjIzMzdWNDAuNDAwOUg3NS4yNTM3VjM0LjE1MzlDNzUuMjUzNyAzMy4yNTI2IDc0Ljc4ODcgMzIuNTk5NyA3My44MTYyIDMyLjU5OTdDNzMuMDYxMiAzMi41OTk3IDcyLjQyMzcgMzMuMDM3MSA3Mi4yMzEyIDMzLjc4OTZWNDAuMzk0Nkg2OC40MDM3VjI5LjQ2NjFINjguMzk3NFpNMTAwLjUyNSAzMi44MTUyQzk5Ljk5NzQgMzIuNTkzNCA5OS41OTk5IDMyLjQ5MzggOTkuMDA2MiAzMi40OTM4Qzk4LjA4OTkgMzIuNDkzOCA5Ny4xMjk5IDMzLjAwNjggOTYuOTg3NCAzMy45ODYyVjQwLjQwMDlIOTMuMTU5OVYyOS40NjYxSDk2Ljk4NzRWMzAuNDQwNEM5Ny41MjYyIDI5LjcxMzEgOTguMzc0OSAyOS4yMjUzIDk5LjQ3NzQgMjkuMjI1M0M5OS45NjYyIDI5LjIyNTMgMTAwLjM1NiAyOS4zMjQ5IDEwMC41MjQgMjkuNDE2OUwxMDAuNTI1IDMyLjgxNTJaTTExNi4xNjIgNDQuNTg4M0wxMTcuODg1IDQwLjA5ODRMMTEzLjc4NSAyOS40MzQ2SDExNy43NkwxMTkuODYgMzUuNjUxNEwxMjEuOTEgMjkuNDM1OEgxMjUuNzE0TDExOS45NDEgNDQuNTg3MUgxMTYuMTY0TDExNi4xNjIgNDQuNTg4M1pNMTEyLjU2NSAyOS40NDIxSDEwOC43ODZWMzAuMjY3N0MxMDguMjk3IDI5LjY4NzkgMTA3LjM5MiAyOS4yMDE0IDEwNi4yMDQgMjkuMjAxNEMxMDMuMTA2IDI5LjIwMTQgMTAxLjM0NyAzMS41NTcyIDEwMS4zNDcgMzQuNTY2MUMxMDEuMzQ3IDM3LjU3NjIgMTAzLjEwNiAzOS45NTYgMTA2LjIwNCAzOS45NTZDMTA3LjI4MSAzOS45NTYgMTA4LjExNyAzOS41NDM4IDEwOC42MzEgMzkuMDQ5N0wxMDguNzMxIDM4Ljk1MTRWMzkuNzc3QzEwOC42NzUgNDEuMjI2NiAxMDcuNDMgNDEuODkzNCAxMDYuMDA2IDQxLjg5MzRDMTA0LjQ5NCA0MS44OTM0IDEwMy4yOTkgNDEuNTAzOSAxMDIuMTc3IDQwLjU2MVY0My44NzI0QzEwMy4yMzEgNDQuNTkzNCAxMDQuNTk0IDQ0Ljc5MTMgMTA2LjEyOSA0NC43OTEzQzEwOS42NDEgNDQuNzkxMyAxMTIuNTU5IDQzLjA1MTggMTEyLjU1OSAzOS4wMTgyTDExMi41NjUgMjkuNDQyMVpNMTA3LjA5NSAzNy4wODgzQzEwNS41ODQgMzcuMDg4MyAxMDQuOTM0IDM1Ljk0NzYgMTA0LjkzNCAzNC41NTk4QzEwNC45MzQgMzMuMTczMiAxMDUuNTM0IDMyLjA4NzkgMTA2Ljk1OSAzMi4wODc5QzEwNy42OSAzMi4wODc5IDEwOC40ODkgMzIuNjQyNSAxMDguNzggMzMuMTI5MVYzNi4wMjE5QzEwOC40ODkgMzYuNTA4NSAxMDcuODUxIDM3LjA4ODMgMTA3LjA5NSAzNy4wODgzWk01OS41NzEyIDM0LjQ1MDFINjUuMzg3NFYzMS4xNjlINTkuNTcxMlYyOC44MzcxSDY2LjQyMTJWMjUuNDg5Mkg1NS43MTg3VjQwLjQwMDlINjYuNDIxMlYzNy4wMjE1SDU5LjU3MTJWMzQuNDUwMVpNODYuMTE3NCAyOS4xNjQ4QzgyLjg0NzQgMjkuMTY0OCA4MC41Mzc0IDMxLjcxMSA4MC41Mzc0IDM0LjkyNTNDODAuNTM3NCAzOC45MDIyIDgyLjkyMTIgNDAuNzAyMiA4Ni41ODI0IDQwLjcwMjJDODguMjExMiA0MC43MDIyIDg5LjUyMzcgNDAuMzYzMSA5MC41Mzk5IDM5Ljg4MjlWMzcuMTg3OUM4OS41MjU4IDM3Ljc0MTMgODguMzkxOCAzOC4wMzM2IDg3LjIzODcgMzguMDM4OEM4NS41MDM3IDM4LjAzODggODQuMzMzNyAzNy4yNDk3IDg0LjI1ODcgMzUuODYxOUg5MS42NzM3QzkxLjY5MTIgMzUuNTk3MiA5MS42OTEyIDM1LjQ0MjEgOTEuNjkxMiAzNS4xOTUxQzkxLjY5NzQgMzEuOTUxOCA4OS45Mzg3IDI5LjE2NDggODYuMTE3NCAyOS4xNjQ4Wk04NC4yMzQ5IDMzLjc3MDdDODQuMzcxMiAzMi40OTM4IDg1LjMwNjIgMzEuOTE1MiA4Ni4xMzQ5IDMxLjkxNTJDODYuOTY2MiAzMS45MTUyIDg3Ljk1NzQgMzIuNDg4OCA4OC4xMTEyIDMzLjc3MDdIODQuMjM0OVpNMTI5LjQxMiAzMi40NTg1QzEyOS4xNTkgMzIuNDYwNSAxMjguOTA4IDMyLjQxMjEgMTI4LjY3MyAzMi4zMTYxQzEyOC40MzkgMzIuMjIgMTI4LjIyNSAzMi4wNzgzIDEyOC4wNDUgMzEuODk4OUMxMjcuODY1IDMxLjcxOTUgMTI3LjcyMiAzMS41MDYgMTI3LjYyMyAzMS4yNzA3QzEyNy41MjUgMzEuMDM1MyAxMjcuNDc0IDMwLjc4MjggMTI3LjQ3MiAzMC41Mjc0QzEyNy40NzQgMzAuMjcyMiAxMjcuNTI1IDMwLjAxOTcgMTI3LjYyMyAyOS43ODQ0QzEyNy43MjEgMjkuNTQ5MiAxMjcuODY1IDI5LjMzNTggMTI4LjA0NSAyOS4xNTY0QzEyOC4yMjUgMjguOTc3IDEyOC40MzggMjguODM1MiAxMjguNjczIDI4LjczOTFDMTI4LjkwNyAyOC42NDMgMTI5LjE1OCAyOC41OTQ1IDEyOS40MTEgMjguNTk2M0MxMzAuNDgyIDI4LjU5NjMgMTMxLjM1IDI5LjQ1OTggMTMxLjM1IDMwLjUyNzRDMTMxLjM1IDMxLjU4NzUgMTMwLjQ4MiAzMi40NTg1IDEyOS40MTIgMzIuNDU4NVpNMTI5LjQxMiAyOC4zMTlDMTI4LjE5MSAyOC4zMTkgMTI3LjIgMjkuMzA2IDEyNy4yIDMwLjUyMTFDMTI3LjIgMzEuNzM2MiAxMjguMTkxIDMyLjcyMiAxMjkuNDEyIDMyLjcyMkMxMzAuNjM3IDMyLjcyMiAxMzEuNjI5IDMxLjczNjIgMTMxLjYyOSAzMC41MjExQzEzMS42MjIgMjkuOTMzMSAxMzEuMzg2IDI5LjM3MTUgMTMwLjk3IDI4Ljk1OUMxMzAuNTU1IDI4LjU0NjQgMTI5Ljk5NiAyOC4zMTYzIDEyOS40MTIgMjguMzE5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggaWQ9IlZlY3Rvcl8yIiBkPSJNMTI5LjI5NCAzMC4zNTI4SDEyOC44NjZWMjkuNjgwOUgxMjkuNTA0QzEyOS43NzEgMjkuNjgwOSAxMzAuMDg2IDI5LjcxODcgMTMwLjA4NiAzMC4wMDIzQzEzMC4wOTMgMzAuNDAzMiAxMjkuNjA0IDMwLjM1MjggMTI5LjI5NCAzMC4zNTI4Wk0xMzAuMzQgMzAuMDA4NkMxMzAuMzQgMjkuNjUwNiAxMzAuMTQ5IDI5LjQ0MTQgMTI5LjU3MyAyOS40NDE0SDEyOC42MzFWMzEuNTg2OEgxMjguODczVjMwLjU5NDhIMTI5LjM4TDEzMCAzMS41ODY4SDEzMC4zMTZMMTI5LjY1OSAzMC41OTQ4QzEzMC4wNDQgMzAuNTg4NSAxMzAuMzQgMzAuNDMzNCAxMzAuMzQgMzAuMDA4NloiIGZpbGw9IndoaXRlIi8+CjwvZz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMjQ5XzE4ODQiPgo8cmVjdCB3aWR0aD0iMTUwIiBoZWlnaHQ9IjUyLjk0MTIiIGZpbGw9IndoaXRlIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==
+\ No newline at end of file
+diff --git a/skills/sigma-company-dashboard-v2/scripts/company.py b/skills/sigma-company-dashboard-v2/scripts/company.py
+index 18bc931..67f22a3 100644
+--- a/skills/sigma-company-dashboard-v2/scripts/company.py
++++ b/skills/sigma-company-dashboard-v2/scripts/company.py
+@@ -2604,3 +2604,222 @@ STRIDE["subs"] = {
+ PLUGINS["stride"] = {"hero": None, "hero_label": None, "ticker": None}
+ 
+ COMPANIES["stride"] = STRIDE
++
++
++# ---------------------------------------------------------------------------
++# DOMINION ENERGY, INC. (NYSE: D) — regulated electric & gas utility.
++#
++# A rate-regulated utility earns on rate base plus fuel/O&M recovery, so the
++# headline story is Operating revenue -> Operating earnings -> earnings after
++# corporate overhead, by reportable segment. Same gross-margin/spread mapping
++# used for Stride (funding_rate = 0 on every line):
++#
++#   volume (bal_base)  -> segment operating revenue ($MM)  -> "Operating revenue ($M)"
++#   yield_rate         -> operating-earnings margin %       -> "Operating margin %"
++#   Net Revenue column -> revenue x margin = SEGMENT OPERATING EARNINGS -> "Operating earnings ($M)"
++#   opex_ratio         -> corporate overhead as a share of segment earnings
++#   Contribution col   -> earnings after Corporate & Other  -> "Earnings after overhead ($M)"
++#   units_base         -> retail customers (K)              -> "Customers (K)"
++#   delinq_rate        -> reliability / rate-case risk       (the risk signal)
++#
++# Calibrated to FY2025 (reported early 2026):
++#   Operating revenue $16,506M  (Virginia ~$11,550M, South Carolina ~$3,702M,
++#   Contracted Energy $1,254M)
++#   Segment operating earnings: DEV $2,325M, DESC $535M, Contracted $438M
++#   Consolidated operating earnings $2,966M (after Corporate & Other -$332M)
++#   ~3.6M regulated electric customers (VA/NC/SC) + ~0.5M SC gas customers.
++# ---------------------------------------------------------------------------
++DOMINION = {
++    "key": "dominion",
++    "name": "Dominion Energy",
++    "title": "Regulated Utility Performance Command Center",
++    "domain": "regulated electric & gas utility",
++    "unit_noun": "customer",
++    "volume_noun": "operating revenue",
++    "logo_domain": "dominionenergy.com",
++    "base_table": "Revenue Book",
++    # Dominion corporate blue family + an energy-green accent; mint stays teal
++    # for the positive-trend indicator. The fetched wordmark is white (for the
++    # dark header) so palette hexes are set to Dominion's known brand blues.
++    "palette": {
++        "navy": "#012169", "navy_deep": "#001344",
++        "primary": "#0072CE", "secondary": "#00A3E0",
++        "accent": "#78BE21", "mint": "#00C4A7",
++    },
++    "products": [
++        # name, order, balance_type, bal_base, yield, funding, fee_base,
++        # provision, delinq, opex_ratio, growth, units_base, phase, tagline,
++        # rate_label, goal_pct, status
++        #
++        # bal_base = segment operating revenue $MM; yield = operating margin %;
++        # funding = 0. balance_type doubles as the reportable-segment colour-by.
++        ("Virginia Electric Delivery", 1, "Dominion Energy Virginia", 6500, .1850, 0.0, 0.0,
++         0.0, .015, .1000, .070, 6000, 0.0,
++         "Regulated electric distribution & transmission (VA/NC)",
++         "Operating margin", 1.02, "Ahead"),
++
++        ("Virginia Power Generation", 2, "Dominion Energy Virginia", 5050, .2220, 0.0, 0.0,
++         0.0, .018, .1000, .090, 11, 0.6,
++         "Regulated generation fleet — nuclear, gas & renewables",
++         "Operating margin", .98, "On plan"),
++
++        ("South Carolina Electric", 3, "Dominion Energy South Carolina", 2890, .1520, 0.0, 0.0,
++         0.0, .020, .1000, .050, 1780, 0.3,
++         "Regulated electric distribution, transmission & generation (SC)",
++         "Operating margin", .95, "On plan"),
++
++        ("South Carolina Gas", 4, "Dominion Energy South Carolina", 812, .1180, 0.0, 0.0,
++         0.0, .022, .1000, .030, 1110, 1.2,
++         "Regulated natural gas distribution & storage (SC)",
++         "Operating margin", .99, "On plan"),
++
++        ("Contracted Energy", 5, "Contracted Energy", 1254, .3490, 0.0, 0.0,
++         0.0, .028, .1000, .140, 11, 2.0,
++         "Coastal Virginia Offshore Wind, Millstone nuclear & solar",
++         "Operating margin", 1.06, "Ahead"),
++    ],
++    "alerts": [
++        ("critical", "Coastal Virginia Offshore Wind cost & schedule",
++         "CVOW monopile installation weather delays put 320 bps of the project's "
++         "on-budget contingency at risk this quarter",
++         "20m ago", "Contracted Energy — Major Projects", 320, "bps contingency at risk"),
++        ("critical", "Virginia data-center load interconnection queue",
++         "Interconnection requests exceed the approved transmission plan by "
++         "1,450 MW; capital plan reprioritization pending",
++         "1h ago", "DEV — Transmission Planning", 1450, "MW over plan"),
++        ("warning", "South Carolina fuel-cost under-recovery",
++         "DESC fuel clause under-recovery widened 210 bps versus the approved "
++         "rate rider; true-up filing due next cycle",
++         "3h ago", "DESC — Regulatory", 210, "bps under-recovery"),
++        ("warning", "Reliability — storm restoration hours",
++         "48 circuits exceeded the SAIDI restoration target after regional "
++         "storms; mutual-aid crews demobilizing",
++         "4h ago", "Electric Operations", 48, "circuits over SAIDI target"),
++        ("info", "Rate case milestone",
++         "A biennial review settlement was approved, supporting two additional "
++         "points of authorized return on the growing rate base",
++         "6h ago", "Regulatory & Rates", 2, "pts authorized return"),
++    ],
++    "agent": ("You are an analyst covering Dominion Energy's three reporting "
++              "segments: Dominion Energy Virginia (regulated electric delivery "
++              "and generation in VA/NC), Dominion Energy South Carolina "
++              "(regulated electric and gas), and Contracted Energy (Coastal "
++              "Virginia Offshore Wind, Millstone nuclear and solar). Revenue comes "
++              "from state-approved rates on rate base plus fuel and O&M recovery; "
++              "the margin line is operating earnings. Answer with numbers from the "
++              "Revenue Book, and speak in operating revenue, operating earnings, "
++              "rate base and customers — never balances or loans."),
++}
++
++DOMINION["subs"] = {
++    "Virginia Electric Delivery": [
++        ("Residential distribution", .42, 20, 6.4, "Ahead"),
++        ("Commercial & industrial", .30, 60, 9.8, "Ahead"),
++        ("Electric transmission", .20, 40, 5.1, "On plan"),
++        ("Grid Transformation Plan", .08, 120, 14.2, "Ahead"),
++    ],
++    "Virginia Power Generation": [
++        ("Nuclear (North Anna & Surry)", .34, 30, 2.1, "On plan"),
++        ("Natural gas fleet", .38, -40, -1.8, "On plan"),
++        ("Solar & storage", .18, 90, 18.6, "Ahead"),
++        ("Offshore wind rider (CVOW)", .10, 110, 22.4, "Ahead"),
++    ],
++    "South Carolina Electric": [
++        ("Residential & commercial", .58, 20, 4.2, "On plan"),
++        ("Electric transmission", .24, 40, 3.6, "On plan"),
++        ("Generation fleet", .18, -30, 1.1, "Behind"),
++    ],
++    "South Carolina Gas": [
++        ("Residential gas", .55, 20, 2.8, "On plan"),
++        ("Commercial & industrial gas", .30, 40, 3.4, "On plan"),
++        ("Storage & pipeline", .15, 70, 5.2, "Ahead"),
++    ],
++    "Contracted Energy": [
++        ("Coastal Virginia Offshore Wind", .46, 110, 26.5, "Ahead"),
++        ("Millstone nuclear", .34, 30, 3.2, "On plan"),
++        ("Contracted solar", .20, 80, 15.8, "Ahead"),
++    ],
++}
++
++FOOTPRINTS["dominion"] = [
++    ("VA", .52), ("SC", .18), ("NC", .11), ("CT", .05), ("WV", .03),
++    ("OH", .02), ("UT", .02), ("WY", .02), ("GA", .015), ("NV", .015),
++    ("MD", .01), ("SD", .01), ("IN", .01),
++]
++
++LABELS["dominion"] = {
++    "personas": ["Executive", "Regulatory & Operations"],
++    "modeler_page": "Rate & Investment Planning",
++    "cohort_page": "Customer Segments",
++    "modeler_title": "Rate Case & Capital Investment Scenario Modeler",
++    "shock_label": "Fuel & O&M cost trend shock (bps)",
++    "kpi_revenue": "Operating earnings ($M)",
++    "kpi_margin": "Earnings after overhead ($M)",
++    "kpi_volume": "Operating revenue ($M)",
++    "kpi_units": "Customers (K)",
++    "driver_nim": "Operating margin",
++    "driver_risk": "Reliability / rate-case risk",
++    "driver_cost": "Fuel & O&M rate",
++    "driver_eff": "Corporate overhead ratio",
++    "col_volume": "Baseline revenue",
++    "col_growth": "Revenue growth %",
++    "col_yield": "Operating margin Δ bps",
++    "col_cost": "Fuel & O&M Δ bps",
++    "seg_product": "Business unit",
++    "seg_credit": "Usage tier",
++    "seg_dd": "Budget billing",
++    "seg_engage": "Payment cadence",
++    "seg_held": "Services subscribed",
++    "cohort_name": "Cohort name",
++    "kpi_cohort_size": "Customers in cohort",
++    "kpi_cohort_vol": "Cohort revenue",
++    "kpi_cohort_rev": "Revenue per customer",
++    "kpi_cohort_risk": "Avg attrition risk",
++    # the Balance Type colour-by dimension -> Dominion's reportable segments
++    "seg_type": "Segment",
++}
++
++SEGMENTS["dominion"] = {
++    # usage / payment band translations
++    "Near Prime": "Low use", "Prime": "Residential",
++    "Super Prime": "Commercial", "Exceptional": "Industrial",
++    "Daily": "AutoPay", "Weekly": "Online",
++    "Monthly": "Mailed", "Dormant": "Delinquent",
++    # product-name translations — member_population.sql hardcodes the 6 SoFi
++    # product names; map them to Dominion business units so the cohort "Business
++    # unit" control shows real names. Contracted Energy is wholesale (no retail
++    # customers) so it is deliberately absent from the customer cohort.
++    # Mix: Virginia ~66% (Electric 53% + Generation 13%), South Carolina ~34%.
++    "Personal Loans": "Virginia Electric",        # 31%
++    "SoFi Money": "Virginia Electric",            # 22%  -> VA Electric 53%
++    "Student Refinancing": "Virginia Generation", # 13%  -> Virginia 66%
++    "SoFi Invest": "South Carolina Electric",     # 15%
++    "Credit Card": "South Carolina Electric",     # 12%  -> SC Electric 27%
++    "Home Loans": "South Carolina Gas",           # 7%   -> South Carolina 34%
++}
++
++VOCAB["dominion"] = {
++    "econ": ("Revenue comes from state-approved rates applied to a growing rate "
++             "base, plus recovery of fuel, purchased-power and O&M costs. The "
++             "operating margin is the spread left after those costs; Contracted "
++             "Energy earns on long-term contracted generation (offshore wind, "
++             "nuclear and solar) rather than a retail rate base. Consolidated "
++             "operating earnings are segment earnings net of corporate overhead."),
++    "metrics": ("operating revenue, operating earnings, authorized return, rate "
++                "base growth and customers"),
++    "bands": ("Usage tiers: Low use, Residential, Commercial, Industrial. "
++              "Payment cadence: AutoPay, Online, Mailed, Delinquent."),
++    "cohort_report": "cohort size, revenue per customer and average attrition risk",
++}
++
++# Per-customer economics in DOLLARS — annual revenue per customer by usage tier.
++# Residential utility bills are modest; commercial and industrial accounts carry
++# far larger annual revenue, which is what pulls the blended figure up. rev_rate
++# 1.0 because the bases already ARE annual revenue.
++POP["dominion"] = {"bases": (900, 1600, 4200, 12000), "rev_rate": 1.00,
++                   "fee_per_product": 60}
++
++# Native marker strip, no bespoke plugin (consistent with the build request).
++PLUGINS["dominion"] = {"hero": None, "hero_label": None, "ticker": None}
++
++COMPANIES["dominion"] = DOMINION
+diff --git a/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py b/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
+index 0c00816..a00c3bc 100644
+--- a/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
++++ b/skills/sigma-company-dashboard-v2/scripts/sigmaapi.py
+@@ -27,8 +27,10 @@ TOKEN_TTL = 55 * 60
+ BASE = "https://api.us-a.aws.sigmacomputing.com"
+ ORG_ID = "2be5e6bd-91bf-4555-af8e-7a478785c5b8"
+ 
+-# "Stride Learning" folder created under My Documents in the prod org.
+-FOLDER_CLAUDE_BUILDER = "69f26de8-e33a-4b60-bcae-d0829f0b3b7b"
++# Per-build target folders under My Documents in the prod org.
++#   Stride Learning:  69f26de8-e33a-4b60-bcae-d0829f0b3b7b
++#   Dominion Energy:  a1da89c8-31ab-4eef-8bd7-9bd743926d3c
++FOLDER_CLAUDE_BUILDER = "a1da89c8-31ab-4eef-8bd7-9bd743926d3c"
+ 
+ # The org's "Stride-POC" Snowflake connection. The generator's SQL is pure
+ # generated (Snowflake GENERATOR/SEQ4, no source tables), so any live-warehouse

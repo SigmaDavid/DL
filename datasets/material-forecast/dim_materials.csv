@@ -1,0 +1,1401 @@
+Material_ID,Material_Name,Material_Archetype,Category,UOM,Current_Unit_Cost_$,Criticality
+MAT-01001,Composite Utility Pole — Type 01,Composite Utility Pole,Structures,Each,2470,High
+MAT-01002,Crossarm Assembly — Type 01,Crossarm Assembly,Structures,Each,479,Medium
+MAT-01003,15 kV Cable — Type 01,15 kV Cable,Conductor,Foot,15,Medium
+MAT-01004,35 kV Cable — Type 01,35 kV Cable,Conductor,Foot,24,Medium
+MAT-01005,Pad-Mount Transformer 500 kVA — Type 01,Pad-Mount Transformer 500 kVA,Transformers,Each,25755,Critical
+MAT-01006,Pole-Mount Transformer 50 kVA — Type 01,Pole-Mount Transformer 50 kVA,Transformers,Each,7431,Low
+MAT-01007,Recloser Control Package — Type 01,Recloser Control Package,Protection,Each,13406,Critical
+MAT-01008,Switchgear Cabinet — Type 01,Switchgear Cabinet,Protection,Each,22813,Medium
+MAT-01009,Smart Meter — Type 01,Smart Meter,Metering,Each,169,Medium
+MAT-01010,Communication Gateway — Type 01,Communication Gateway,Communications,Each,1206,Medium
+MAT-01011,Grounding Kit — Type 01,Grounding Kit,Accessories,Kit,118,Critical
+MAT-01012,Connector Set — Type 01,Connector Set,Accessories,Kit,61,Medium
+MAT-01013,Composite Utility Pole — Type 02,Composite Utility Pole,Structures,Each,2441,High
+MAT-01014,Crossarm Assembly — Type 02,Crossarm Assembly,Structures,Each,416,Low
+MAT-01015,15 kV Cable — Type 02,15 kV Cable,Conductor,Foot,11,Medium
+MAT-01016,35 kV Cable — Type 02,35 kV Cable,Conductor,Foot,25,Low
+MAT-01017,Pad-Mount Transformer 500 kVA — Type 02,Pad-Mount Transformer 500 kVA,Transformers,Each,26548,Critical
+MAT-01018,Pole-Mount Transformer 50 kVA — Type 02,Pole-Mount Transformer 50 kVA,Transformers,Each,5975,Medium
+MAT-01019,Recloser Control Package — Type 02,Recloser Control Package,Protection,Each,17258,Critical
+MAT-01020,Switchgear Cabinet — Type 02,Switchgear Cabinet,Protection,Each,21545,Medium
+MAT-01021,Smart Meter — Type 02,Smart Meter,Metering,Each,132,Critical
+MAT-01022,Communication Gateway — Type 02,Communication Gateway,Communications,Each,1103,Medium
+MAT-01023,Grounding Kit — Type 02,Grounding Kit,Accessories,Kit,153,Critical
+MAT-01024,Connector Set — Type 02,Connector Set,Accessories,Kit,60,High
+MAT-01025,Composite Utility Pole — Type 03,Composite Utility Pole,Structures,Each,2368,Critical
+MAT-01026,Crossarm Assembly — Type 03,Crossarm Assembly,Structures,Each,492,Low
+MAT-01027,15 kV Cable — Type 03,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01028,35 kV Cable — Type 03,35 kV Cable,Conductor,Foot,23,Low
+MAT-01029,Pad-Mount Transformer 500 kVA — Type 03,Pad-Mount Transformer 500 kVA,Transformers,Each,23886,Critical
+MAT-01030,Pole-Mount Transformer 50 kVA — Type 03,Pole-Mount Transformer 50 kVA,Transformers,Each,5751,Medium
+MAT-01031,Recloser Control Package — Type 03,Recloser Control Package,Protection,Each,13767,High
+MAT-01032,Switchgear Cabinet — Type 03,Switchgear Cabinet,Protection,Each,20448,High
+MAT-01033,Smart Meter — Type 03,Smart Meter,Metering,Each,163,High
+MAT-01034,Communication Gateway — Type 03,Communication Gateway,Communications,Each,879,Medium
+MAT-01035,Grounding Kit — Type 03,Grounding Kit,Accessories,Kit,112,Critical
+MAT-01036,Connector Set — Type 03,Connector Set,Accessories,Kit,61,High
+MAT-01037,Composite Utility Pole — Type 04,Composite Utility Pole,Structures,Each,1869,High
+MAT-01038,Crossarm Assembly — Type 04,Crossarm Assembly,Structures,Each,418,Low
+MAT-01039,15 kV Cable — Type 04,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01040,35 kV Cable — Type 04,35 kV Cable,Conductor,Foot,24,Low
+MAT-01041,Pad-Mount Transformer 500 kVA — Type 04,Pad-Mount Transformer 500 kVA,Transformers,Each,32187,Critical
+MAT-01042,Pole-Mount Transformer 50 kVA — Type 04,Pole-Mount Transformer 50 kVA,Transformers,Each,7848,Low
+MAT-01043,Recloser Control Package — Type 04,Recloser Control Package,Protection,Each,16672,Critical
+MAT-01044,Switchgear Cabinet — Type 04,Switchgear Cabinet,Protection,Each,16422,Medium
+MAT-01045,Smart Meter — Type 04,Smart Meter,Metering,Each,149,Critical
+MAT-01046,Communication Gateway — Type 04,Communication Gateway,Communications,Each,1065,Low
+MAT-01047,Grounding Kit — Type 04,Grounding Kit,Accessories,Kit,158,Critical
+MAT-01048,Connector Set — Type 04,Connector Set,Accessories,Kit,69,Critical
+MAT-01049,Composite Utility Pole — Type 05,Composite Utility Pole,Structures,Each,2286,High
+MAT-01050,Crossarm Assembly — Type 05,Crossarm Assembly,Structures,Each,425,Low
+MAT-01051,15 kV Cable — Type 05,15 kV Cable,Conductor,Foot,13,Low
+MAT-01052,35 kV Cable — Type 05,35 kV Cable,Conductor,Foot,23,Low
+MAT-01053,Pad-Mount Transformer 500 kVA — Type 05,Pad-Mount Transformer 500 kVA,Transformers,Each,23360,Critical
+MAT-01054,Pole-Mount Transformer 50 kVA — Type 05,Pole-Mount Transformer 50 kVA,Transformers,Each,6073,Low
+MAT-01055,Recloser Control Package — Type 05,Recloser Control Package,Protection,Each,12042,High
+MAT-01056,Switchgear Cabinet — Type 05,Switchgear Cabinet,Protection,Each,22421,High
+MAT-01057,Smart Meter — Type 05,Smart Meter,Metering,Each,151,High
+MAT-01058,Communication Gateway — Type 05,Communication Gateway,Communications,Each,1061,Medium
+MAT-01059,Grounding Kit — Type 05,Grounding Kit,Accessories,Kit,123,Critical
+MAT-01060,Connector Set — Type 05,Connector Set,Accessories,Kit,69,High
+MAT-01061,Composite Utility Pole — Type 06,Composite Utility Pole,Structures,Each,2520,High
+MAT-01062,Crossarm Assembly — Type 06,Crossarm Assembly,Structures,Each,451,Low
+MAT-01063,15 kV Cable — Type 06,15 kV Cable,Conductor,Foot,14,Low
+MAT-01064,35 kV Cable — Type 06,35 kV Cable,Conductor,Foot,31,Low
+MAT-01065,Pad-Mount Transformer 500 kVA — Type 06,Pad-Mount Transformer 500 kVA,Transformers,Each,22609,Critical
+MAT-01066,Pole-Mount Transformer 50 kVA — Type 06,Pole-Mount Transformer 50 kVA,Transformers,Each,5191,Low
+MAT-01067,Recloser Control Package — Type 06,Recloser Control Package,Protection,Each,14364,High
+MAT-01068,Switchgear Cabinet — Type 06,Switchgear Cabinet,Protection,Each,18352,Critical
+MAT-01069,Smart Meter — Type 06,Smart Meter,Metering,Each,138,Critical
+MAT-01070,Communication Gateway — Type 06,Communication Gateway,Communications,Each,1226,Low
+MAT-01071,Grounding Kit — Type 06,Grounding Kit,Accessories,Kit,109,Critical
+MAT-01072,Connector Set — Type 06,Connector Set,Accessories,Kit,84,Critical
+MAT-01073,Composite Utility Pole — Type 07,Composite Utility Pole,Structures,Each,2583,Medium
+MAT-01074,Crossarm Assembly — Type 07,Crossarm Assembly,Structures,Each,405,Low
+MAT-01075,15 kV Cable — Type 07,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01076,35 kV Cable — Type 07,35 kV Cable,Conductor,Foot,31,Low
+MAT-01077,Pad-Mount Transformer 500 kVA — Type 07,Pad-Mount Transformer 500 kVA,Transformers,Each,32524,High
+MAT-01078,Pole-Mount Transformer 50 kVA — Type 07,Pole-Mount Transformer 50 kVA,Transformers,Each,7454,Low
+MAT-01079,Recloser Control Package — Type 07,Recloser Control Package,Protection,Each,13086,Critical
+MAT-01080,Switchgear Cabinet — Type 07,Switchgear Cabinet,Protection,Each,17297,Critical
+MAT-01081,Smart Meter — Type 07,Smart Meter,Metering,Each,171,High
+MAT-01082,Communication Gateway — Type 07,Communication Gateway,Communications,Each,868,Low
+MAT-01083,Grounding Kit — Type 07,Grounding Kit,Accessories,Kit,120,High
+MAT-01084,Connector Set — Type 07,Connector Set,Accessories,Kit,60,Critical
+MAT-01085,Composite Utility Pole — Type 08,Composite Utility Pole,Structures,Each,2393,High
+MAT-01086,Crossarm Assembly — Type 08,Crossarm Assembly,Structures,Each,500,Low
+MAT-01087,15 kV Cable — Type 08,15 kV Cable,Conductor,Foot,14,Low
+MAT-01088,35 kV Cable — Type 08,35 kV Cable,Conductor,Foot,34,Low
+MAT-01089,Pad-Mount Transformer 500 kVA — Type 08,Pad-Mount Transformer 500 kVA,Transformers,Each,24919,Critical
+MAT-01090,Pole-Mount Transformer 50 kVA — Type 08,Pole-Mount Transformer 50 kVA,Transformers,Each,7809,Low
+MAT-01091,Recloser Control Package — Type 08,Recloser Control Package,Protection,Each,18058,High
+MAT-01092,Switchgear Cabinet — Type 08,Switchgear Cabinet,Protection,Each,21121,High
+MAT-01093,Smart Meter — Type 08,Smart Meter,Metering,Each,128,Medium
+MAT-01094,Communication Gateway — Type 08,Communication Gateway,Communications,Each,1072,Medium
+MAT-01095,Grounding Kit — Type 08,Grounding Kit,Accessories,Kit,155,Critical
+MAT-01096,Connector Set — Type 08,Connector Set,Accessories,Kit,56,Critical
+MAT-01097,Composite Utility Pole — Type 09,Composite Utility Pole,Structures,Each,2523,High
+MAT-01098,Crossarm Assembly — Type 09,Crossarm Assembly,Structures,Each,447,Low
+MAT-01099,15 kV Cable — Type 09,15 kV Cable,Conductor,Foot,15,Low
+MAT-01100,35 kV Cable — Type 09,35 kV Cable,Conductor,Foot,27,Low
+MAT-01101,Pad-Mount Transformer 500 kVA — Type 09,Pad-Mount Transformer 500 kVA,Transformers,Each,29117,High
+MAT-01102,Pole-Mount Transformer 50 kVA — Type 09,Pole-Mount Transformer 50 kVA,Transformers,Each,5791,Low
+MAT-01103,Recloser Control Package — Type 09,Recloser Control Package,Protection,Each,16866,Critical
+MAT-01104,Switchgear Cabinet — Type 09,Switchgear Cabinet,Protection,Each,16162,Medium
+MAT-01105,Smart Meter — Type 09,Smart Meter,Metering,Each,129,Medium
+MAT-01106,Communication Gateway — Type 09,Communication Gateway,Communications,Each,868,Low
+MAT-01107,Grounding Kit — Type 09,Grounding Kit,Accessories,Kit,116,Critical
+MAT-01108,Connector Set — Type 09,Connector Set,Accessories,Kit,59,Medium
+MAT-01109,Composite Utility Pole — Type 10,Composite Utility Pole,Structures,Each,1776,Critical
+MAT-01110,Crossarm Assembly — Type 10,Crossarm Assembly,Structures,Each,459,Low
+MAT-01111,15 kV Cable — Type 10,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01112,35 kV Cable — Type 10,35 kV Cable,Conductor,Foot,33,Low
+MAT-01113,Pad-Mount Transformer 500 kVA — Type 10,Pad-Mount Transformer 500 kVA,Transformers,Each,21840,Critical
+MAT-01114,Pole-Mount Transformer 50 kVA — Type 10,Pole-Mount Transformer 50 kVA,Transformers,Each,5795,Low
+MAT-01115,Recloser Control Package — Type 10,Recloser Control Package,Protection,Each,14666,Medium
+MAT-01116,Switchgear Cabinet — Type 10,Switchgear Cabinet,Protection,Each,20158,High
+MAT-01117,Smart Meter — Type 10,Smart Meter,Metering,Each,174,High
+MAT-01118,Communication Gateway — Type 10,Communication Gateway,Communications,Each,848,Medium
+MAT-01119,Grounding Kit — Type 10,Grounding Kit,Accessories,Kit,161,High
+MAT-01120,Connector Set — Type 10,Connector Set,Accessories,Kit,80,Critical
+MAT-01121,Composite Utility Pole — Type 11,Composite Utility Pole,Structures,Each,2475,Critical
+MAT-01122,Crossarm Assembly — Type 11,Crossarm Assembly,Structures,Each,444,Low
+MAT-01123,15 kV Cable — Type 11,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01124,35 kV Cable — Type 11,35 kV Cable,Conductor,Foot,25,Low
+MAT-01125,Pad-Mount Transformer 500 kVA — Type 11,Pad-Mount Transformer 500 kVA,Transformers,Each,27035,Critical
+MAT-01126,Pole-Mount Transformer 50 kVA — Type 11,Pole-Mount Transformer 50 kVA,Transformers,Each,6132,Low
+MAT-01127,Recloser Control Package — Type 11,Recloser Control Package,Protection,Each,14074,Medium
+MAT-01128,Switchgear Cabinet — Type 11,Switchgear Cabinet,Protection,Each,18175,Critical
+MAT-01129,Smart Meter — Type 11,Smart Meter,Metering,Each,180,Critical
+MAT-01130,Communication Gateway — Type 11,Communication Gateway,Communications,Each,1045,Low
+MAT-01131,Grounding Kit — Type 11,Grounding Kit,Accessories,Kit,146,Critical
+MAT-01132,Connector Set — Type 11,Connector Set,Accessories,Kit,76,High
+MAT-01133,Composite Utility Pole — Type 12,Composite Utility Pole,Structures,Each,2432,High
+MAT-01134,Crossarm Assembly — Type 12,Crossarm Assembly,Structures,Each,511,Medium
+MAT-01135,15 kV Cable — Type 12,15 kV Cable,Conductor,Foot,13,Low
+MAT-01136,35 kV Cable — Type 12,35 kV Cable,Conductor,Foot,23,Medium
+MAT-01137,Pad-Mount Transformer 500 kVA — Type 12,Pad-Mount Transformer 500 kVA,Transformers,Each,22963,High
+MAT-01138,Pole-Mount Transformer 50 kVA — Type 12,Pole-Mount Transformer 50 kVA,Transformers,Each,6777,Medium
+MAT-01139,Recloser Control Package — Type 12,Recloser Control Package,Protection,Each,17193,Medium
+MAT-01140,Switchgear Cabinet — Type 12,Switchgear Cabinet,Protection,Each,20737,Medium
+MAT-01141,Smart Meter — Type 12,Smart Meter,Metering,Each,160,Medium
+MAT-01142,Communication Gateway — Type 12,Communication Gateway,Communications,Each,1062,Low
+MAT-01143,Grounding Kit — Type 12,Grounding Kit,Accessories,Kit,138,Critical
+MAT-01144,Connector Set — Type 12,Connector Set,Accessories,Kit,71,Critical
+MAT-01145,Composite Utility Pole — Type 13,Composite Utility Pole,Structures,Each,2622,Critical
+MAT-01146,Crossarm Assembly — Type 13,Crossarm Assembly,Structures,Each,361,Low
+MAT-01147,15 kV Cable — Type 13,15 kV Cable,Conductor,Foot,12,Low
+MAT-01148,35 kV Cable — Type 13,35 kV Cable,Conductor,Foot,26,Medium
+MAT-01149,Pad-Mount Transformer 500 kVA — Type 13,Pad-Mount Transformer 500 kVA,Transformers,Each,30440,Critical
+MAT-01150,Pole-Mount Transformer 50 kVA — Type 13,Pole-Mount Transformer 50 kVA,Transformers,Each,5981,Low
+MAT-01151,Recloser Control Package — Type 13,Recloser Control Package,Protection,Each,12876,High
+MAT-01152,Switchgear Cabinet — Type 13,Switchgear Cabinet,Protection,Each,18930,High
+MAT-01153,Smart Meter — Type 13,Smart Meter,Metering,Each,156,High
+MAT-01154,Communication Gateway — Type 13,Communication Gateway,Communications,Each,1020,Medium
+MAT-01155,Grounding Kit — Type 13,Grounding Kit,Accessories,Kit,166,Critical
+MAT-01156,Connector Set — Type 13,Connector Set,Accessories,Kit,59,Critical
+MAT-01157,Composite Utility Pole — Type 14,Composite Utility Pole,Structures,Each,2337,High
+MAT-01158,Crossarm Assembly — Type 14,Crossarm Assembly,Structures,Each,477,Low
+MAT-01159,15 kV Cable — Type 14,15 kV Cable,Conductor,Foot,12,Low
+MAT-01160,35 kV Cable — Type 14,35 kV Cable,Conductor,Foot,28,Low
+MAT-01161,Pad-Mount Transformer 500 kVA — Type 14,Pad-Mount Transformer 500 kVA,Transformers,Each,24931,Critical
+MAT-01162,Pole-Mount Transformer 50 kVA — Type 14,Pole-Mount Transformer 50 kVA,Transformers,Each,5399,Medium
+MAT-01163,Recloser Control Package — Type 14,Recloser Control Package,Protection,Each,17754,Critical
+MAT-01164,Switchgear Cabinet — Type 14,Switchgear Cabinet,Protection,Each,16510,Critical
+MAT-01165,Smart Meter — Type 14,Smart Meter,Metering,Each,163,High
+MAT-01166,Communication Gateway — Type 14,Communication Gateway,Communications,Each,1208,Low
+MAT-01167,Grounding Kit — Type 14,Grounding Kit,Accessories,Kit,121,Critical
+MAT-01168,Connector Set — Type 14,Connector Set,Accessories,Kit,62,Critical
+MAT-01169,Composite Utility Pole — Type 15,Composite Utility Pole,Structures,Each,2356,Medium
+MAT-01170,Crossarm Assembly — Type 15,Crossarm Assembly,Structures,Each,354,Low
+MAT-01171,15 kV Cable — Type 15,15 kV Cable,Conductor,Foot,14,Low
+MAT-01172,35 kV Cable — Type 15,35 kV Cable,Conductor,Foot,23,Medium
+MAT-01173,Pad-Mount Transformer 500 kVA — Type 15,Pad-Mount Transformer 500 kVA,Transformers,Each,32416,Critical
+MAT-01174,Pole-Mount Transformer 50 kVA — Type 15,Pole-Mount Transformer 50 kVA,Transformers,Each,7474,Medium
+MAT-01175,Recloser Control Package — Type 15,Recloser Control Package,Protection,Each,13236,Critical
+MAT-01176,Switchgear Cabinet — Type 15,Switchgear Cabinet,Protection,Each,22093,High
+MAT-01177,Smart Meter — Type 15,Smart Meter,Metering,Each,176,Critical
+MAT-01178,Communication Gateway — Type 15,Communication Gateway,Communications,Each,891,Medium
+MAT-01179,Grounding Kit — Type 15,Grounding Kit,Accessories,Kit,149,Critical
+MAT-01180,Connector Set — Type 15,Connector Set,Accessories,Kit,57,High
+MAT-01181,Composite Utility Pole — Type 16,Composite Utility Pole,Structures,Each,1763,High
+MAT-01182,Crossarm Assembly — Type 16,Crossarm Assembly,Structures,Each,378,Medium
+MAT-01183,15 kV Cable — Type 16,15 kV Cable,Conductor,Foot,11,Low
+MAT-01184,35 kV Cable — Type 16,35 kV Cable,Conductor,Foot,32,Low
+MAT-01185,Pad-Mount Transformer 500 kVA — Type 16,Pad-Mount Transformer 500 kVA,Transformers,Each,28166,High
+MAT-01186,Pole-Mount Transformer 50 kVA — Type 16,Pole-Mount Transformer 50 kVA,Transformers,Each,5943,Medium
+MAT-01187,Recloser Control Package — Type 16,Recloser Control Package,Protection,Each,16558,High
+MAT-01188,Switchgear Cabinet — Type 16,Switchgear Cabinet,Protection,Each,16877,Critical
+MAT-01189,Smart Meter — Type 16,Smart Meter,Metering,Each,146,Medium
+MAT-01190,Communication Gateway — Type 16,Communication Gateway,Communications,Each,864,Low
+MAT-01191,Grounding Kit — Type 16,Grounding Kit,Accessories,Kit,125,Critical
+MAT-01192,Connector Set — Type 16,Connector Set,Accessories,Kit,76,High
+MAT-01193,Composite Utility Pole — Type 17,Composite Utility Pole,Structures,Each,2117,Critical
+MAT-01194,Crossarm Assembly — Type 17,Crossarm Assembly,Structures,Each,406,Low
+MAT-01195,15 kV Cable — Type 17,15 kV Cable,Conductor,Foot,12,Low
+MAT-01196,35 kV Cable — Type 17,35 kV Cable,Conductor,Foot,29,Low
+MAT-01197,Pad-Mount Transformer 500 kVA — Type 17,Pad-Mount Transformer 500 kVA,Transformers,Each,29716,Critical
+MAT-01198,Pole-Mount Transformer 50 kVA — Type 17,Pole-Mount Transformer 50 kVA,Transformers,Each,5986,Low
+MAT-01199,Recloser Control Package — Type 17,Recloser Control Package,Protection,Each,15553,High
+MAT-01200,Switchgear Cabinet — Type 17,Switchgear Cabinet,Protection,Each,18732,High
+MAT-01201,Smart Meter — Type 17,Smart Meter,Metering,Each,168,Medium
+MAT-01202,Communication Gateway — Type 17,Communication Gateway,Communications,Each,1031,Medium
+MAT-01203,Grounding Kit — Type 17,Grounding Kit,Accessories,Kit,154,Critical
+MAT-01204,Connector Set — Type 17,Connector Set,Accessories,Kit,71,Critical
+MAT-01205,Composite Utility Pole — Type 18,Composite Utility Pole,Structures,Each,1792,Critical
+MAT-01206,Crossarm Assembly — Type 18,Crossarm Assembly,Structures,Each,399,Low
+MAT-01207,15 kV Cable — Type 18,15 kV Cable,Conductor,Foot,11,Low
+MAT-01208,35 kV Cable — Type 18,35 kV Cable,Conductor,Foot,22,Medium
+MAT-01209,Pad-Mount Transformer 500 kVA — Type 18,Pad-Mount Transformer 500 kVA,Transformers,Each,31564,Critical
+MAT-01210,Pole-Mount Transformer 50 kVA — Type 18,Pole-Mount Transformer 50 kVA,Transformers,Each,6798,Low
+MAT-01211,Recloser Control Package — Type 18,Recloser Control Package,Protection,Each,14324,Medium
+MAT-01212,Switchgear Cabinet — Type 18,Switchgear Cabinet,Protection,Each,22328,Critical
+MAT-01213,Smart Meter — Type 18,Smart Meter,Metering,Each,165,Critical
+MAT-01214,Communication Gateway — Type 18,Communication Gateway,Communications,Each,1093,Low
+MAT-01215,Grounding Kit — Type 18,Grounding Kit,Accessories,Kit,119,Critical
+MAT-01216,Connector Set — Type 18,Connector Set,Accessories,Kit,61,Medium
+MAT-01217,Composite Utility Pole — Type 19,Composite Utility Pole,Structures,Each,2678,Medium
+MAT-01218,Crossarm Assembly — Type 19,Crossarm Assembly,Structures,Each,536,Medium
+MAT-01219,15 kV Cable — Type 19,15 kV Cable,Conductor,Foot,12,Low
+MAT-01220,35 kV Cable — Type 19,35 kV Cable,Conductor,Foot,32,Low
+MAT-01221,Pad-Mount Transformer 500 kVA — Type 19,Pad-Mount Transformer 500 kVA,Transformers,Each,26933,High
+MAT-01222,Pole-Mount Transformer 50 kVA — Type 19,Pole-Mount Transformer 50 kVA,Transformers,Each,7671,Low
+MAT-01223,Recloser Control Package — Type 19,Recloser Control Package,Protection,Each,13443,Medium
+MAT-01224,Switchgear Cabinet — Type 19,Switchgear Cabinet,Protection,Each,20706,High
+MAT-01225,Smart Meter — Type 19,Smart Meter,Metering,Each,125,Critical
+MAT-01226,Communication Gateway — Type 19,Communication Gateway,Communications,Each,1091,Medium
+MAT-01227,Grounding Kit — Type 19,Grounding Kit,Accessories,Kit,147,Critical
+MAT-01228,Connector Set — Type 19,Connector Set,Accessories,Kit,67,Medium
+MAT-01229,Composite Utility Pole — Type 20,Composite Utility Pole,Structures,Each,2049,Medium
+MAT-01230,Crossarm Assembly — Type 20,Crossarm Assembly,Structures,Each,493,Low
+MAT-01231,15 kV Cable — Type 20,15 kV Cable,Conductor,Foot,13,Low
+MAT-01232,35 kV Cable — Type 20,35 kV Cable,Conductor,Foot,33,Low
+MAT-01233,Pad-Mount Transformer 500 kVA — Type 20,Pad-Mount Transformer 500 kVA,Transformers,Each,27286,Critical
+MAT-01234,Pole-Mount Transformer 50 kVA — Type 20,Pole-Mount Transformer 50 kVA,Transformers,Each,6221,Low
+MAT-01235,Recloser Control Package — Type 20,Recloser Control Package,Protection,Each,16098,Medium
+MAT-01236,Switchgear Cabinet — Type 20,Switchgear Cabinet,Protection,Each,17255,High
+MAT-01237,Smart Meter — Type 20,Smart Meter,Metering,Each,181,High
+MAT-01238,Communication Gateway — Type 20,Communication Gateway,Communications,Each,1073,Low
+MAT-01239,Grounding Kit — Type 20,Grounding Kit,Accessories,Kit,123,Critical
+MAT-01240,Connector Set — Type 20,Connector Set,Accessories,Kit,86,High
+MAT-01241,Composite Utility Pole — Type 21,Composite Utility Pole,Structures,Each,2183,High
+MAT-01242,Crossarm Assembly — Type 21,Crossarm Assembly,Structures,Each,484,Medium
+MAT-01243,15 kV Cable — Type 21,15 kV Cable,Conductor,Foot,14,Low
+MAT-01244,35 kV Cable — Type 21,35 kV Cable,Conductor,Foot,31,Low
+MAT-01245,Pad-Mount Transformer 500 kVA — Type 21,Pad-Mount Transformer 500 kVA,Transformers,Each,27935,Critical
+MAT-01246,Pole-Mount Transformer 50 kVA — Type 21,Pole-Mount Transformer 50 kVA,Transformers,Each,7892,Medium
+MAT-01247,Recloser Control Package — Type 21,Recloser Control Package,Protection,Each,16784,High
+MAT-01248,Switchgear Cabinet — Type 21,Switchgear Cabinet,Protection,Each,16663,High
+MAT-01249,Smart Meter — Type 21,Smart Meter,Metering,Each,171,Critical
+MAT-01250,Communication Gateway — Type 21,Communication Gateway,Communications,Each,1013,Medium
+MAT-01251,Grounding Kit — Type 21,Grounding Kit,Accessories,Kit,131,Critical
+MAT-01252,Connector Set — Type 21,Connector Set,Accessories,Kit,73,Medium
+MAT-01253,Composite Utility Pole — Type 22,Composite Utility Pole,Structures,Each,2615,Medium
+MAT-01254,Crossarm Assembly — Type 22,Crossarm Assembly,Structures,Each,416,Low
+MAT-01255,15 kV Cable — Type 22,15 kV Cable,Conductor,Foot,10,Medium
+MAT-01256,35 kV Cable — Type 22,35 kV Cable,Conductor,Foot,32,Medium
+MAT-01257,Pad-Mount Transformer 500 kVA — Type 22,Pad-Mount Transformer 500 kVA,Transformers,Each,30164,Critical
+MAT-01258,Pole-Mount Transformer 50 kVA — Type 22,Pole-Mount Transformer 50 kVA,Transformers,Each,5753,Low
+MAT-01259,Recloser Control Package — Type 22,Recloser Control Package,Protection,Each,17614,Critical
+MAT-01260,Switchgear Cabinet — Type 22,Switchgear Cabinet,Protection,Each,21499,High
+MAT-01261,Smart Meter — Type 22,Smart Meter,Metering,Each,146,High
+MAT-01262,Communication Gateway — Type 22,Communication Gateway,Communications,Each,911,Medium
+MAT-01263,Grounding Kit — Type 22,Grounding Kit,Accessories,Kit,127,Critical
+MAT-01264,Connector Set — Type 22,Connector Set,Accessories,Kit,74,Medium
+MAT-01265,Composite Utility Pole — Type 23,Composite Utility Pole,Structures,Each,1987,Critical
+MAT-01266,Crossarm Assembly — Type 23,Crossarm Assembly,Structures,Each,361,Low
+MAT-01267,15 kV Cable — Type 23,15 kV Cable,Conductor,Foot,14,Low
+MAT-01268,35 kV Cable — Type 23,35 kV Cable,Conductor,Foot,26,Medium
+MAT-01269,Pad-Mount Transformer 500 kVA — Type 23,Pad-Mount Transformer 500 kVA,Transformers,Each,22956,High
+MAT-01270,Pole-Mount Transformer 50 kVA — Type 23,Pole-Mount Transformer 50 kVA,Transformers,Each,7083,Medium
+MAT-01271,Recloser Control Package — Type 23,Recloser Control Package,Protection,Each,14507,Medium
+MAT-01272,Switchgear Cabinet — Type 23,Switchgear Cabinet,Protection,Each,16754,High
+MAT-01273,Smart Meter — Type 23,Smart Meter,Metering,Each,123,High
+MAT-01274,Communication Gateway — Type 23,Communication Gateway,Communications,Each,1008,Low
+MAT-01275,Grounding Kit — Type 23,Grounding Kit,Accessories,Kit,127,Critical
+MAT-01276,Connector Set — Type 23,Connector Set,Accessories,Kit,79,Critical
+MAT-01277,Composite Utility Pole — Type 24,Composite Utility Pole,Structures,Each,1997,High
+MAT-01278,Crossarm Assembly — Type 24,Crossarm Assembly,Structures,Each,407,Low
+MAT-01279,15 kV Cable — Type 24,15 kV Cable,Conductor,Foot,13,Low
+MAT-01280,35 kV Cable — Type 24,35 kV Cable,Conductor,Foot,30,Low
+MAT-01281,Pad-Mount Transformer 500 kVA — Type 24,Pad-Mount Transformer 500 kVA,Transformers,Each,24207,High
+MAT-01282,Pole-Mount Transformer 50 kVA — Type 24,Pole-Mount Transformer 50 kVA,Transformers,Each,7578,Low
+MAT-01283,Recloser Control Package — Type 24,Recloser Control Package,Protection,Each,15635,High
+MAT-01284,Switchgear Cabinet — Type 24,Switchgear Cabinet,Protection,Each,19411,Critical
+MAT-01285,Smart Meter — Type 24,Smart Meter,Metering,Each,185,Medium
+MAT-01286,Communication Gateway — Type 24,Communication Gateway,Communications,Each,1210,Medium
+MAT-01287,Grounding Kit — Type 24,Grounding Kit,Accessories,Kit,118,High
+MAT-01288,Connector Set — Type 24,Connector Set,Accessories,Kit,76,Medium
+MAT-01289,Composite Utility Pole — Type 25,Composite Utility Pole,Structures,Each,2217,Medium
+MAT-01290,Crossarm Assembly — Type 25,Crossarm Assembly,Structures,Each,530,Low
+MAT-01291,15 kV Cable — Type 25,15 kV Cable,Conductor,Foot,10,Low
+MAT-01292,35 kV Cable — Type 25,35 kV Cable,Conductor,Foot,28,Low
+MAT-01293,Pad-Mount Transformer 500 kVA — Type 25,Pad-Mount Transformer 500 kVA,Transformers,Each,25058,Critical
+MAT-01294,Pole-Mount Transformer 50 kVA — Type 25,Pole-Mount Transformer 50 kVA,Transformers,Each,6181,Low
+MAT-01295,Recloser Control Package — Type 25,Recloser Control Package,Protection,Each,16547,Critical
+MAT-01296,Switchgear Cabinet — Type 25,Switchgear Cabinet,Protection,Each,19025,Medium
+MAT-01297,Smart Meter — Type 25,Smart Meter,Metering,Each,119,High
+MAT-01298,Communication Gateway — Type 25,Communication Gateway,Communications,Each,804,Medium
+MAT-01299,Grounding Kit — Type 25,Grounding Kit,Accessories,Kit,136,Critical
+MAT-01300,Connector Set — Type 25,Connector Set,Accessories,Kit,80,High
+MAT-01301,Composite Utility Pole — Type 26,Composite Utility Pole,Structures,Each,1973,High
+MAT-01302,Crossarm Assembly — Type 26,Crossarm Assembly,Structures,Each,437,Low
+MAT-01303,15 kV Cable — Type 26,15 kV Cable,Conductor,Foot,11,Low
+MAT-01304,35 kV Cable — Type 26,35 kV Cable,Conductor,Foot,23,Medium
+MAT-01305,Pad-Mount Transformer 500 kVA — Type 26,Pad-Mount Transformer 500 kVA,Transformers,Each,29830,Critical
+MAT-01306,Pole-Mount Transformer 50 kVA — Type 26,Pole-Mount Transformer 50 kVA,Transformers,Each,5478,Low
+MAT-01307,Recloser Control Package — Type 26,Recloser Control Package,Protection,Each,11952,Critical
+MAT-01308,Switchgear Cabinet — Type 26,Switchgear Cabinet,Protection,Each,16547,Medium
+MAT-01309,Smart Meter — Type 26,Smart Meter,Metering,Each,135,Medium
+MAT-01310,Communication Gateway — Type 26,Communication Gateway,Communications,Each,1187,Low
+MAT-01311,Grounding Kit — Type 26,Grounding Kit,Accessories,Kit,158,Critical
+MAT-01312,Connector Set — Type 26,Connector Set,Accessories,Kit,80,Medium
+MAT-01313,Composite Utility Pole — Type 27,Composite Utility Pole,Structures,Each,1968,High
+MAT-01314,Crossarm Assembly — Type 27,Crossarm Assembly,Structures,Each,461,Low
+MAT-01315,15 kV Cable — Type 27,15 kV Cable,Conductor,Foot,12,Low
+MAT-01316,35 kV Cable — Type 27,35 kV Cable,Conductor,Foot,32,Low
+MAT-01317,Pad-Mount Transformer 500 kVA — Type 27,Pad-Mount Transformer 500 kVA,Transformers,Each,23908,Critical
+MAT-01318,Pole-Mount Transformer 50 kVA — Type 27,Pole-Mount Transformer 50 kVA,Transformers,Each,5307,Low
+MAT-01319,Recloser Control Package — Type 27,Recloser Control Package,Protection,Each,14201,Critical
+MAT-01320,Switchgear Cabinet — Type 27,Switchgear Cabinet,Protection,Each,21918,Medium
+MAT-01321,Smart Meter — Type 27,Smart Meter,Metering,Each,168,Medium
+MAT-01322,Communication Gateway — Type 27,Communication Gateway,Communications,Each,1071,Medium
+MAT-01323,Grounding Kit — Type 27,Grounding Kit,Accessories,Kit,115,High
+MAT-01324,Connector Set — Type 27,Connector Set,Accessories,Kit,72,Medium
+MAT-01325,Composite Utility Pole — Type 28,Composite Utility Pole,Structures,Each,1726,High
+MAT-01326,Crossarm Assembly — Type 28,Crossarm Assembly,Structures,Each,457,Medium
+MAT-01327,15 kV Cable — Type 28,15 kV Cable,Conductor,Foot,15,Low
+MAT-01328,35 kV Cable — Type 28,35 kV Cable,Conductor,Foot,30,Low
+MAT-01329,Pad-Mount Transformer 500 kVA — Type 28,Pad-Mount Transformer 500 kVA,Transformers,Each,21924,High
+MAT-01330,Pole-Mount Transformer 50 kVA — Type 28,Pole-Mount Transformer 50 kVA,Transformers,Each,6977,Low
+MAT-01331,Recloser Control Package — Type 28,Recloser Control Package,Protection,Each,12011,Medium
+MAT-01332,Switchgear Cabinet — Type 28,Switchgear Cabinet,Protection,Each,23218,Medium
+MAT-01333,Smart Meter — Type 28,Smart Meter,Metering,Each,160,High
+MAT-01334,Communication Gateway — Type 28,Communication Gateway,Communications,Each,1109,Low
+MAT-01335,Grounding Kit — Type 28,Grounding Kit,Accessories,Kit,141,Critical
+MAT-01336,Connector Set — Type 28,Connector Set,Accessories,Kit,69,Critical
+MAT-01337,Composite Utility Pole — Type 29,Composite Utility Pole,Structures,Each,1734,High
+MAT-01338,Crossarm Assembly — Type 29,Crossarm Assembly,Structures,Each,423,Low
+MAT-01339,15 kV Cable — Type 29,15 kV Cable,Conductor,Foot,15,Low
+MAT-01340,35 kV Cable — Type 29,35 kV Cable,Conductor,Foot,24,Medium
+MAT-01341,Pad-Mount Transformer 500 kVA — Type 29,Pad-Mount Transformer 500 kVA,Transformers,Each,23454,Critical
+MAT-01342,Pole-Mount Transformer 50 kVA — Type 29,Pole-Mount Transformer 50 kVA,Transformers,Each,7687,Medium
+MAT-01343,Recloser Control Package — Type 29,Recloser Control Package,Protection,Each,15024,High
+MAT-01344,Switchgear Cabinet — Type 29,Switchgear Cabinet,Protection,Each,18893,Critical
+MAT-01345,Smart Meter — Type 29,Smart Meter,Metering,Each,168,High
+MAT-01346,Communication Gateway — Type 29,Communication Gateway,Communications,Each,1061,Medium
+MAT-01347,Grounding Kit — Type 29,Grounding Kit,Accessories,Kit,161,Critical
+MAT-01348,Connector Set — Type 29,Connector Set,Accessories,Kit,59,Critical
+MAT-01349,Composite Utility Pole — Type 30,Composite Utility Pole,Structures,Each,2440,Medium
+MAT-01350,Crossarm Assembly — Type 30,Crossarm Assembly,Structures,Each,417,Medium
+MAT-01351,15 kV Cable — Type 30,15 kV Cable,Conductor,Foot,15,Low
+MAT-01352,35 kV Cable — Type 30,35 kV Cable,Conductor,Foot,30,Low
+MAT-01353,Pad-Mount Transformer 500 kVA — Type 30,Pad-Mount Transformer 500 kVA,Transformers,Each,26213,Critical
+MAT-01354,Pole-Mount Transformer 50 kVA — Type 30,Pole-Mount Transformer 50 kVA,Transformers,Each,6418,Medium
+MAT-01355,Recloser Control Package — Type 30,Recloser Control Package,Protection,Each,14406,Critical
+MAT-01356,Switchgear Cabinet — Type 30,Switchgear Cabinet,Protection,Each,17003,Medium
+MAT-01357,Smart Meter — Type 30,Smart Meter,Metering,Each,142,Critical
+MAT-01358,Communication Gateway — Type 30,Communication Gateway,Communications,Each,848,Low
+MAT-01359,Grounding Kit — Type 30,Grounding Kit,Accessories,Kit,159,Critical
+MAT-01360,Connector Set — Type 30,Connector Set,Accessories,Kit,62,Medium
+MAT-01361,Composite Utility Pole — Type 31,Composite Utility Pole,Structures,Each,2174,Medium
+MAT-01362,Crossarm Assembly — Type 31,Crossarm Assembly,Structures,Each,437,Low
+MAT-01363,15 kV Cable — Type 31,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01364,35 kV Cable — Type 31,35 kV Cable,Conductor,Foot,25,Low
+MAT-01365,Pad-Mount Transformer 500 kVA — Type 31,Pad-Mount Transformer 500 kVA,Transformers,Each,30467,Critical
+MAT-01366,Pole-Mount Transformer 50 kVA — Type 31,Pole-Mount Transformer 50 kVA,Transformers,Each,7892,Medium
+MAT-01367,Recloser Control Package — Type 31,Recloser Control Package,Protection,Each,18247,High
+MAT-01368,Switchgear Cabinet — Type 31,Switchgear Cabinet,Protection,Each,18241,Medium
+MAT-01369,Smart Meter — Type 31,Smart Meter,Metering,Each,125,Critical
+MAT-01370,Communication Gateway — Type 31,Communication Gateway,Communications,Each,1048,Low
+MAT-01371,Grounding Kit — Type 31,Grounding Kit,Accessories,Kit,122,High
+MAT-01372,Connector Set — Type 31,Connector Set,Accessories,Kit,74,Critical
+MAT-01373,Composite Utility Pole — Type 32,Composite Utility Pole,Structures,Each,2008,Critical
+MAT-01374,Crossarm Assembly — Type 32,Crossarm Assembly,Structures,Each,491,Low
+MAT-01375,15 kV Cable — Type 32,15 kV Cable,Conductor,Foot,11,Low
+MAT-01376,35 kV Cable — Type 32,35 kV Cable,Conductor,Foot,33,Low
+MAT-01377,Pad-Mount Transformer 500 kVA — Type 32,Pad-Mount Transformer 500 kVA,Transformers,Each,24484,Critical
+MAT-01378,Pole-Mount Transformer 50 kVA — Type 32,Pole-Mount Transformer 50 kVA,Transformers,Each,6263,Low
+MAT-01379,Recloser Control Package — Type 32,Recloser Control Package,Protection,Each,13526,Medium
+MAT-01380,Switchgear Cabinet — Type 32,Switchgear Cabinet,Protection,Each,23224,Critical
+MAT-01381,Smart Meter — Type 32,Smart Meter,Metering,Each,154,Medium
+MAT-01382,Communication Gateway — Type 32,Communication Gateway,Communications,Each,876,Low
+MAT-01383,Grounding Kit — Type 32,Grounding Kit,Accessories,Kit,160,High
+MAT-01384,Connector Set — Type 32,Connector Set,Accessories,Kit,71,High
+MAT-01385,Composite Utility Pole — Type 33,Composite Utility Pole,Structures,Each,2240,High
+MAT-01386,Crossarm Assembly — Type 33,Crossarm Assembly,Structures,Each,369,Low
+MAT-01387,15 kV Cable — Type 33,15 kV Cable,Conductor,Foot,13,Low
+MAT-01388,35 kV Cable — Type 33,35 kV Cable,Conductor,Foot,29,Low
+MAT-01389,Pad-Mount Transformer 500 kVA — Type 33,Pad-Mount Transformer 500 kVA,Transformers,Each,24348,Critical
+MAT-01390,Pole-Mount Transformer 50 kVA — Type 33,Pole-Mount Transformer 50 kVA,Transformers,Each,7699,Low
+MAT-01391,Recloser Control Package — Type 33,Recloser Control Package,Protection,Each,15946,Critical
+MAT-01392,Switchgear Cabinet — Type 33,Switchgear Cabinet,Protection,Each,20229,High
+MAT-01393,Smart Meter — Type 33,Smart Meter,Metering,Each,185,Critical
+MAT-01394,Communication Gateway — Type 33,Communication Gateway,Communications,Each,1015,Medium
+MAT-01395,Grounding Kit — Type 33,Grounding Kit,Accessories,Kit,162,Critical
+MAT-01396,Connector Set — Type 33,Connector Set,Accessories,Kit,66,Medium
+MAT-01397,Composite Utility Pole — Type 34,Composite Utility Pole,Structures,Each,2324,High
+MAT-01398,Crossarm Assembly — Type 34,Crossarm Assembly,Structures,Each,385,Medium
+MAT-01399,15 kV Cable — Type 34,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01400,35 kV Cable — Type 34,35 kV Cable,Conductor,Foot,34,Low
+MAT-01401,Pad-Mount Transformer 500 kVA — Type 34,Pad-Mount Transformer 500 kVA,Transformers,Each,22062,Critical
+MAT-01402,Pole-Mount Transformer 50 kVA — Type 34,Pole-Mount Transformer 50 kVA,Transformers,Each,5518,Low
+MAT-01403,Recloser Control Package — Type 34,Recloser Control Package,Protection,Each,14511,High
+MAT-01404,Switchgear Cabinet — Type 34,Switchgear Cabinet,Protection,Each,21927,Medium
+MAT-01405,Smart Meter — Type 34,Smart Meter,Metering,Each,163,Medium
+MAT-01406,Communication Gateway — Type 34,Communication Gateway,Communications,Each,1232,Low
+MAT-01407,Grounding Kit — Type 34,Grounding Kit,Accessories,Kit,117,Critical
+MAT-01408,Connector Set — Type 34,Connector Set,Accessories,Kit,57,Critical
+MAT-01409,Composite Utility Pole — Type 35,Composite Utility Pole,Structures,Each,2584,Medium
+MAT-01410,Crossarm Assembly — Type 35,Crossarm Assembly,Structures,Each,447,Medium
+MAT-01411,15 kV Cable — Type 35,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01412,35 kV Cable — Type 35,35 kV Cable,Conductor,Foot,31,Low
+MAT-01413,Pad-Mount Transformer 500 kVA — Type 35,Pad-Mount Transformer 500 kVA,Transformers,Each,28039,Critical
+MAT-01414,Pole-Mount Transformer 50 kVA — Type 35,Pole-Mount Transformer 50 kVA,Transformers,Each,7671,Low
+MAT-01415,Recloser Control Package — Type 35,Recloser Control Package,Protection,Each,16206,Critical
+MAT-01416,Switchgear Cabinet — Type 35,Switchgear Cabinet,Protection,Each,19426,High
+MAT-01417,Smart Meter — Type 35,Smart Meter,Metering,Each,125,Medium
+MAT-01418,Communication Gateway — Type 35,Communication Gateway,Communications,Each,1102,Low
+MAT-01419,Grounding Kit — Type 35,Grounding Kit,Accessories,Kit,126,High
+MAT-01420,Connector Set — Type 35,Connector Set,Accessories,Kit,83,Critical
+MAT-01421,Composite Utility Pole — Type 36,Composite Utility Pole,Structures,Each,2367,Critical
+MAT-01422,Crossarm Assembly — Type 36,Crossarm Assembly,Structures,Each,371,Low
+MAT-01423,15 kV Cable — Type 36,15 kV Cable,Conductor,Foot,14,Medium
+MAT-01424,35 kV Cable — Type 36,35 kV Cable,Conductor,Foot,29,Low
+MAT-01425,Pad-Mount Transformer 500 kVA — Type 36,Pad-Mount Transformer 500 kVA,Transformers,Each,32717,Critical
+MAT-01426,Pole-Mount Transformer 50 kVA — Type 36,Pole-Mount Transformer 50 kVA,Transformers,Each,6868,Low
+MAT-01427,Recloser Control Package — Type 36,Recloser Control Package,Protection,Each,18401,High
+MAT-01428,Switchgear Cabinet — Type 36,Switchgear Cabinet,Protection,Each,15783,Critical
+MAT-01429,Smart Meter — Type 36,Smart Meter,Metering,Each,177,High
+MAT-01430,Communication Gateway — Type 36,Communication Gateway,Communications,Each,1226,Low
+MAT-01431,Grounding Kit — Type 36,Grounding Kit,Accessories,Kit,126,Critical
+MAT-01432,Connector Set — Type 36,Connector Set,Accessories,Kit,76,High
+MAT-01433,Composite Utility Pole — Type 37,Composite Utility Pole,Structures,Each,1958,Critical
+MAT-01434,Crossarm Assembly — Type 37,Crossarm Assembly,Structures,Each,507,Medium
+MAT-01435,15 kV Cable — Type 37,15 kV Cable,Conductor,Foot,14,Low
+MAT-01436,35 kV Cable — Type 37,35 kV Cable,Conductor,Foot,28,Medium
+MAT-01437,Pad-Mount Transformer 500 kVA — Type 37,Pad-Mount Transformer 500 kVA,Transformers,Each,24193,Critical
+MAT-01438,Pole-Mount Transformer 50 kVA — Type 37,Pole-Mount Transformer 50 kVA,Transformers,Each,5819,Low
+MAT-01439,Recloser Control Package — Type 37,Recloser Control Package,Protection,Each,14625,High
+MAT-01440,Switchgear Cabinet — Type 37,Switchgear Cabinet,Protection,Each,23101,Critical
+MAT-01441,Smart Meter — Type 37,Smart Meter,Metering,Each,119,High
+MAT-01442,Communication Gateway — Type 37,Communication Gateway,Communications,Each,1182,Medium
+MAT-01443,Grounding Kit — Type 37,Grounding Kit,Accessories,Kit,153,High
+MAT-01444,Connector Set — Type 37,Connector Set,Accessories,Kit,87,High
+MAT-01445,Composite Utility Pole — Type 38,Composite Utility Pole,Structures,Each,1871,High
+MAT-01446,Crossarm Assembly — Type 38,Crossarm Assembly,Structures,Each,525,Low
+MAT-01447,15 kV Cable — Type 38,15 kV Cable,Conductor,Foot,10,Low
+MAT-01448,35 kV Cable — Type 38,35 kV Cable,Conductor,Foot,26,Medium
+MAT-01449,Pad-Mount Transformer 500 kVA — Type 38,Pad-Mount Transformer 500 kVA,Transformers,Each,29255,Critical
+MAT-01450,Pole-Mount Transformer 50 kVA — Type 38,Pole-Mount Transformer 50 kVA,Transformers,Each,5587,Medium
+MAT-01451,Recloser Control Package — Type 38,Recloser Control Package,Protection,Each,15573,Medium
+MAT-01452,Switchgear Cabinet — Type 38,Switchgear Cabinet,Protection,Each,21284,Critical
+MAT-01453,Smart Meter — Type 38,Smart Meter,Metering,Each,186,Medium
+MAT-01454,Communication Gateway — Type 38,Communication Gateway,Communications,Each,1132,Low
+MAT-01455,Grounding Kit — Type 38,Grounding Kit,Accessories,Kit,126,High
+MAT-01456,Connector Set — Type 38,Connector Set,Accessories,Kit,57,High
+MAT-01457,Composite Utility Pole — Type 39,Composite Utility Pole,Structures,Each,2063,Critical
+MAT-01458,Crossarm Assembly — Type 39,Crossarm Assembly,Structures,Each,503,Medium
+MAT-01459,15 kV Cable — Type 39,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01460,35 kV Cable — Type 39,35 kV Cable,Conductor,Foot,28,Medium
+MAT-01461,Pad-Mount Transformer 500 kVA — Type 39,Pad-Mount Transformer 500 kVA,Transformers,Each,23041,Critical
+MAT-01462,Pole-Mount Transformer 50 kVA — Type 39,Pole-Mount Transformer 50 kVA,Transformers,Each,5522,Low
+MAT-01463,Recloser Control Package — Type 39,Recloser Control Package,Protection,Each,12340,Medium
+MAT-01464,Switchgear Cabinet — Type 39,Switchgear Cabinet,Protection,Each,19393,Medium
+MAT-01465,Smart Meter — Type 39,Smart Meter,Metering,Each,121,Critical
+MAT-01466,Communication Gateway — Type 39,Communication Gateway,Communications,Each,879,Medium
+MAT-01467,Grounding Kit — Type 39,Grounding Kit,Accessories,Kit,158,Critical
+MAT-01468,Connector Set — Type 39,Connector Set,Accessories,Kit,81,High
+MAT-01469,Composite Utility Pole — Type 40,Composite Utility Pole,Structures,Each,2103,High
+MAT-01470,Crossarm Assembly — Type 40,Crossarm Assembly,Structures,Each,490,Low
+MAT-01471,15 kV Cable — Type 40,15 kV Cable,Conductor,Foot,14,Low
+MAT-01472,35 kV Cable — Type 40,35 kV Cable,Conductor,Foot,25,Low
+MAT-01473,Pad-Mount Transformer 500 kVA — Type 40,Pad-Mount Transformer 500 kVA,Transformers,Each,30308,Critical
+MAT-01474,Pole-Mount Transformer 50 kVA — Type 40,Pole-Mount Transformer 50 kVA,Transformers,Each,5587,Low
+MAT-01475,Recloser Control Package — Type 40,Recloser Control Package,Protection,Each,17380,Critical
+MAT-01476,Switchgear Cabinet — Type 40,Switchgear Cabinet,Protection,Each,16779,Critical
+MAT-01477,Smart Meter — Type 40,Smart Meter,Metering,Each,149,Medium
+MAT-01478,Communication Gateway — Type 40,Communication Gateway,Communications,Each,1243,Medium
+MAT-01479,Grounding Kit — Type 40,Grounding Kit,Accessories,Kit,118,Critical
+MAT-01480,Connector Set — Type 40,Connector Set,Accessories,Kit,65,High
+MAT-01481,Composite Utility Pole — Type 41,Composite Utility Pole,Structures,Each,2269,High
+MAT-01482,Crossarm Assembly — Type 41,Crossarm Assembly,Structures,Each,482,Medium
+MAT-01483,15 kV Cable — Type 41,15 kV Cable,Conductor,Foot,10,Low
+MAT-01484,35 kV Cable — Type 41,35 kV Cable,Conductor,Foot,25,Low
+MAT-01485,Pad-Mount Transformer 500 kVA — Type 41,Pad-Mount Transformer 500 kVA,Transformers,Each,30385,Critical
+MAT-01486,Pole-Mount Transformer 50 kVA — Type 41,Pole-Mount Transformer 50 kVA,Transformers,Each,6183,Low
+MAT-01487,Recloser Control Package — Type 41,Recloser Control Package,Protection,Each,15371,High
+MAT-01488,Switchgear Cabinet — Type 41,Switchgear Cabinet,Protection,Each,21494,High
+MAT-01489,Smart Meter — Type 41,Smart Meter,Metering,Each,119,High
+MAT-01490,Communication Gateway — Type 41,Communication Gateway,Communications,Each,1095,Medium
+MAT-01491,Grounding Kit — Type 41,Grounding Kit,Accessories,Kit,160,Critical
+MAT-01492,Connector Set — Type 41,Connector Set,Accessories,Kit,85,High
+MAT-01493,Composite Utility Pole — Type 42,Composite Utility Pole,Structures,Each,1930,High
+MAT-01494,Crossarm Assembly — Type 42,Crossarm Assembly,Structures,Each,476,Low
+MAT-01495,15 kV Cable — Type 42,15 kV Cable,Conductor,Foot,10,Low
+MAT-01496,35 kV Cable — Type 42,35 kV Cable,Conductor,Foot,24,Low
+MAT-01497,Pad-Mount Transformer 500 kVA — Type 42,Pad-Mount Transformer 500 kVA,Transformers,Each,31609,Critical
+MAT-01498,Pole-Mount Transformer 50 kVA — Type 42,Pole-Mount Transformer 50 kVA,Transformers,Each,5242,Low
+MAT-01499,Recloser Control Package — Type 42,Recloser Control Package,Protection,Each,13656,High
+MAT-01500,Switchgear Cabinet — Type 42,Switchgear Cabinet,Protection,Each,23344,Medium
+MAT-01501,Smart Meter — Type 42,Smart Meter,Metering,Each,126,Medium
+MAT-01502,Communication Gateway — Type 42,Communication Gateway,Communications,Each,1083,Low
+MAT-01503,Grounding Kit — Type 42,Grounding Kit,Accessories,Kit,158,High
+MAT-01504,Connector Set — Type 42,Connector Set,Accessories,Kit,72,Critical
+MAT-01505,Composite Utility Pole — Type 43,Composite Utility Pole,Structures,Each,1765,Medium
+MAT-01506,Crossarm Assembly — Type 43,Crossarm Assembly,Structures,Each,528,Low
+MAT-01507,15 kV Cable — Type 43,15 kV Cable,Conductor,Foot,14,Medium
+MAT-01508,35 kV Cable — Type 43,35 kV Cable,Conductor,Foot,28,Medium
+MAT-01509,Pad-Mount Transformer 500 kVA — Type 43,Pad-Mount Transformer 500 kVA,Transformers,Each,32932,Critical
+MAT-01510,Pole-Mount Transformer 50 kVA — Type 43,Pole-Mount Transformer 50 kVA,Transformers,Each,6752,Low
+MAT-01511,Recloser Control Package — Type 43,Recloser Control Package,Protection,Each,14032,Critical
+MAT-01512,Switchgear Cabinet — Type 43,Switchgear Cabinet,Protection,Each,23150,Medium
+MAT-01513,Smart Meter — Type 43,Smart Meter,Metering,Each,143,High
+MAT-01514,Communication Gateway — Type 43,Communication Gateway,Communications,Each,1089,Low
+MAT-01515,Grounding Kit — Type 43,Grounding Kit,Accessories,Kit,162,Critical
+MAT-01516,Connector Set — Type 43,Connector Set,Accessories,Kit,70,Medium
+MAT-01517,Composite Utility Pole — Type 44,Composite Utility Pole,Structures,Each,2168,High
+MAT-01518,Crossarm Assembly — Type 44,Crossarm Assembly,Structures,Each,406,Low
+MAT-01519,15 kV Cable — Type 44,15 kV Cable,Conductor,Foot,12,Low
+MAT-01520,35 kV Cable — Type 44,35 kV Cable,Conductor,Foot,31,Low
+MAT-01521,Pad-Mount Transformer 500 kVA — Type 44,Pad-Mount Transformer 500 kVA,Transformers,Each,23886,Critical
+MAT-01522,Pole-Mount Transformer 50 kVA — Type 44,Pole-Mount Transformer 50 kVA,Transformers,Each,5818,Medium
+MAT-01523,Recloser Control Package — Type 44,Recloser Control Package,Protection,Each,18076,Medium
+MAT-01524,Switchgear Cabinet — Type 44,Switchgear Cabinet,Protection,Each,16040,Critical
+MAT-01525,Smart Meter — Type 44,Smart Meter,Metering,Each,145,Critical
+MAT-01526,Communication Gateway — Type 44,Communication Gateway,Communications,Each,806,Low
+MAT-01527,Grounding Kit — Type 44,Grounding Kit,Accessories,Kit,147,High
+MAT-01528,Connector Set — Type 44,Connector Set,Accessories,Kit,79,Medium
+MAT-01529,Composite Utility Pole — Type 45,Composite Utility Pole,Structures,Each,2202,High
+MAT-01530,Crossarm Assembly — Type 45,Crossarm Assembly,Structures,Each,496,Low
+MAT-01531,15 kV Cable — Type 45,15 kV Cable,Conductor,Foot,15,Medium
+MAT-01532,35 kV Cable — Type 45,35 kV Cable,Conductor,Foot,25,Low
+MAT-01533,Pad-Mount Transformer 500 kVA — Type 45,Pad-Mount Transformer 500 kVA,Transformers,Each,30588,High
+MAT-01534,Pole-Mount Transformer 50 kVA — Type 45,Pole-Mount Transformer 50 kVA,Transformers,Each,7837,Low
+MAT-01535,Recloser Control Package — Type 45,Recloser Control Package,Protection,Each,17597,Critical
+MAT-01536,Switchgear Cabinet — Type 45,Switchgear Cabinet,Protection,Each,23255,High
+MAT-01537,Smart Meter — Type 45,Smart Meter,Metering,Each,126,High
+MAT-01538,Communication Gateway — Type 45,Communication Gateway,Communications,Each,1058,Low
+MAT-01539,Grounding Kit — Type 45,Grounding Kit,Accessories,Kit,143,Critical
+MAT-01540,Connector Set — Type 45,Connector Set,Accessories,Kit,69,High
+MAT-01541,Composite Utility Pole — Type 46,Composite Utility Pole,Structures,Each,2490,Medium
+MAT-01542,Crossarm Assembly — Type 46,Crossarm Assembly,Structures,Each,403,Low
+MAT-01543,15 kV Cable — Type 46,15 kV Cable,Conductor,Foot,10,Low
+MAT-01544,35 kV Cable — Type 46,35 kV Cable,Conductor,Foot,31,Low
+MAT-01545,Pad-Mount Transformer 500 kVA — Type 46,Pad-Mount Transformer 500 kVA,Transformers,Each,29313,Critical
+MAT-01546,Pole-Mount Transformer 50 kVA — Type 46,Pole-Mount Transformer 50 kVA,Transformers,Each,5198,Low
+MAT-01547,Recloser Control Package — Type 46,Recloser Control Package,Protection,Each,15373,High
+MAT-01548,Switchgear Cabinet — Type 46,Switchgear Cabinet,Protection,Each,17227,Medium
+MAT-01549,Smart Meter — Type 46,Smart Meter,Metering,Each,125,Medium
+MAT-01550,Communication Gateway — Type 46,Communication Gateway,Communications,Each,1168,Low
+MAT-01551,Grounding Kit — Type 46,Grounding Kit,Accessories,Kit,111,Critical
+MAT-01552,Connector Set — Type 46,Connector Set,Accessories,Kit,76,Critical
+MAT-01553,Composite Utility Pole — Type 47,Composite Utility Pole,Structures,Each,2138,Medium
+MAT-01554,Crossarm Assembly — Type 47,Crossarm Assembly,Structures,Each,536,Low
+MAT-01555,15 kV Cable — Type 47,15 kV Cable,Conductor,Foot,10,Low
+MAT-01556,35 kV Cable — Type 47,35 kV Cable,Conductor,Foot,33,Low
+MAT-01557,Pad-Mount Transformer 500 kVA — Type 47,Pad-Mount Transformer 500 kVA,Transformers,Each,32513,Critical
+MAT-01558,Pole-Mount Transformer 50 kVA — Type 47,Pole-Mount Transformer 50 kVA,Transformers,Each,5255,Low
+MAT-01559,Recloser Control Package — Type 47,Recloser Control Package,Protection,Each,12929,Medium
+MAT-01560,Switchgear Cabinet — Type 47,Switchgear Cabinet,Protection,Each,20539,Critical
+MAT-01561,Smart Meter — Type 47,Smart Meter,Metering,Each,149,Medium
+MAT-01562,Communication Gateway — Type 47,Communication Gateway,Communications,Each,944,Medium
+MAT-01563,Grounding Kit — Type 47,Grounding Kit,Accessories,Kit,124,High
+MAT-01564,Connector Set — Type 47,Connector Set,Accessories,Kit,83,Medium
+MAT-01565,Composite Utility Pole — Type 48,Composite Utility Pole,Structures,Each,2524,High
+MAT-01566,Crossarm Assembly — Type 48,Crossarm Assembly,Structures,Each,527,Medium
+MAT-01567,15 kV Cable — Type 48,15 kV Cable,Conductor,Foot,14,Low
+MAT-01568,35 kV Cable — Type 48,35 kV Cable,Conductor,Foot,33,Low
+MAT-01569,Pad-Mount Transformer 500 kVA — Type 48,Pad-Mount Transformer 500 kVA,Transformers,Each,29750,Critical
+MAT-01570,Pole-Mount Transformer 50 kVA — Type 48,Pole-Mount Transformer 50 kVA,Transformers,Each,6186,Low
+MAT-01571,Recloser Control Package — Type 48,Recloser Control Package,Protection,Each,14501,Critical
+MAT-01572,Switchgear Cabinet — Type 48,Switchgear Cabinet,Protection,Each,22396,Medium
+MAT-01573,Smart Meter — Type 48,Smart Meter,Metering,Each,181,Medium
+MAT-01574,Communication Gateway — Type 48,Communication Gateway,Communications,Each,875,Low
+MAT-01575,Grounding Kit — Type 48,Grounding Kit,Accessories,Kit,165,Critical
+MAT-01576,Connector Set — Type 48,Connector Set,Accessories,Kit,85,High
+MAT-01577,Composite Utility Pole — Type 49,Composite Utility Pole,Structures,Each,1950,High
+MAT-01578,Crossarm Assembly — Type 49,Crossarm Assembly,Structures,Each,357,Low
+MAT-01579,15 kV Cable — Type 49,15 kV Cable,Conductor,Foot,13,Low
+MAT-01580,35 kV Cable — Type 49,35 kV Cable,Conductor,Foot,30,Low
+MAT-01581,Pad-Mount Transformer 500 kVA — Type 49,Pad-Mount Transformer 500 kVA,Transformers,Each,30895,Critical
+MAT-01582,Pole-Mount Transformer 50 kVA — Type 49,Pole-Mount Transformer 50 kVA,Transformers,Each,7790,Medium
+MAT-01583,Recloser Control Package — Type 49,Recloser Control Package,Protection,Each,12494,High
+MAT-01584,Switchgear Cabinet — Type 49,Switchgear Cabinet,Protection,Each,23845,High
+MAT-01585,Smart Meter — Type 49,Smart Meter,Metering,Each,170,High
+MAT-01586,Communication Gateway — Type 49,Communication Gateway,Communications,Each,948,Low
+MAT-01587,Grounding Kit — Type 49,Grounding Kit,Accessories,Kit,147,Critical
+MAT-01588,Connector Set — Type 49,Connector Set,Accessories,Kit,78,Medium
+MAT-01589,Composite Utility Pole — Type 50,Composite Utility Pole,Structures,Each,2627,Critical
+MAT-01590,Crossarm Assembly — Type 50,Crossarm Assembly,Structures,Each,441,Low
+MAT-01591,15 kV Cable — Type 50,15 kV Cable,Conductor,Foot,13,Low
+MAT-01592,35 kV Cable — Type 50,35 kV Cable,Conductor,Foot,28,Medium
+MAT-01593,Pad-Mount Transformer 500 kVA — Type 50,Pad-Mount Transformer 500 kVA,Transformers,Each,26364,Critical
+MAT-01594,Pole-Mount Transformer 50 kVA — Type 50,Pole-Mount Transformer 50 kVA,Transformers,Each,5734,Low
+MAT-01595,Recloser Control Package — Type 50,Recloser Control Package,Protection,Each,12229,Medium
+MAT-01596,Switchgear Cabinet — Type 50,Switchgear Cabinet,Protection,Each,23418,High
+MAT-01597,Smart Meter — Type 50,Smart Meter,Metering,Each,123,Critical
+MAT-01598,Communication Gateway — Type 50,Communication Gateway,Communications,Each,1156,Low
+MAT-01599,Grounding Kit — Type 50,Grounding Kit,Accessories,Kit,145,Critical
+MAT-01600,Connector Set — Type 50,Connector Set,Accessories,Kit,67,High
+MAT-01601,Composite Utility Pole — Type 51,Composite Utility Pole,Structures,Each,2371,Critical
+MAT-01602,Crossarm Assembly — Type 51,Crossarm Assembly,Structures,Each,427,Low
+MAT-01603,15 kV Cable — Type 51,15 kV Cable,Conductor,Foot,13,Low
+MAT-01604,35 kV Cable — Type 51,35 kV Cable,Conductor,Foot,25,Low
+MAT-01605,Pad-Mount Transformer 500 kVA — Type 51,Pad-Mount Transformer 500 kVA,Transformers,Each,22889,Critical
+MAT-01606,Pole-Mount Transformer 50 kVA — Type 51,Pole-Mount Transformer 50 kVA,Transformers,Each,7215,Low
+MAT-01607,Recloser Control Package — Type 51,Recloser Control Package,Protection,Each,13708,Medium
+MAT-01608,Switchgear Cabinet — Type 51,Switchgear Cabinet,Protection,Each,16930,Critical
+MAT-01609,Smart Meter — Type 51,Smart Meter,Metering,Each,138,Medium
+MAT-01610,Communication Gateway — Type 51,Communication Gateway,Communications,Each,1146,Medium
+MAT-01611,Grounding Kit — Type 51,Grounding Kit,Accessories,Kit,117,Critical
+MAT-01612,Connector Set — Type 51,Connector Set,Accessories,Kit,60,High
+MAT-01613,Composite Utility Pole — Type 52,Composite Utility Pole,Structures,Each,2020,Critical
+MAT-01614,Crossarm Assembly — Type 52,Crossarm Assembly,Structures,Each,481,Low
+MAT-01615,15 kV Cable — Type 52,15 kV Cable,Conductor,Foot,12,Low
+MAT-01616,35 kV Cable — Type 52,35 kV Cable,Conductor,Foot,32,Medium
+MAT-01617,Pad-Mount Transformer 500 kVA — Type 52,Pad-Mount Transformer 500 kVA,Transformers,Each,31134,Critical
+MAT-01618,Pole-Mount Transformer 50 kVA — Type 52,Pole-Mount Transformer 50 kVA,Transformers,Each,5587,Low
+MAT-01619,Recloser Control Package — Type 52,Recloser Control Package,Protection,Each,14505,Critical
+MAT-01620,Switchgear Cabinet — Type 52,Switchgear Cabinet,Protection,Each,18323,Critical
+MAT-01621,Smart Meter — Type 52,Smart Meter,Metering,Each,128,Critical
+MAT-01622,Communication Gateway — Type 52,Communication Gateway,Communications,Each,970,Low
+MAT-01623,Grounding Kit — Type 52,Grounding Kit,Accessories,Kit,152,Critical
+MAT-01624,Connector Set — Type 52,Connector Set,Accessories,Kit,76,High
+MAT-01625,Composite Utility Pole — Type 53,Composite Utility Pole,Structures,Each,2687,High
+MAT-01626,Crossarm Assembly — Type 53,Crossarm Assembly,Structures,Each,520,Medium
+MAT-01627,15 kV Cable — Type 53,15 kV Cable,Conductor,Foot,12,Medium
+MAT-01628,35 kV Cable — Type 53,35 kV Cable,Conductor,Foot,28,Low
+MAT-01629,Pad-Mount Transformer 500 kVA — Type 53,Pad-Mount Transformer 500 kVA,Transformers,Each,26192,Critical
+MAT-01630,Pole-Mount Transformer 50 kVA — Type 53,Pole-Mount Transformer 50 kVA,Transformers,Each,7470,Low
+MAT-01631,Recloser Control Package — Type 53,Recloser Control Package,Protection,Each,13392,Medium
+MAT-01632,Switchgear Cabinet — Type 53,Switchgear Cabinet,Protection,Each,24275,Critical
+MAT-01633,Smart Meter — Type 53,Smart Meter,Metering,Each,178,Medium
+MAT-01634,Communication Gateway — Type 53,Communication Gateway,Communications,Each,924,Low
+MAT-01635,Grounding Kit — Type 53,Grounding Kit,Accessories,Kit,163,Critical
+MAT-01636,Connector Set — Type 53,Connector Set,Accessories,Kit,65,High
+MAT-01637,Composite Utility Pole — Type 54,Composite Utility Pole,Structures,Each,1911,High
+MAT-01638,Crossarm Assembly — Type 54,Crossarm Assembly,Structures,Each,422,Medium
+MAT-01639,15 kV Cable — Type 54,15 kV Cable,Conductor,Foot,14,Medium
+MAT-01640,35 kV Cable — Type 54,35 kV Cable,Conductor,Foot,32,Low
+MAT-01641,Pad-Mount Transformer 500 kVA — Type 54,Pad-Mount Transformer 500 kVA,Transformers,Each,32243,High
+MAT-01642,Pole-Mount Transformer 50 kVA — Type 54,Pole-Mount Transformer 50 kVA,Transformers,Each,7407,Medium
+MAT-01643,Recloser Control Package — Type 54,Recloser Control Package,Protection,Each,13732,High
+MAT-01644,Switchgear Cabinet — Type 54,Switchgear Cabinet,Protection,Each,19338,Medium
+MAT-01645,Smart Meter — Type 54,Smart Meter,Metering,Each,136,High
+MAT-01646,Communication Gateway — Type 54,Communication Gateway,Communications,Each,974,Medium
+MAT-01647,Grounding Kit — Type 54,Grounding Kit,Accessories,Kit,119,Critical
+MAT-01648,Connector Set — Type 54,Connector Set,Accessories,Kit,87,High
+MAT-01649,Composite Utility Pole — Type 55,Composite Utility Pole,Structures,Each,1923,Critical
+MAT-01650,Crossarm Assembly — Type 55,Crossarm Assembly,Structures,Each,362,Medium
+MAT-01651,15 kV Cable — Type 55,15 kV Cable,Conductor,Foot,14,Low
+MAT-01652,35 kV Cable — Type 55,35 kV Cable,Conductor,Foot,25,Low
+MAT-01653,Pad-Mount Transformer 500 kVA — Type 55,Pad-Mount Transformer 500 kVA,Transformers,Each,27054,Critical
+MAT-01654,Pole-Mount Transformer 50 kVA — Type 55,Pole-Mount Transformer 50 kVA,Transformers,Each,7053,Low
+MAT-01655,Recloser Control Package — Type 55,Recloser Control Package,Protection,Each,14637,Medium
+MAT-01656,Switchgear Cabinet — Type 55,Switchgear Cabinet,Protection,Each,17729,Critical
+MAT-01657,Smart Meter — Type 55,Smart Meter,Metering,Each,169,High
+MAT-01658,Communication Gateway — Type 55,Communication Gateway,Communications,Each,894,Low
+MAT-01659,Grounding Kit — Type 55,Grounding Kit,Accessories,Kit,134,High
+MAT-01660,Connector Set — Type 55,Connector Set,Accessories,Kit,84,Critical
+MAT-01661,Composite Utility Pole — Type 56,Composite Utility Pole,Structures,Each,1979,Medium
+MAT-01662,Crossarm Assembly — Type 56,Crossarm Assembly,Structures,Each,370,Low
+MAT-01663,15 kV Cable — Type 56,15 kV Cable,Conductor,Foot,12,Low
+MAT-01664,35 kV Cable — Type 56,35 kV Cable,Conductor,Foot,27,Medium
+MAT-01665,Pad-Mount Transformer 500 kVA — Type 56,Pad-Mount Transformer 500 kVA,Transformers,Each,23257,Critical
+MAT-01666,Pole-Mount Transformer 50 kVA — Type 56,Pole-Mount Transformer 50 kVA,Transformers,Each,5686,Medium
+MAT-01667,Recloser Control Package — Type 56,Recloser Control Package,Protection,Each,17566,Medium
+MAT-01668,Switchgear Cabinet — Type 56,Switchgear Cabinet,Protection,Each,16022,Medium
+MAT-01669,Smart Meter — Type 56,Smart Meter,Metering,Each,139,High
+MAT-01670,Communication Gateway — Type 56,Communication Gateway,Communications,Each,861,Medium
+MAT-01671,Grounding Kit — Type 56,Grounding Kit,Accessories,Kit,163,Critical
+MAT-01672,Connector Set — Type 56,Connector Set,Accessories,Kit,83,High
+MAT-01673,Composite Utility Pole — Type 57,Composite Utility Pole,Structures,Each,2441,Medium
+MAT-01674,Crossarm Assembly — Type 57,Crossarm Assembly,Structures,Each,400,Medium
+MAT-01675,15 kV Cable — Type 57,15 kV Cable,Conductor,Foot,11,Medium
+MAT-01676,35 kV Cable — Type 57,35 kV Cable,Conductor,Foot,29,Low
+MAT-01677,Pad-Mount Transformer 500 kVA — Type 57,Pad-Mount Transformer 500 kVA,Transformers,Each,30731,Critical
+MAT-01678,Pole-Mount Transformer 50 kVA — Type 57,Pole-Mount Transformer 50 kVA,Transformers,Each,7185,Low
+MAT-01679,Recloser Control Package — Type 57,Recloser Control Package,Protection,Each,15379,High
+MAT-01680,Switchgear Cabinet — Type 57,Switchgear Cabinet,Protection,Each,23976,Critical
+MAT-01681,Smart Meter — Type 57,Smart Meter,Metering,Each,180,High
+MAT-01682,Communication Gateway — Type 57,Communication Gateway,Communications,Each,1091,Low
+MAT-01683,Grounding Kit — Type 57,Grounding Kit,Accessories,Kit,166,Critical
+MAT-01684,Connector Set — Type 57,Connector Set,Accessories,Kit,83,High
+MAT-01685,Composite Utility Pole — Type 58,Composite Utility Pole,Structures,Each,2483,High
+MAT-01686,Crossarm Assembly — Type 58,Crossarm Assembly,Structures,Each,515,Medium
+MAT-01687,15 kV Cable — Type 58,15 kV Cable,Conductor,Foot,14,Low
+MAT-01688,35 kV Cable — Type 58,35 kV Cable,Conductor,Foot,30,Low
+MAT-01689,Pad-Mount Transformer 500 kVA — Type 58,Pad-Mount Transformer 500 kVA,Transformers,Each,21612,Critical
+MAT-01690,Pole-Mount Transformer 50 kVA — Type 58,Pole-Mount Transformer 50 kVA,Transformers,Each,6691,Medium
+MAT-01691,Recloser Control Package — Type 58,Recloser Control Package,Protection,Each,12258,Critical
+MAT-01692,Switchgear Cabinet — Type 58,Switchgear Cabinet,Protection,Each,15850,Critical
+MAT-01693,Smart Meter — Type 58,Smart Meter,Metering,Each,182,High
+MAT-01694,Communication Gateway — Type 58,Communication Gateway,Communications,Each,920,Medium
+MAT-01695,Grounding Kit — Type 58,Grounding Kit,Accessories,Kit,151,High
+MAT-01696,Connector Set — Type 58,Connector Set,Accessories,Kit,72,Medium
+MAT-01697,Composite Utility Pole — Type 59,Composite Utility Pole,Structures,Each,1959,High
+MAT-01698,Crossarm Assembly — Type 59,Crossarm Assembly,Structures,Each,530,Low
+MAT-01699,15 kV Cable — Type 59,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01700,35 kV Cable — Type 59,35 kV Cable,Conductor,Foot,28,Low
+MAT-01701,Pad-Mount Transformer 500 kVA — Type 59,Pad-Mount Transformer 500 kVA,Transformers,Each,28980,High
+MAT-01702,Pole-Mount Transformer 50 kVA — Type 59,Pole-Mount Transformer 50 kVA,Transformers,Each,7399,Medium
+MAT-01703,Recloser Control Package — Type 59,Recloser Control Package,Protection,Each,15749,Medium
+MAT-01704,Switchgear Cabinet — Type 59,Switchgear Cabinet,Protection,Each,23471,Critical
+MAT-01705,Smart Meter — Type 59,Smart Meter,Metering,Each,141,Medium
+MAT-01706,Communication Gateway — Type 59,Communication Gateway,Communications,Each,844,Low
+MAT-01707,Grounding Kit — Type 59,Grounding Kit,Accessories,Kit,111,High
+MAT-01708,Connector Set — Type 59,Connector Set,Accessories,Kit,60,Medium
+MAT-01709,Composite Utility Pole — Type 60,Composite Utility Pole,Structures,Each,2283,Medium
+MAT-01710,Crossarm Assembly — Type 60,Crossarm Assembly,Structures,Each,515,Low
+MAT-01711,15 kV Cable — Type 60,15 kV Cable,Conductor,Foot,13,Low
+MAT-01712,35 kV Cable — Type 60,35 kV Cable,Conductor,Foot,26,Low
+MAT-01713,Pad-Mount Transformer 500 kVA — Type 60,Pad-Mount Transformer 500 kVA,Transformers,Each,23350,Critical
+MAT-01714,Pole-Mount Transformer 50 kVA — Type 60,Pole-Mount Transformer 50 kVA,Transformers,Each,5522,Low
+MAT-01715,Recloser Control Package — Type 60,Recloser Control Package,Protection,Each,17507,Critical
+MAT-01716,Switchgear Cabinet — Type 60,Switchgear Cabinet,Protection,Each,23065,Critical
+MAT-01717,Smart Meter — Type 60,Smart Meter,Metering,Each,170,Critical
+MAT-01718,Communication Gateway — Type 60,Communication Gateway,Communications,Each,1114,Low
+MAT-01719,Grounding Kit — Type 60,Grounding Kit,Accessories,Kit,124,High
+MAT-01720,Connector Set — Type 60,Connector Set,Accessories,Kit,73,Medium
+MAT-01721,Composite Utility Pole — Type 61,Composite Utility Pole,Structures,Each,2312,Critical
+MAT-01722,Crossarm Assembly — Type 61,Crossarm Assembly,Structures,Each,478,Low
+MAT-01723,15 kV Cable — Type 61,15 kV Cable,Conductor,Foot,14,Medium
+MAT-01724,35 kV Cable — Type 61,35 kV Cable,Conductor,Foot,27,Low
+MAT-01725,Pad-Mount Transformer 500 kVA — Type 61,Pad-Mount Transformer 500 kVA,Transformers,Each,23980,Critical
+MAT-01726,Pole-Mount Transformer 50 kVA — Type 61,Pole-Mount Transformer 50 kVA,Transformers,Each,5760,Medium
+MAT-01727,Recloser Control Package — Type 61,Recloser Control Package,Protection,Each,15530,Critical
+MAT-01728,Switchgear Cabinet — Type 61,Switchgear Cabinet,Protection,Each,19943,High
+MAT-01729,Smart Meter — Type 61,Smart Meter,Metering,Each,181,Critical
+MAT-01730,Communication Gateway — Type 61,Communication Gateway,Communications,Each,1075,Low
+MAT-01731,Grounding Kit — Type 61,Grounding Kit,Accessories,Kit,111,Critical
+MAT-01732,Connector Set — Type 61,Connector Set,Accessories,Kit,85,High
+MAT-01733,Composite Utility Pole — Type 62,Composite Utility Pole,Structures,Each,2174,High
+MAT-01734,Crossarm Assembly — Type 62,Crossarm Assembly,Structures,Each,379,Low
+MAT-01735,15 kV Cable — Type 62,15 kV Cable,Conductor,Foot,10,Low
+MAT-01736,35 kV Cable — Type 62,35 kV Cable,Conductor,Foot,32,Low
+MAT-01737,Pad-Mount Transformer 500 kVA — Type 62,Pad-Mount Transformer 500 kVA,Transformers,Each,21705,Critical
+MAT-01738,Pole-Mount Transformer 50 kVA — Type 62,Pole-Mount Transformer 50 kVA,Transformers,Each,7768,Low
+MAT-01739,Recloser Control Package — Type 62,Recloser Control Package,Protection,Each,16070,High
+MAT-01740,Switchgear Cabinet — Type 62,Switchgear Cabinet,Protection,Each,19183,High
+MAT-01741,Smart Meter — Type 62,Smart Meter,Metering,Each,134,Critical
+MAT-01742,Communication Gateway — Type 62,Communication Gateway,Communications,Each,1144,Low
+MAT-01743,Grounding Kit — Type 62,Grounding Kit,Accessories,Kit,166,Critical
+MAT-01744,Connector Set — Type 62,Connector Set,Accessories,Kit,64,Medium
+MAT-01745,Composite Utility Pole — Type 63,Composite Utility Pole,Structures,Each,2285,Medium
+MAT-01746,Crossarm Assembly — Type 63,Crossarm Assembly,Structures,Each,446,Medium
+MAT-01747,15 kV Cable — Type 63,15 kV Cable,Conductor,Foot,15,Low
+MAT-01748,35 kV Cable — Type 63,35 kV Cable,Conductor,Foot,29,Low
+MAT-01749,Pad-Mount Transformer 500 kVA — Type 63,Pad-Mount Transformer 500 kVA,Transformers,Each,24946,High
+MAT-01750,Pole-Mount Transformer 50 kVA — Type 63,Pole-Mount Transformer 50 kVA,Transformers,Each,7893,Medium
+MAT-01751,Recloser Control Package — Type 63,Recloser Control Package,Protection,Each,17216,Medium
+MAT-01752,Switchgear Cabinet — Type 63,Switchgear Cabinet,Protection,Each,20363,Medium
+MAT-01753,Smart Meter — Type 63,Smart Meter,Metering,Each,153,High
+MAT-01754,Communication Gateway — Type 63,Communication Gateway,Communications,Each,1141,Low
+MAT-01755,Grounding Kit — Type 63,Grounding Kit,Accessories,Kit,126,Critical
+MAT-01756,Connector Set — Type 63,Connector Set,Accessories,Kit,82,Medium
+MAT-01757,Composite Utility Pole — Type 64,Composite Utility Pole,Structures,Each,1942,Critical
+MAT-01758,Crossarm Assembly — Type 64,Crossarm Assembly,Structures,Each,348,Low
+MAT-01759,15 kV Cable — Type 64,15 kV Cable,Conductor,Foot,11,Medium
+MAT-01760,35 kV Cable — Type 64,35 kV Cable,Conductor,Foot,23,Low
+MAT-01761,Pad-Mount Transformer 500 kVA — Type 64,Pad-Mount Transformer 500 kVA,Transformers,Each,28277,High
+MAT-01762,Pole-Mount Transformer 50 kVA — Type 64,Pole-Mount Transformer 50 kVA,Transformers,Each,5527,Medium
+MAT-01763,Recloser Control Package — Type 64,Recloser Control Package,Protection,Each,14856,High
+MAT-01764,Switchgear Cabinet — Type 64,Switchgear Cabinet,Protection,Each,22596,Medium
+MAT-01765,Smart Meter — Type 64,Smart Meter,Metering,Each,120,High
+MAT-01766,Communication Gateway — Type 64,Communication Gateway,Communications,Each,1051,Medium
+MAT-01767,Grounding Kit — Type 64,Grounding Kit,Accessories,Kit,119,High
+MAT-01768,Connector Set — Type 64,Connector Set,Accessories,Kit,75,Critical
+MAT-01769,Composite Utility Pole — Type 65,Composite Utility Pole,Structures,Each,2199,Critical
+MAT-01770,Crossarm Assembly — Type 65,Crossarm Assembly,Structures,Each,414,Low
+MAT-01771,15 kV Cable — Type 65,15 kV Cable,Conductor,Foot,10,Low
+MAT-01772,35 kV Cable — Type 65,35 kV Cable,Conductor,Foot,22,Medium
+MAT-01773,Pad-Mount Transformer 500 kVA — Type 65,Pad-Mount Transformer 500 kVA,Transformers,Each,29022,Critical
+MAT-01774,Pole-Mount Transformer 50 kVA — Type 65,Pole-Mount Transformer 50 kVA,Transformers,Each,7396,Medium
+MAT-01775,Recloser Control Package — Type 65,Recloser Control Package,Protection,Each,12576,High
+MAT-01776,Switchgear Cabinet — Type 65,Switchgear Cabinet,Protection,Each,17726,High
+MAT-01777,Smart Meter — Type 65,Smart Meter,Metering,Each,134,Medium
+MAT-01778,Communication Gateway — Type 65,Communication Gateway,Communications,Each,883,Low
+MAT-01779,Grounding Kit — Type 65,Grounding Kit,Accessories,Kit,162,Critical
+MAT-01780,Connector Set — Type 65,Connector Set,Accessories,Kit,56,Critical
+MAT-01781,Composite Utility Pole — Type 66,Composite Utility Pole,Structures,Each,2642,Critical
+MAT-01782,Crossarm Assembly — Type 66,Crossarm Assembly,Structures,Each,532,Medium
+MAT-01783,15 kV Cable — Type 66,15 kV Cable,Conductor,Foot,15,Medium
+MAT-01784,35 kV Cable — Type 66,35 kV Cable,Conductor,Foot,33,Low
+MAT-01785,Pad-Mount Transformer 500 kVA — Type 66,Pad-Mount Transformer 500 kVA,Transformers,Each,28672,Critical
+MAT-01786,Pole-Mount Transformer 50 kVA — Type 66,Pole-Mount Transformer 50 kVA,Transformers,Each,5522,Low
+MAT-01787,Recloser Control Package — Type 66,Recloser Control Package,Protection,Each,12390,Medium
+MAT-01788,Switchgear Cabinet — Type 66,Switchgear Cabinet,Protection,Each,19709,Critical
+MAT-01789,Smart Meter — Type 66,Smart Meter,Metering,Each,140,Medium
+MAT-01790,Communication Gateway — Type 66,Communication Gateway,Communications,Each,970,Medium
+MAT-01791,Grounding Kit — Type 66,Grounding Kit,Accessories,Kit,120,Critical
+MAT-01792,Connector Set — Type 66,Connector Set,Accessories,Kit,79,Critical
+MAT-01793,Composite Utility Pole — Type 67,Composite Utility Pole,Structures,Each,2552,Medium
+MAT-01794,Crossarm Assembly — Type 67,Crossarm Assembly,Structures,Each,391,Medium
+MAT-01795,15 kV Cable — Type 67,15 kV Cable,Conductor,Foot,15,Low
+MAT-01796,35 kV Cable — Type 67,35 kV Cable,Conductor,Foot,34,Medium
+MAT-01797,Pad-Mount Transformer 500 kVA — Type 67,Pad-Mount Transformer 500 kVA,Transformers,Each,22377,Critical
+MAT-01798,Pole-Mount Transformer 50 kVA — Type 67,Pole-Mount Transformer 50 kVA,Transformers,Each,5287,Low
+MAT-01799,Recloser Control Package — Type 67,Recloser Control Package,Protection,Each,16918,High
+MAT-01800,Switchgear Cabinet — Type 67,Switchgear Cabinet,Protection,Each,22971,High
+MAT-01801,Smart Meter — Type 67,Smart Meter,Metering,Each,175,Critical
+MAT-01802,Communication Gateway — Type 67,Communication Gateway,Communications,Each,1097,Medium
+MAT-01803,Grounding Kit — Type 67,Grounding Kit,Accessories,Kit,160,High
+MAT-01804,Connector Set — Type 67,Connector Set,Accessories,Kit,61,Medium
+MAT-01805,Composite Utility Pole — Type 68,Composite Utility Pole,Structures,Each,1768,High
+MAT-01806,Crossarm Assembly — Type 68,Crossarm Assembly,Structures,Each,430,Low
+MAT-01807,15 kV Cable — Type 68,15 kV Cable,Conductor,Foot,13,Low
+MAT-01808,35 kV Cable — Type 68,35 kV Cable,Conductor,Foot,30,Low
+MAT-01809,Pad-Mount Transformer 500 kVA — Type 68,Pad-Mount Transformer 500 kVA,Transformers,Each,29110,Critical
+MAT-01810,Pole-Mount Transformer 50 kVA — Type 68,Pole-Mount Transformer 50 kVA,Transformers,Each,5792,Low
+MAT-01811,Recloser Control Package — Type 68,Recloser Control Package,Protection,Each,14518,Medium
+MAT-01812,Switchgear Cabinet — Type 68,Switchgear Cabinet,Protection,Each,20216,High
+MAT-01813,Smart Meter — Type 68,Smart Meter,Metering,Each,120,Critical
+MAT-01814,Communication Gateway — Type 68,Communication Gateway,Communications,Each,994,Low
+MAT-01815,Grounding Kit — Type 68,Grounding Kit,Accessories,Kit,153,High
+MAT-01816,Connector Set — Type 68,Connector Set,Accessories,Kit,75,Medium
+MAT-01817,Composite Utility Pole — Type 69,Composite Utility Pole,Structures,Each,1997,High
+MAT-01818,Crossarm Assembly — Type 69,Crossarm Assembly,Structures,Each,524,Low
+MAT-01819,15 kV Cable — Type 69,15 kV Cable,Conductor,Foot,10,Medium
+MAT-01820,35 kV Cable — Type 69,35 kV Cable,Conductor,Foot,24,Low
+MAT-01821,Pad-Mount Transformer 500 kVA — Type 69,Pad-Mount Transformer 500 kVA,Transformers,Each,33132,High
+MAT-01822,Pole-Mount Transformer 50 kVA — Type 69,Pole-Mount Transformer 50 kVA,Transformers,Each,7487,Low
+MAT-01823,Recloser Control Package — Type 69,Recloser Control Package,Protection,Each,15090,Medium
+MAT-01824,Switchgear Cabinet — Type 69,Switchgear Cabinet,Protection,Each,16724,High
+MAT-01825,Smart Meter — Type 69,Smart Meter,Metering,Each,182,Critical
+MAT-01826,Communication Gateway — Type 69,Communication Gateway,Communications,Each,844,Low
+MAT-01827,Grounding Kit — Type 69,Grounding Kit,Accessories,Kit,162,Critical
+MAT-01828,Connector Set — Type 69,Connector Set,Accessories,Kit,64,Critical
+MAT-01829,Composite Utility Pole — Type 70,Composite Utility Pole,Structures,Each,2552,Medium
+MAT-01830,Crossarm Assembly — Type 70,Crossarm Assembly,Structures,Each,510,Low
+MAT-01831,15 kV Cable — Type 70,15 kV Cable,Conductor,Foot,13,Low
+MAT-01832,35 kV Cable — Type 70,35 kV Cable,Conductor,Foot,26,Low
+MAT-01833,Pad-Mount Transformer 500 kVA — Type 70,Pad-Mount Transformer 500 kVA,Transformers,Each,26006,Critical
+MAT-01834,Pole-Mount Transformer 50 kVA — Type 70,Pole-Mount Transformer 50 kVA,Transformers,Each,5601,Medium
+MAT-01835,Recloser Control Package — Type 70,Recloser Control Package,Protection,Each,13647,High
+MAT-01836,Switchgear Cabinet — Type 70,Switchgear Cabinet,Protection,Each,21844,High
+MAT-01837,Smart Meter — Type 70,Smart Meter,Metering,Each,143,Medium
+MAT-01838,Communication Gateway — Type 70,Communication Gateway,Communications,Each,900,Low
+MAT-01839,Grounding Kit — Type 70,Grounding Kit,Accessories,Kit,127,Critical
+MAT-01840,Connector Set — Type 70,Connector Set,Accessories,Kit,60,High
+MAT-01841,Composite Utility Pole — Type 71,Composite Utility Pole,Structures,Each,2444,Medium
+MAT-01842,Crossarm Assembly — Type 71,Crossarm Assembly,Structures,Each,525,Medium
+MAT-01843,15 kV Cable — Type 71,15 kV Cable,Conductor,Foot,14,Medium
+MAT-01844,35 kV Cable — Type 71,35 kV Cable,Conductor,Foot,26,Medium
+MAT-01845,Pad-Mount Transformer 500 kVA — Type 71,Pad-Mount Transformer 500 kVA,Transformers,Each,27529,Critical
+MAT-01846,Pole-Mount Transformer 50 kVA — Type 71,Pole-Mount Transformer 50 kVA,Transformers,Each,6833,Low
+MAT-01847,Recloser Control Package — Type 71,Recloser Control Package,Protection,Each,18078,Medium
+MAT-01848,Switchgear Cabinet — Type 71,Switchgear Cabinet,Protection,Each,16526,Medium
+MAT-01849,Smart Meter — Type 71,Smart Meter,Metering,Each,137,High
+MAT-01850,Communication Gateway — Type 71,Communication Gateway,Communications,Each,891,Low
+MAT-01851,Grounding Kit — Type 71,Grounding Kit,Accessories,Kit,130,Critical
+MAT-01852,Connector Set — Type 71,Connector Set,Accessories,Kit,59,Medium
+MAT-01853,Composite Utility Pole — Type 72,Composite Utility Pole,Structures,Each,1917,High
+MAT-01854,Crossarm Assembly — Type 72,Crossarm Assembly,Structures,Each,524,Medium
+MAT-01855,15 kV Cable — Type 72,15 kV Cable,Conductor,Foot,13,Low
+MAT-01856,35 kV Cable — Type 72,35 kV Cable,Conductor,Foot,32,Medium
+MAT-01857,Pad-Mount Transformer 500 kVA — Type 72,Pad-Mount Transformer 500 kVA,Transformers,Each,32030,High
+MAT-01858,Pole-Mount Transformer 50 kVA — Type 72,Pole-Mount Transformer 50 kVA,Transformers,Each,7384,Medium
+MAT-01859,Recloser Control Package — Type 72,Recloser Control Package,Protection,Each,18088,Critical
+MAT-01860,Switchgear Cabinet — Type 72,Switchgear Cabinet,Protection,Each,22311,Critical
+MAT-01861,Smart Meter — Type 72,Smart Meter,Metering,Each,163,Critical
+MAT-01862,Communication Gateway — Type 72,Communication Gateway,Communications,Each,1164,Medium
+MAT-01863,Grounding Kit — Type 72,Grounding Kit,Accessories,Kit,158,Critical
+MAT-01864,Connector Set — Type 72,Connector Set,Accessories,Kit,69,Medium
+MAT-01865,Composite Utility Pole — Type 73,Composite Utility Pole,Structures,Each,2155,Critical
+MAT-01866,Crossarm Assembly — Type 73,Crossarm Assembly,Structures,Each,427,Low
+MAT-01867,15 kV Cable — Type 73,15 kV Cable,Conductor,Foot,11,Medium
+MAT-01868,35 kV Cable — Type 73,35 kV Cable,Conductor,Foot,26,Low
+MAT-01869,Pad-Mount Transformer 500 kVA — Type 73,Pad-Mount Transformer 500 kVA,Transformers,Each,26316,Critical
+MAT-01870,Pole-Mount Transformer 50 kVA — Type 73,Pole-Mount Transformer 50 kVA,Transformers,Each,5517,Low
+MAT-01871,Recloser Control Package — Type 73,Recloser Control Package,Protection,Each,15664,High
+MAT-01872,Switchgear Cabinet — Type 73,Switchgear Cabinet,Protection,Each,17824,Critical
+MAT-01873,Smart Meter — Type 73,Smart Meter,Metering,Each,171,High
+MAT-01874,Communication Gateway — Type 73,Communication Gateway,Communications,Each,868,Medium
+MAT-01875,Grounding Kit — Type 73,Grounding Kit,Accessories,Kit,117,High
+MAT-01876,Connector Set — Type 73,Connector Set,Accessories,Kit,64,High
+MAT-01877,Composite Utility Pole — Type 74,Composite Utility Pole,Structures,Each,1833,High
+MAT-01878,Crossarm Assembly — Type 74,Crossarm Assembly,Structures,Each,356,Medium
+MAT-01879,15 kV Cable — Type 74,15 kV Cable,Conductor,Foot,14,Low
+MAT-01880,35 kV Cable — Type 74,35 kV Cable,Conductor,Foot,25,Low
+MAT-01881,Pad-Mount Transformer 500 kVA — Type 74,Pad-Mount Transformer 500 kVA,Transformers,Each,22739,High
+MAT-01882,Pole-Mount Transformer 50 kVA — Type 74,Pole-Mount Transformer 50 kVA,Transformers,Each,5614,Medium
+MAT-01883,Recloser Control Package — Type 74,Recloser Control Package,Protection,Each,15810,High
+MAT-01884,Switchgear Cabinet — Type 74,Switchgear Cabinet,Protection,Each,16946,High
+MAT-01885,Smart Meter — Type 74,Smart Meter,Metering,Each,186,Medium
+MAT-01886,Communication Gateway — Type 74,Communication Gateway,Communications,Each,1021,Medium
+MAT-01887,Grounding Kit — Type 74,Grounding Kit,Accessories,Kit,112,Critical
+MAT-01888,Connector Set — Type 74,Connector Set,Accessories,Kit,85,Critical
+MAT-01889,Composite Utility Pole — Type 75,Composite Utility Pole,Structures,Each,2065,Critical
+MAT-01890,Crossarm Assembly — Type 75,Crossarm Assembly,Structures,Each,381,Low
+MAT-01891,15 kV Cable — Type 75,15 kV Cable,Conductor,Foot,11,Low
+MAT-01892,35 kV Cable — Type 75,35 kV Cable,Conductor,Foot,23,Low
+MAT-01893,Pad-Mount Transformer 500 kVA — Type 75,Pad-Mount Transformer 500 kVA,Transformers,Each,25375,Critical
+MAT-01894,Pole-Mount Transformer 50 kVA — Type 75,Pole-Mount Transformer 50 kVA,Transformers,Each,7793,Low
+MAT-01895,Recloser Control Package — Type 75,Recloser Control Package,Protection,Each,17735,Critical
+MAT-01896,Switchgear Cabinet — Type 75,Switchgear Cabinet,Protection,Each,18799,Medium
+MAT-01897,Smart Meter — Type 75,Smart Meter,Metering,Each,139,High
+MAT-01898,Communication Gateway — Type 75,Communication Gateway,Communications,Each,918,Low
+MAT-01899,Grounding Kit — Type 75,Grounding Kit,Accessories,Kit,118,High
+MAT-01900,Connector Set — Type 75,Connector Set,Accessories,Kit,68,High
+MAT-01901,Composite Utility Pole — Type 76,Composite Utility Pole,Structures,Each,2238,Medium
+MAT-01902,Crossarm Assembly — Type 76,Crossarm Assembly,Structures,Each,458,Low
+MAT-01903,15 kV Cable — Type 76,15 kV Cable,Conductor,Foot,13,Medium
+MAT-01904,35 kV Cable — Type 76,35 kV Cable,Conductor,Foot,23,Medium
+MAT-01905,Pad-Mount Transformer 500 kVA — Type 76,Pad-Mount Transformer 500 kVA,Transformers,Each,29672,Critical
+MAT-01906,Pole-Mount Transformer 50 kVA — Type 76,Pole-Mount Transformer 50 kVA,Transformers,Each,5349,Low
+MAT-01907,Recloser Control Package — Type 76,Recloser Control Package,Protection,Each,12734,Medium
+MAT-01908,Switchgear Cabinet — Type 76,Switchgear Cabinet,Protection,Each,21903,High
+MAT-01909,Smart Meter — Type 76,Smart Meter,Metering,Each,161,High
+MAT-01910,Communication Gateway — Type 76,Communication Gateway,Communications,Each,1183,Medium
+MAT-01911,Grounding Kit — Type 76,Grounding Kit,Accessories,Kit,109,Critical
+MAT-01912,Connector Set — Type 76,Connector Set,Accessories,Kit,83,Medium
+MAT-01913,Composite Utility Pole — Type 77,Composite Utility Pole,Structures,Each,2128,Critical
+MAT-01914,Crossarm Assembly — Type 77,Crossarm Assembly,Structures,Each,480,Low
+MAT-01915,15 kV Cable — Type 77,15 kV Cable,Conductor,Foot,10,Medium
+MAT-01916,35 kV Cable — Type 77,35 kV Cable,Conductor,Foot,25,Medium
+MAT-01917,Pad-Mount Transformer 500 kVA — Type 77,Pad-Mount Transformer 500 kVA,Transformers,Each,32946,Critical
+MAT-01918,Pole-Mount Transformer 50 kVA — Type 77,Pole-Mount Transformer 50 kVA,Transformers,Each,5961,Low
+MAT-01919,Recloser Control Package — Type 77,Recloser Control Package,Protection,Each,12154,High
+MAT-01920,Switchgear Cabinet — Type 77,Switchgear Cabinet,Protection,Each,15622,Medium
+MAT-01921,Smart Meter — Type 77,Smart Meter,Metering,Each,182,Medium
+MAT-01922,Communication Gateway — Type 77,Communication Gateway,Communications,Each,1023,Low
+MAT-01923,Grounding Kit — Type 77,Grounding Kit,Accessories,Kit,126,Critical
+MAT-01924,Connector Set — Type 77,Connector Set,Accessories,Kit,74,High
+MAT-01925,Composite Utility Pole — Type 78,Composite Utility Pole,Structures,Each,2683,High
+MAT-01926,Crossarm Assembly — Type 78,Crossarm Assembly,Structures,Each,379,Low
+MAT-01927,15 kV Cable — Type 78,15 kV Cable,Conductor,Foot,11,Low
+MAT-01928,35 kV Cable — Type 78,35 kV Cable,Conductor,Foot,28,Medium
+MAT-01929,Pad-Mount Transformer 500 kVA — Type 78,Pad-Mount Transformer 500 kVA,Transformers,Each,21710,High
+MAT-01930,Pole-Mount Transformer 50 kVA — Type 78,Pole-Mount Transformer 50 kVA,Transformers,Each,5313,Low
+MAT-01931,Recloser Control Package — Type 78,Recloser Control Package,Protection,Each,18467,Medium
+MAT-01932,Switchgear Cabinet — Type 78,Switchgear Cabinet,Protection,Each,20594,Medium
+MAT-01933,Smart Meter — Type 78,Smart Meter,Metering,Each,158,Medium
+MAT-01934,Communication Gateway — Type 78,Communication Gateway,Communications,Each,866,Medium
+MAT-01935,Grounding Kit — Type 78,Grounding Kit,Accessories,Kit,148,Critical
+MAT-01936,Connector Set — Type 78,Connector Set,Accessories,Kit,74,High
+MAT-01937,Composite Utility Pole — Type 79,Composite Utility Pole,Structures,Each,1887,High
+MAT-01938,Crossarm Assembly — Type 79,Crossarm Assembly,Structures,Each,400,Medium
+MAT-01939,15 kV Cable — Type 79,15 kV Cable,Conductor,Foot,10,Medium
+MAT-01940,35 kV Cable — Type 79,35 kV Cable,Conductor,Foot,23,Medium
+MAT-01941,Pad-Mount Transformer 500 kVA — Type 79,Pad-Mount Transformer 500 kVA,Transformers,Each,21993,Critical
+MAT-01942,Pole-Mount Transformer 50 kVA — Type 79,Pole-Mount Transformer 50 kVA,Transformers,Each,6648,Low
+MAT-01943,Recloser Control Package — Type 79,Recloser Control Package,Protection,Each,17196,Medium
+MAT-01944,Switchgear Cabinet — Type 79,Switchgear Cabinet,Protection,Each,24225,High
+MAT-01945,Smart Meter — Type 79,Smart Meter,Metering,Each,174,Medium
+MAT-01946,Communication Gateway — Type 79,Communication Gateway,Communications,Each,1203,Low
+MAT-01947,Grounding Kit — Type 79,Grounding Kit,Accessories,Kit,148,Critical
+MAT-01948,Connector Set — Type 79,Connector Set,Accessories,Kit,67,High
+MAT-01949,Composite Utility Pole — Type 80,Composite Utility Pole,Structures,Each,2169,Critical
+MAT-01950,Crossarm Assembly — Type 80,Crossarm Assembly,Structures,Each,393,Low
+MAT-01951,15 kV Cable — Type 80,15 kV Cable,Conductor,Foot,11,Low
+MAT-01952,35 kV Cable — Type 80,35 kV Cable,Conductor,Foot,24,Low
+MAT-01953,Pad-Mount Transformer 500 kVA — Type 80,Pad-Mount Transformer 500 kVA,Transformers,Each,31458,Critical
+MAT-01954,Pole-Mount Transformer 50 kVA — Type 80,Pole-Mount Transformer 50 kVA,Transformers,Each,5109,Low
+MAT-01955,Recloser Control Package — Type 80,Recloser Control Package,Protection,Each,16974,Medium
+MAT-01956,Switchgear Cabinet — Type 80,Switchgear Cabinet,Protection,Each,22118,Medium
+MAT-01957,Smart Meter — Type 80,Smart Meter,Metering,Each,158,Critical
+MAT-01958,Communication Gateway — Type 80,Communication Gateway,Communications,Each,809,Low
+MAT-01959,Grounding Kit — Type 80,Grounding Kit,Accessories,Kit,166,Critical
+MAT-01960,Connector Set — Type 80,Connector Set,Accessories,Kit,60,Medium
+MAT-01961,Composite Utility Pole — Type 81,Composite Utility Pole,Structures,Each,2298,Critical
+MAT-01962,Crossarm Assembly — Type 81,Crossarm Assembly,Structures,Each,517,Medium
+MAT-01963,15 kV Cable — Type 81,15 kV Cable,Conductor,Foot,11,Medium
+MAT-01964,35 kV Cable — Type 81,35 kV Cable,Conductor,Foot,26,Low
+MAT-01965,Pad-Mount Transformer 500 kVA — Type 81,Pad-Mount Transformer 500 kVA,Transformers,Each,29475,Critical
+MAT-01966,Pole-Mount Transformer 50 kVA — Type 81,Pole-Mount Transformer 50 kVA,Transformers,Each,6617,Low
+MAT-01967,Recloser Control Package — Type 81,Recloser Control Package,Protection,Each,12606,Critical
+MAT-01968,Switchgear Cabinet — Type 81,Switchgear Cabinet,Protection,Each,16169,High
+MAT-01969,Smart Meter — Type 81,Smart Meter,Metering,Each,127,Critical
+MAT-01970,Communication Gateway — Type 81,Communication Gateway,Communications,Each,847,Medium
+MAT-01971,Grounding Kit — Type 81,Grounding Kit,Accessories,Kit,150,High
+MAT-01972,Connector Set — Type 81,Connector Set,Accessories,Kit,76,Critical
+MAT-01973,Composite Utility Pole — Type 82,Composite Utility Pole,Structures,Each,2522,Critical
+MAT-01974,Crossarm Assembly — Type 82,Crossarm Assembly,Structures,Each,407,Low
+MAT-01975,15 kV Cable — Type 82,15 kV Cable,Conductor,Foot,15,Low
+MAT-01976,35 kV Cable — Type 82,35 kV Cable,Conductor,Foot,28,Low
+MAT-01977,Pad-Mount Transformer 500 kVA — Type 82,Pad-Mount Transformer 500 kVA,Transformers,Each,33252,High
+MAT-01978,Pole-Mount Transformer 50 kVA — Type 82,Pole-Mount Transformer 50 kVA,Transformers,Each,6622,Low
+MAT-01979,Recloser Control Package — Type 82,Recloser Control Package,Protection,Each,15702,High
+MAT-01980,Switchgear Cabinet — Type 82,Switchgear Cabinet,Protection,Each,20675,High
+MAT-01981,Smart Meter — Type 82,Smart Meter,Metering,Each,163,Medium
+MAT-01982,Communication Gateway — Type 82,Communication Gateway,Communications,Each,1160,Low
+MAT-01983,Grounding Kit — Type 82,Grounding Kit,Accessories,Kit,139,Critical
+MAT-01984,Connector Set — Type 82,Connector Set,Accessories,Kit,64,Medium
+MAT-01985,Composite Utility Pole — Type 83,Composite Utility Pole,Structures,Each,2565,Medium
+MAT-01986,Crossarm Assembly — Type 83,Crossarm Assembly,Structures,Each,459,Low
+MAT-01987,15 kV Cable — Type 83,15 kV Cable,Conductor,Foot,14,Low
+MAT-01988,35 kV Cable — Type 83,35 kV Cable,Conductor,Foot,29,Low
+MAT-01989,Pad-Mount Transformer 500 kVA — Type 83,Pad-Mount Transformer 500 kVA,Transformers,Each,26657,High
+MAT-01990,Pole-Mount Transformer 50 kVA — Type 83,Pole-Mount Transformer 50 kVA,Transformers,Each,6566,Medium
+MAT-01991,Recloser Control Package — Type 83,Recloser Control Package,Protection,Each,12226,High
+MAT-01992,Switchgear Cabinet — Type 83,Switchgear Cabinet,Protection,Each,18843,Medium
+MAT-01993,Smart Meter — Type 83,Smart Meter,Metering,Each,153,Critical
+MAT-01994,Communication Gateway — Type 83,Communication Gateway,Communications,Each,956,Low
+MAT-01995,Grounding Kit — Type 83,Grounding Kit,Accessories,Kit,130,Critical
+MAT-01996,Connector Set — Type 83,Connector Set,Accessories,Kit,59,Critical
+MAT-01997,Composite Utility Pole — Type 84,Composite Utility Pole,Structures,Each,2648,Medium
+MAT-01998,Crossarm Assembly — Type 84,Crossarm Assembly,Structures,Each,523,Low
+MAT-01999,15 kV Cable — Type 84,15 kV Cable,Conductor,Foot,13,Low
+MAT-02000,35 kV Cable — Type 84,35 kV Cable,Conductor,Foot,32,Low
+MAT-02001,Pad-Mount Transformer 500 kVA — Type 84,Pad-Mount Transformer 500 kVA,Transformers,Each,21725,Critical
+MAT-02002,Pole-Mount Transformer 50 kVA — Type 84,Pole-Mount Transformer 50 kVA,Transformers,Each,7449,Medium
+MAT-02003,Recloser Control Package — Type 84,Recloser Control Package,Protection,Each,12246,High
+MAT-02004,Switchgear Cabinet — Type 84,Switchgear Cabinet,Protection,Each,20233,Critical
+MAT-02005,Smart Meter — Type 84,Smart Meter,Metering,Each,150,Critical
+MAT-02006,Communication Gateway — Type 84,Communication Gateway,Communications,Each,847,Low
+MAT-02007,Grounding Kit — Type 84,Grounding Kit,Accessories,Kit,157,High
+MAT-02008,Connector Set — Type 84,Connector Set,Accessories,Kit,73,Medium
+MAT-02009,Composite Utility Pole — Type 85,Composite Utility Pole,Structures,Each,1880,Critical
+MAT-02010,Crossarm Assembly — Type 85,Crossarm Assembly,Structures,Each,465,Low
+MAT-02011,15 kV Cable — Type 85,15 kV Cable,Conductor,Foot,11,Low
+MAT-02012,35 kV Cable — Type 85,35 kV Cable,Conductor,Foot,32,Medium
+MAT-02013,Pad-Mount Transformer 500 kVA — Type 85,Pad-Mount Transformer 500 kVA,Transformers,Each,28737,Critical
+MAT-02014,Pole-Mount Transformer 50 kVA — Type 85,Pole-Mount Transformer 50 kVA,Transformers,Each,5131,Medium
+MAT-02015,Recloser Control Package — Type 85,Recloser Control Package,Protection,Each,15796,Medium
+MAT-02016,Switchgear Cabinet — Type 85,Switchgear Cabinet,Protection,Each,15688,High
+MAT-02017,Smart Meter — Type 85,Smart Meter,Metering,Each,153,High
+MAT-02018,Communication Gateway — Type 85,Communication Gateway,Communications,Each,916,Low
+MAT-02019,Grounding Kit — Type 85,Grounding Kit,Accessories,Kit,129,Critical
+MAT-02020,Connector Set — Type 85,Connector Set,Accessories,Kit,66,Medium
+MAT-02021,Composite Utility Pole — Type 86,Composite Utility Pole,Structures,Each,2247,Medium
+MAT-02022,Crossarm Assembly — Type 86,Crossarm Assembly,Structures,Each,528,Low
+MAT-02023,15 kV Cable — Type 86,15 kV Cable,Conductor,Foot,14,Low
+MAT-02024,35 kV Cable — Type 86,35 kV Cable,Conductor,Foot,28,Low
+MAT-02025,Pad-Mount Transformer 500 kVA — Type 86,Pad-Mount Transformer 500 kVA,Transformers,Each,28707,High
+MAT-02026,Pole-Mount Transformer 50 kVA — Type 86,Pole-Mount Transformer 50 kVA,Transformers,Each,6557,Medium
+MAT-02027,Recloser Control Package — Type 86,Recloser Control Package,Protection,Each,14532,Critical
+MAT-02028,Switchgear Cabinet — Type 86,Switchgear Cabinet,Protection,Each,21305,Medium
+MAT-02029,Smart Meter — Type 86,Smart Meter,Metering,Each,120,High
+MAT-02030,Communication Gateway — Type 86,Communication Gateway,Communications,Each,1176,Medium
+MAT-02031,Grounding Kit — Type 86,Grounding Kit,Accessories,Kit,144,Critical
+MAT-02032,Connector Set — Type 86,Connector Set,Accessories,Kit,60,Critical
+MAT-02033,Composite Utility Pole — Type 87,Composite Utility Pole,Structures,Each,1747,High
+MAT-02034,Crossarm Assembly — Type 87,Crossarm Assembly,Structures,Each,382,Low
+MAT-02035,15 kV Cable — Type 87,15 kV Cable,Conductor,Foot,12,Low
+MAT-02036,35 kV Cable — Type 87,35 kV Cable,Conductor,Foot,28,Low
+MAT-02037,Pad-Mount Transformer 500 kVA — Type 87,Pad-Mount Transformer 500 kVA,Transformers,Each,30501,Critical
+MAT-02038,Pole-Mount Transformer 50 kVA — Type 87,Pole-Mount Transformer 50 kVA,Transformers,Each,5439,Low
+MAT-02039,Recloser Control Package — Type 87,Recloser Control Package,Protection,Each,17982,High
+MAT-02040,Switchgear Cabinet — Type 87,Switchgear Cabinet,Protection,Each,23817,High
+MAT-02041,Smart Meter — Type 87,Smart Meter,Metering,Each,146,High
+MAT-02042,Communication Gateway — Type 87,Communication Gateway,Communications,Each,1143,Low
+MAT-02043,Grounding Kit — Type 87,Grounding Kit,Accessories,Kit,115,Critical
+MAT-02044,Connector Set — Type 87,Connector Set,Accessories,Kit,77,Medium
+MAT-02045,Composite Utility Pole — Type 88,Composite Utility Pole,Structures,Each,2578,High
+MAT-02046,Crossarm Assembly — Type 88,Crossarm Assembly,Structures,Each,494,Low
+MAT-02047,15 kV Cable — Type 88,15 kV Cable,Conductor,Foot,13,Low
+MAT-02048,35 kV Cable — Type 88,35 kV Cable,Conductor,Foot,32,Medium
+MAT-02049,Pad-Mount Transformer 500 kVA — Type 88,Pad-Mount Transformer 500 kVA,Transformers,Each,31815,Critical
+MAT-02050,Pole-Mount Transformer 50 kVA — Type 88,Pole-Mount Transformer 50 kVA,Transformers,Each,7742,Low
+MAT-02051,Recloser Control Package — Type 88,Recloser Control Package,Protection,Each,14708,High
+MAT-02052,Switchgear Cabinet — Type 88,Switchgear Cabinet,Protection,Each,18102,High
+MAT-02053,Smart Meter — Type 88,Smart Meter,Metering,Each,124,Critical
+MAT-02054,Communication Gateway — Type 88,Communication Gateway,Communications,Each,1088,Medium
+MAT-02055,Grounding Kit — Type 88,Grounding Kit,Accessories,Kit,132,Critical
+MAT-02056,Connector Set — Type 88,Connector Set,Accessories,Kit,82,Medium
+MAT-02057,Composite Utility Pole — Type 89,Composite Utility Pole,Structures,Each,2414,Critical
+MAT-02058,Crossarm Assembly — Type 89,Crossarm Assembly,Structures,Each,511,Low
+MAT-02059,15 kV Cable — Type 89,15 kV Cable,Conductor,Foot,15,Medium
+MAT-02060,35 kV Cable — Type 89,35 kV Cable,Conductor,Foot,30,Medium
+MAT-02061,Pad-Mount Transformer 500 kVA — Type 89,Pad-Mount Transformer 500 kVA,Transformers,Each,33197,High
+MAT-02062,Pole-Mount Transformer 50 kVA — Type 89,Pole-Mount Transformer 50 kVA,Transformers,Each,7208,Medium
+MAT-02063,Recloser Control Package — Type 89,Recloser Control Package,Protection,Each,18073,High
+MAT-02064,Switchgear Cabinet — Type 89,Switchgear Cabinet,Protection,Each,16506,High
+MAT-02065,Smart Meter — Type 89,Smart Meter,Metering,Each,175,Critical
+MAT-02066,Communication Gateway — Type 89,Communication Gateway,Communications,Each,914,Low
+MAT-02067,Grounding Kit — Type 89,Grounding Kit,Accessories,Kit,155,Critical
+MAT-02068,Connector Set — Type 89,Connector Set,Accessories,Kit,74,Medium
+MAT-02069,Composite Utility Pole — Type 90,Composite Utility Pole,Structures,Each,2315,Medium
+MAT-02070,Crossarm Assembly — Type 90,Crossarm Assembly,Structures,Each,436,Low
+MAT-02071,15 kV Cable — Type 90,15 kV Cable,Conductor,Foot,13,Medium
+MAT-02072,35 kV Cable — Type 90,35 kV Cable,Conductor,Foot,31,Medium
+MAT-02073,Pad-Mount Transformer 500 kVA — Type 90,Pad-Mount Transformer 500 kVA,Transformers,Each,30895,High
+MAT-02074,Pole-Mount Transformer 50 kVA — Type 90,Pole-Mount Transformer 50 kVA,Transformers,Each,6746,Low
+MAT-02075,Recloser Control Package — Type 90,Recloser Control Package,Protection,Each,16820,Critical
+MAT-02076,Switchgear Cabinet — Type 90,Switchgear Cabinet,Protection,Each,17810,Critical
+MAT-02077,Smart Meter — Type 90,Smart Meter,Metering,Each,182,Medium
+MAT-02078,Communication Gateway — Type 90,Communication Gateway,Communications,Each,1249,Medium
+MAT-02079,Grounding Kit — Type 90,Grounding Kit,Accessories,Kit,117,Critical
+MAT-02080,Connector Set — Type 90,Connector Set,Accessories,Kit,68,Medium
+MAT-02081,Composite Utility Pole — Type 91,Composite Utility Pole,Structures,Each,2387,Medium
+MAT-02082,Crossarm Assembly — Type 91,Crossarm Assembly,Structures,Each,501,Low
+MAT-02083,15 kV Cable — Type 91,15 kV Cable,Conductor,Foot,12,Low
+MAT-02084,35 kV Cable — Type 91,35 kV Cable,Conductor,Foot,24,Low
+MAT-02085,Pad-Mount Transformer 500 kVA — Type 91,Pad-Mount Transformer 500 kVA,Transformers,Each,32945,High
+MAT-02086,Pole-Mount Transformer 50 kVA — Type 91,Pole-Mount Transformer 50 kVA,Transformers,Each,5482,Low
+MAT-02087,Recloser Control Package — Type 91,Recloser Control Package,Protection,Each,13400,High
+MAT-02088,Switchgear Cabinet — Type 91,Switchgear Cabinet,Protection,Each,15686,Critical
+MAT-02089,Smart Meter — Type 91,Smart Meter,Metering,Each,153,Medium
+MAT-02090,Communication Gateway — Type 91,Communication Gateway,Communications,Each,989,Low
+MAT-02091,Grounding Kit — Type 91,Grounding Kit,Accessories,Kit,151,High
+MAT-02092,Connector Set — Type 91,Connector Set,Accessories,Kit,68,Medium
+MAT-02093,Composite Utility Pole — Type 92,Composite Utility Pole,Structures,Each,1725,Medium
+MAT-02094,Crossarm Assembly — Type 92,Crossarm Assembly,Structures,Each,409,Low
+MAT-02095,15 kV Cable — Type 92,15 kV Cable,Conductor,Foot,12,Low
+MAT-02096,35 kV Cable — Type 92,35 kV Cable,Conductor,Foot,31,Low
+MAT-02097,Pad-Mount Transformer 500 kVA — Type 92,Pad-Mount Transformer 500 kVA,Transformers,Each,22434,Critical
+MAT-02098,Pole-Mount Transformer 50 kVA — Type 92,Pole-Mount Transformer 50 kVA,Transformers,Each,7265,Low
+MAT-02099,Recloser Control Package — Type 92,Recloser Control Package,Protection,Each,17111,Critical
+MAT-02100,Switchgear Cabinet — Type 92,Switchgear Cabinet,Protection,Each,19924,Medium
+MAT-02101,Smart Meter — Type 92,Smart Meter,Metering,Each,134,High
+MAT-02102,Communication Gateway — Type 92,Communication Gateway,Communications,Each,840,Medium
+MAT-02103,Grounding Kit — Type 92,Grounding Kit,Accessories,Kit,154,Critical
+MAT-02104,Connector Set — Type 92,Connector Set,Accessories,Kit,77,Critical
+MAT-02105,Composite Utility Pole — Type 93,Composite Utility Pole,Structures,Each,2353,High
+MAT-02106,Crossarm Assembly — Type 93,Crossarm Assembly,Structures,Each,405,Low
+MAT-02107,15 kV Cable — Type 93,15 kV Cable,Conductor,Foot,15,Low
+MAT-02108,35 kV Cable — Type 93,35 kV Cable,Conductor,Foot,33,Medium
+MAT-02109,Pad-Mount Transformer 500 kVA — Type 93,Pad-Mount Transformer 500 kVA,Transformers,Each,23255,High
+MAT-02110,Pole-Mount Transformer 50 kVA — Type 93,Pole-Mount Transformer 50 kVA,Transformers,Each,5223,Medium
+MAT-02111,Recloser Control Package — Type 93,Recloser Control Package,Protection,Each,14256,High
+MAT-02112,Switchgear Cabinet — Type 93,Switchgear Cabinet,Protection,Each,17850,High
+MAT-02113,Smart Meter — Type 93,Smart Meter,Metering,Each,127,Medium
+MAT-02114,Communication Gateway — Type 93,Communication Gateway,Communications,Each,962,Low
+MAT-02115,Grounding Kit — Type 93,Grounding Kit,Accessories,Kit,148,Critical
+MAT-02116,Connector Set — Type 93,Connector Set,Accessories,Kit,85,High
+MAT-02117,Composite Utility Pole — Type 94,Composite Utility Pole,Structures,Each,2529,High
+MAT-02118,Crossarm Assembly — Type 94,Crossarm Assembly,Structures,Each,535,Medium
+MAT-02119,15 kV Cable — Type 94,15 kV Cable,Conductor,Foot,13,Medium
+MAT-02120,35 kV Cable — Type 94,35 kV Cable,Conductor,Foot,31,Low
+MAT-02121,Pad-Mount Transformer 500 kVA — Type 94,Pad-Mount Transformer 500 kVA,Transformers,Each,33259,Critical
+MAT-02122,Pole-Mount Transformer 50 kVA — Type 94,Pole-Mount Transformer 50 kVA,Transformers,Each,6783,Low
+MAT-02123,Recloser Control Package — Type 94,Recloser Control Package,Protection,Each,13523,High
+MAT-02124,Switchgear Cabinet — Type 94,Switchgear Cabinet,Protection,Each,17186,Critical
+MAT-02125,Smart Meter — Type 94,Smart Meter,Metering,Each,122,Medium
+MAT-02126,Communication Gateway — Type 94,Communication Gateway,Communications,Each,822,Medium
+MAT-02127,Grounding Kit — Type 94,Grounding Kit,Accessories,Kit,140,Critical
+MAT-02128,Connector Set — Type 94,Connector Set,Accessories,Kit,69,High
+MAT-02129,Composite Utility Pole — Type 95,Composite Utility Pole,Structures,Each,2000,High
+MAT-02130,Crossarm Assembly — Type 95,Crossarm Assembly,Structures,Each,529,Low
+MAT-02131,15 kV Cable — Type 95,15 kV Cable,Conductor,Foot,14,Low
+MAT-02132,35 kV Cable — Type 95,35 kV Cable,Conductor,Foot,32,Low
+MAT-02133,Pad-Mount Transformer 500 kVA — Type 95,Pad-Mount Transformer 500 kVA,Transformers,Each,23975,Critical
+MAT-02134,Pole-Mount Transformer 50 kVA — Type 95,Pole-Mount Transformer 50 kVA,Transformers,Each,7441,Low
+MAT-02135,Recloser Control Package — Type 95,Recloser Control Package,Protection,Each,16180,High
+MAT-02136,Switchgear Cabinet — Type 95,Switchgear Cabinet,Protection,Each,18829,Medium
+MAT-02137,Smart Meter — Type 95,Smart Meter,Metering,Each,171,High
+MAT-02138,Communication Gateway — Type 95,Communication Gateway,Communications,Each,914,Low
+MAT-02139,Grounding Kit — Type 95,Grounding Kit,Accessories,Kit,142,Critical
+MAT-02140,Connector Set — Type 95,Connector Set,Accessories,Kit,80,Medium
+MAT-02141,Composite Utility Pole — Type 96,Composite Utility Pole,Structures,Each,2089,Medium
+MAT-02142,Crossarm Assembly — Type 96,Crossarm Assembly,Structures,Each,406,Medium
+MAT-02143,15 kV Cable — Type 96,15 kV Cable,Conductor,Foot,15,Medium
+MAT-02144,35 kV Cable — Type 96,35 kV Cable,Conductor,Foot,31,Low
+MAT-02145,Pad-Mount Transformer 500 kVA — Type 96,Pad-Mount Transformer 500 kVA,Transformers,Each,26277,High
+MAT-02146,Pole-Mount Transformer 50 kVA — Type 96,Pole-Mount Transformer 50 kVA,Transformers,Each,5381,Low
+MAT-02147,Recloser Control Package — Type 96,Recloser Control Package,Protection,Each,12716,High
+MAT-02148,Switchgear Cabinet — Type 96,Switchgear Cabinet,Protection,Each,23714,High
+MAT-02149,Smart Meter — Type 96,Smart Meter,Metering,Each,160,Medium
+MAT-02150,Communication Gateway — Type 96,Communication Gateway,Communications,Each,916,Low
+MAT-02151,Grounding Kit — Type 96,Grounding Kit,Accessories,Kit,120,High
+MAT-02152,Connector Set — Type 96,Connector Set,Accessories,Kit,72,High
+MAT-02153,Composite Utility Pole — Type 97,Composite Utility Pole,Structures,Each,1878,Medium
+MAT-02154,Crossarm Assembly — Type 97,Crossarm Assembly,Structures,Each,408,Low
+MAT-02155,15 kV Cable — Type 97,15 kV Cable,Conductor,Foot,11,Low
+MAT-02156,35 kV Cable — Type 97,35 kV Cable,Conductor,Foot,23,Medium
+MAT-02157,Pad-Mount Transformer 500 kVA — Type 97,Pad-Mount Transformer 500 kVA,Transformers,Each,23073,Critical
+MAT-02158,Pole-Mount Transformer 50 kVA — Type 97,Pole-Mount Transformer 50 kVA,Transformers,Each,6825,Low
+MAT-02159,Recloser Control Package — Type 97,Recloser Control Package,Protection,Each,12480,High
+MAT-02160,Switchgear Cabinet — Type 97,Switchgear Cabinet,Protection,Each,21026,Medium
+MAT-02161,Smart Meter — Type 97,Smart Meter,Metering,Each,145,Medium
+MAT-02162,Communication Gateway — Type 97,Communication Gateway,Communications,Each,1253,Low
+MAT-02163,Grounding Kit — Type 97,Grounding Kit,Accessories,Kit,145,Critical
+MAT-02164,Connector Set — Type 97,Connector Set,Accessories,Kit,85,Medium
+MAT-02165,Composite Utility Pole — Type 98,Composite Utility Pole,Structures,Each,2402,High
+MAT-02166,Crossarm Assembly — Type 98,Crossarm Assembly,Structures,Each,475,Low
+MAT-02167,15 kV Cable — Type 98,15 kV Cable,Conductor,Foot,11,Low
+MAT-02168,35 kV Cable — Type 98,35 kV Cable,Conductor,Foot,23,Medium
+MAT-02169,Pad-Mount Transformer 500 kVA — Type 98,Pad-Mount Transformer 500 kVA,Transformers,Each,33273,Critical
+MAT-02170,Pole-Mount Transformer 50 kVA — Type 98,Pole-Mount Transformer 50 kVA,Transformers,Each,7007,Low
+MAT-02171,Recloser Control Package — Type 98,Recloser Control Package,Protection,Each,15824,High
+MAT-02172,Switchgear Cabinet — Type 98,Switchgear Cabinet,Protection,Each,18772,High
+MAT-02173,Smart Meter — Type 98,Smart Meter,Metering,Each,159,Critical
+MAT-02174,Communication Gateway — Type 98,Communication Gateway,Communications,Each,1201,Low
+MAT-02175,Grounding Kit — Type 98,Grounding Kit,Accessories,Kit,135,Critical
+MAT-02176,Connector Set — Type 98,Connector Set,Accessories,Kit,63,Medium
+MAT-02177,Composite Utility Pole — Type 99,Composite Utility Pole,Structures,Each,2675,Medium
+MAT-02178,Crossarm Assembly — Type 99,Crossarm Assembly,Structures,Each,377,Medium
+MAT-02179,15 kV Cable — Type 99,15 kV Cable,Conductor,Foot,12,Low
+MAT-02180,35 kV Cable — Type 99,35 kV Cable,Conductor,Foot,34,Medium
+MAT-02181,Pad-Mount Transformer 500 kVA — Type 99,Pad-Mount Transformer 500 kVA,Transformers,Each,23157,High
+MAT-02182,Pole-Mount Transformer 50 kVA — Type 99,Pole-Mount Transformer 50 kVA,Transformers,Each,7689,Low
+MAT-02183,Recloser Control Package — Type 99,Recloser Control Package,Protection,Each,14134,High
+MAT-02184,Switchgear Cabinet — Type 99,Switchgear Cabinet,Protection,Each,17747,Medium
+MAT-02185,Smart Meter — Type 99,Smart Meter,Metering,Each,172,Critical
+MAT-02186,Communication Gateway — Type 99,Communication Gateway,Communications,Each,1071,Low
+MAT-02187,Grounding Kit — Type 99,Grounding Kit,Accessories,Kit,139,Critical
+MAT-02188,Connector Set — Type 99,Connector Set,Accessories,Kit,74,Medium
+MAT-02189,Composite Utility Pole — Type 100,Composite Utility Pole,Structures,Each,2175,Medium
+MAT-02190,Crossarm Assembly — Type 100,Crossarm Assembly,Structures,Each,524,Low
+MAT-02191,15 kV Cable — Type 100,15 kV Cable,Conductor,Foot,14,Medium
+MAT-02192,35 kV Cable — Type 100,35 kV Cable,Conductor,Foot,31,Medium
+MAT-02193,Pad-Mount Transformer 500 kVA — Type 100,Pad-Mount Transformer 500 kVA,Transformers,Each,28659,Critical
+MAT-02194,Pole-Mount Transformer 50 kVA — Type 100,Pole-Mount Transformer 50 kVA,Transformers,Each,6813,Low
+MAT-02195,Recloser Control Package — Type 100,Recloser Control Package,Protection,Each,13499,Critical
+MAT-02196,Switchgear Cabinet — Type 100,Switchgear Cabinet,Protection,Each,16981,High
+MAT-02197,Smart Meter — Type 100,Smart Meter,Metering,Each,172,Medium
+MAT-02198,Communication Gateway — Type 100,Communication Gateway,Communications,Each,1051,Low
+MAT-02199,Grounding Kit — Type 100,Grounding Kit,Accessories,Kit,135,High
+MAT-02200,Connector Set — Type 100,Connector Set,Accessories,Kit,86,Medium
+MAT-02201,Composite Utility Pole — Type 101,Composite Utility Pole,Structures,Each,2523,High
+MAT-02202,Crossarm Assembly — Type 101,Crossarm Assembly,Structures,Each,488,Low
+MAT-02203,15 kV Cable — Type 101,15 kV Cable,Conductor,Foot,14,Low
+MAT-02204,35 kV Cable — Type 101,35 kV Cable,Conductor,Foot,23,Low
+MAT-02205,Pad-Mount Transformer 500 kVA — Type 101,Pad-Mount Transformer 500 kVA,Transformers,Each,24824,Critical
+MAT-02206,Pole-Mount Transformer 50 kVA — Type 101,Pole-Mount Transformer 50 kVA,Transformers,Each,7075,Medium
+MAT-02207,Recloser Control Package — Type 101,Recloser Control Package,Protection,Each,16619,Medium
+MAT-02208,Switchgear Cabinet — Type 101,Switchgear Cabinet,Protection,Each,18431,Medium
+MAT-02209,Smart Meter — Type 101,Smart Meter,Metering,Each,145,High
+MAT-02210,Communication Gateway — Type 101,Communication Gateway,Communications,Each,1061,Low
+MAT-02211,Grounding Kit — Type 101,Grounding Kit,Accessories,Kit,115,Critical
+MAT-02212,Connector Set — Type 101,Connector Set,Accessories,Kit,75,Critical
+MAT-02213,Composite Utility Pole — Type 102,Composite Utility Pole,Structures,Each,2485,High
+MAT-02214,Crossarm Assembly — Type 102,Crossarm Assembly,Structures,Each,389,Low
+MAT-02215,15 kV Cable — Type 102,15 kV Cable,Conductor,Foot,14,Medium
+MAT-02216,35 kV Cable — Type 102,35 kV Cable,Conductor,Foot,24,Low
+MAT-02217,Pad-Mount Transformer 500 kVA — Type 102,Pad-Mount Transformer 500 kVA,Transformers,Each,25861,Critical
+MAT-02218,Pole-Mount Transformer 50 kVA — Type 102,Pole-Mount Transformer 50 kVA,Transformers,Each,6360,Medium
+MAT-02219,Recloser Control Package — Type 102,Recloser Control Package,Protection,Each,18396,Medium
+MAT-02220,Switchgear Cabinet — Type 102,Switchgear Cabinet,Protection,Each,23609,High
+MAT-02221,Smart Meter — Type 102,Smart Meter,Metering,Each,178,Critical
+MAT-02222,Communication Gateway — Type 102,Communication Gateway,Communications,Each,1157,Low
+MAT-02223,Grounding Kit — Type 102,Grounding Kit,Accessories,Kit,136,High
+MAT-02224,Connector Set — Type 102,Connector Set,Accessories,Kit,63,Medium
+MAT-02225,Composite Utility Pole — Type 103,Composite Utility Pole,Structures,Each,2299,Medium
+MAT-02226,Crossarm Assembly — Type 103,Crossarm Assembly,Structures,Each,515,Low
+MAT-02227,15 kV Cable — Type 103,15 kV Cable,Conductor,Foot,12,Low
+MAT-02228,35 kV Cable — Type 103,35 kV Cable,Conductor,Foot,31,Low
+MAT-02229,Pad-Mount Transformer 500 kVA — Type 103,Pad-Mount Transformer 500 kVA,Transformers,Each,21514,High
+MAT-02230,Pole-Mount Transformer 50 kVA — Type 103,Pole-Mount Transformer 50 kVA,Transformers,Each,7148,Medium
+MAT-02231,Recloser Control Package — Type 103,Recloser Control Package,Protection,Each,17938,Medium
+MAT-02232,Switchgear Cabinet — Type 103,Switchgear Cabinet,Protection,Each,20901,High
+MAT-02233,Smart Meter — Type 103,Smart Meter,Metering,Each,134,Medium
+MAT-02234,Communication Gateway — Type 103,Communication Gateway,Communications,Each,1156,Low
+MAT-02235,Grounding Kit — Type 103,Grounding Kit,Accessories,Kit,126,Critical
+MAT-02236,Connector Set — Type 103,Connector Set,Accessories,Kit,73,High
+MAT-02237,Composite Utility Pole — Type 104,Composite Utility Pole,Structures,Each,2567,Medium
+MAT-02238,Crossarm Assembly — Type 104,Crossarm Assembly,Structures,Each,531,Medium
+MAT-02239,15 kV Cable — Type 104,15 kV Cable,Conductor,Foot,10,Low
+MAT-02240,35 kV Cable — Type 104,35 kV Cable,Conductor,Foot,25,Low
+MAT-02241,Pad-Mount Transformer 500 kVA — Type 104,Pad-Mount Transformer 500 kVA,Transformers,Each,32720,High
+MAT-02242,Pole-Mount Transformer 50 kVA — Type 104,Pole-Mount Transformer 50 kVA,Transformers,Each,7254,Medium
+MAT-02243,Recloser Control Package — Type 104,Recloser Control Package,Protection,Each,16399,Critical
+MAT-02244,Switchgear Cabinet — Type 104,Switchgear Cabinet,Protection,Each,17212,High
+MAT-02245,Smart Meter — Type 104,Smart Meter,Metering,Each,139,High
+MAT-02246,Communication Gateway — Type 104,Communication Gateway,Communications,Each,1100,Medium
+MAT-02247,Grounding Kit — Type 104,Grounding Kit,Accessories,Kit,144,Critical
+MAT-02248,Connector Set — Type 104,Connector Set,Accessories,Kit,64,Critical
+MAT-02249,Composite Utility Pole — Type 105,Composite Utility Pole,Structures,Each,1879,Critical
+MAT-02250,Crossarm Assembly — Type 105,Crossarm Assembly,Structures,Each,432,Low
+MAT-02251,15 kV Cable — Type 105,15 kV Cable,Conductor,Foot,11,Low
+MAT-02252,35 kV Cable — Type 105,35 kV Cable,Conductor,Foot,31,Low
+MAT-02253,Pad-Mount Transformer 500 kVA — Type 105,Pad-Mount Transformer 500 kVA,Transformers,Each,26424,Critical
+MAT-02254,Pole-Mount Transformer 50 kVA — Type 105,Pole-Mount Transformer 50 kVA,Transformers,Each,5207,Low
+MAT-02255,Recloser Control Package — Type 105,Recloser Control Package,Protection,Each,16966,High
+MAT-02256,Switchgear Cabinet — Type 105,Switchgear Cabinet,Protection,Each,22370,Medium
+MAT-02257,Smart Meter — Type 105,Smart Meter,Metering,Each,139,High
+MAT-02258,Communication Gateway — Type 105,Communication Gateway,Communications,Each,832,Medium
+MAT-02259,Grounding Kit — Type 105,Grounding Kit,Accessories,Kit,145,High
+MAT-02260,Connector Set — Type 105,Connector Set,Accessories,Kit,83,Critical
+MAT-02261,Composite Utility Pole — Type 106,Composite Utility Pole,Structures,Each,1723,Medium
+MAT-02262,Crossarm Assembly — Type 106,Crossarm Assembly,Structures,Each,368,Low
+MAT-02263,15 kV Cable — Type 106,15 kV Cable,Conductor,Foot,12,Medium
+MAT-02264,35 kV Cable — Type 106,35 kV Cable,Conductor,Foot,34,Low
+MAT-02265,Pad-Mount Transformer 500 kVA — Type 106,Pad-Mount Transformer 500 kVA,Transformers,Each,33067,Critical
+MAT-02266,Pole-Mount Transformer 50 kVA — Type 106,Pole-Mount Transformer 50 kVA,Transformers,Each,7123,Low
+MAT-02267,Recloser Control Package — Type 106,Recloser Control Package,Protection,Each,16497,Medium
+MAT-02268,Switchgear Cabinet — Type 106,Switchgear Cabinet,Protection,Each,16250,Medium
+MAT-02269,Smart Meter — Type 106,Smart Meter,Metering,Each,185,Medium
+MAT-02270,Communication Gateway — Type 106,Communication Gateway,Communications,Each,1247,Medium
+MAT-02271,Grounding Kit — Type 106,Grounding Kit,Accessories,Kit,109,Critical
+MAT-02272,Connector Set — Type 106,Connector Set,Accessories,Kit,56,High
+MAT-02273,Composite Utility Pole — Type 107,Composite Utility Pole,Structures,Each,2627,Critical
+MAT-02274,Crossarm Assembly — Type 107,Crossarm Assembly,Structures,Each,378,Low
+MAT-02275,15 kV Cable — Type 107,15 kV Cable,Conductor,Foot,10,Low
+MAT-02276,35 kV Cable — Type 107,35 kV Cable,Conductor,Foot,24,Medium
+MAT-02277,Pad-Mount Transformer 500 kVA — Type 107,Pad-Mount Transformer 500 kVA,Transformers,Each,23653,High
+MAT-02278,Pole-Mount Transformer 50 kVA — Type 107,Pole-Mount Transformer 50 kVA,Transformers,Each,7080,Low
+MAT-02279,Recloser Control Package — Type 107,Recloser Control Package,Protection,Each,14478,High
+MAT-02280,Switchgear Cabinet — Type 107,Switchgear Cabinet,Protection,Each,16929,Medium
+MAT-02281,Smart Meter — Type 107,Smart Meter,Metering,Each,170,Critical
+MAT-02282,Communication Gateway — Type 107,Communication Gateway,Communications,Each,1096,Medium
+MAT-02283,Grounding Kit — Type 107,Grounding Kit,Accessories,Kit,132,High
+MAT-02284,Connector Set — Type 107,Connector Set,Accessories,Kit,59,Medium
+MAT-02285,Composite Utility Pole — Type 108,Composite Utility Pole,Structures,Each,2062,Critical
+MAT-02286,Crossarm Assembly — Type 108,Crossarm Assembly,Structures,Each,458,Medium
+MAT-02287,15 kV Cable — Type 108,15 kV Cable,Conductor,Foot,14,Low
+MAT-02288,35 kV Cable — Type 108,35 kV Cable,Conductor,Foot,26,Low
+MAT-02289,Pad-Mount Transformer 500 kVA — Type 108,Pad-Mount Transformer 500 kVA,Transformers,Each,24600,High
+MAT-02290,Pole-Mount Transformer 50 kVA — Type 108,Pole-Mount Transformer 50 kVA,Transformers,Each,7068,Medium
+MAT-02291,Recloser Control Package — Type 108,Recloser Control Package,Protection,Each,17278,High
+MAT-02292,Switchgear Cabinet — Type 108,Switchgear Cabinet,Protection,Each,21244,Medium
+MAT-02293,Smart Meter — Type 108,Smart Meter,Metering,Each,148,Medium
+MAT-02294,Communication Gateway — Type 108,Communication Gateway,Communications,Each,849,Low
+MAT-02295,Grounding Kit — Type 108,Grounding Kit,Accessories,Kit,115,High
+MAT-02296,Connector Set — Type 108,Connector Set,Accessories,Kit,67,Medium
+MAT-02297,Composite Utility Pole — Type 109,Composite Utility Pole,Structures,Each,2590,Critical
+MAT-02298,Crossarm Assembly — Type 109,Crossarm Assembly,Structures,Each,402,Medium
+MAT-02299,15 kV Cable — Type 109,15 kV Cable,Conductor,Foot,13,Low
+MAT-02300,35 kV Cable — Type 109,35 kV Cable,Conductor,Foot,33,Medium
+MAT-02301,Pad-Mount Transformer 500 kVA — Type 109,Pad-Mount Transformer 500 kVA,Transformers,Each,32937,Critical
+MAT-02302,Pole-Mount Transformer 50 kVA — Type 109,Pole-Mount Transformer 50 kVA,Transformers,Each,6479,Low
+MAT-02303,Recloser Control Package — Type 109,Recloser Control Package,Protection,Each,17253,Critical
+MAT-02304,Switchgear Cabinet — Type 109,Switchgear Cabinet,Protection,Each,20521,Medium
+MAT-02305,Smart Meter — Type 109,Smart Meter,Metering,Each,124,Medium
+MAT-02306,Communication Gateway — Type 109,Communication Gateway,Communications,Each,1019,Low
+MAT-02307,Grounding Kit — Type 109,Grounding Kit,Accessories,Kit,120,Critical
+MAT-02308,Connector Set — Type 109,Connector Set,Accessories,Kit,86,Critical
+MAT-02309,Composite Utility Pole — Type 110,Composite Utility Pole,Structures,Each,2649,Medium
+MAT-02310,Crossarm Assembly — Type 110,Crossarm Assembly,Structures,Each,482,Low
+MAT-02311,15 kV Cable — Type 110,15 kV Cable,Conductor,Foot,14,Low
+MAT-02312,35 kV Cable — Type 110,35 kV Cable,Conductor,Foot,26,Low
+MAT-02313,Pad-Mount Transformer 500 kVA — Type 110,Pad-Mount Transformer 500 kVA,Transformers,Each,29269,High
+MAT-02314,Pole-Mount Transformer 50 kVA — Type 110,Pole-Mount Transformer 50 kVA,Transformers,Each,5353,Low
+MAT-02315,Recloser Control Package — Type 110,Recloser Control Package,Protection,Each,16150,Medium
+MAT-02316,Switchgear Cabinet — Type 110,Switchgear Cabinet,Protection,Each,16368,High
+MAT-02317,Smart Meter — Type 110,Smart Meter,Metering,Each,142,Critical
+MAT-02318,Communication Gateway — Type 110,Communication Gateway,Communications,Each,1025,Low
+MAT-02319,Grounding Kit — Type 110,Grounding Kit,Accessories,Kit,164,Critical
+MAT-02320,Connector Set — Type 110,Connector Set,Accessories,Kit,71,High
+MAT-02321,Composite Utility Pole — Type 111,Composite Utility Pole,Structures,Each,2632,High
+MAT-02322,Crossarm Assembly — Type 111,Crossarm Assembly,Structures,Each,537,Low
+MAT-02323,15 kV Cable — Type 111,15 kV Cable,Conductor,Foot,10,Low
+MAT-02324,35 kV Cable — Type 111,35 kV Cable,Conductor,Foot,30,Low
+MAT-02325,Pad-Mount Transformer 500 kVA — Type 111,Pad-Mount Transformer 500 kVA,Transformers,Each,32483,Critical
+MAT-02326,Pole-Mount Transformer 50 kVA — Type 111,Pole-Mount Transformer 50 kVA,Transformers,Each,6843,Low
+MAT-02327,Recloser Control Package — Type 111,Recloser Control Package,Protection,Each,12317,Critical
+MAT-02328,Switchgear Cabinet — Type 111,Switchgear Cabinet,Protection,Each,16328,Medium
+MAT-02329,Smart Meter — Type 111,Smart Meter,Metering,Each,120,Critical
+MAT-02330,Communication Gateway — Type 111,Communication Gateway,Communications,Each,1165,Medium
+MAT-02331,Grounding Kit — Type 111,Grounding Kit,Accessories,Kit,157,High
+MAT-02332,Connector Set — Type 111,Connector Set,Accessories,Kit,72,Critical
+MAT-02333,Composite Utility Pole — Type 112,Composite Utility Pole,Structures,Each,2634,Critical
+MAT-02334,Crossarm Assembly — Type 112,Crossarm Assembly,Structures,Each,391,Low
+MAT-02335,15 kV Cable — Type 112,15 kV Cable,Conductor,Foot,12,Low
+MAT-02336,35 kV Cable — Type 112,35 kV Cable,Conductor,Foot,26,Medium
+MAT-02337,Pad-Mount Transformer 500 kVA — Type 112,Pad-Mount Transformer 500 kVA,Transformers,Each,25388,Critical
+MAT-02338,Pole-Mount Transformer 50 kVA — Type 112,Pole-Mount Transformer 50 kVA,Transformers,Each,5379,Low
+MAT-02339,Recloser Control Package — Type 112,Recloser Control Package,Protection,Each,16371,Medium
+MAT-02340,Switchgear Cabinet — Type 112,Switchgear Cabinet,Protection,Each,22343,High
+MAT-02341,Smart Meter — Type 112,Smart Meter,Metering,Each,121,Critical
+MAT-02342,Communication Gateway — Type 112,Communication Gateway,Communications,Each,952,Low
+MAT-02343,Grounding Kit — Type 112,Grounding Kit,Accessories,Kit,128,Critical
+MAT-02344,Connector Set — Type 112,Connector Set,Accessories,Kit,77,High
+MAT-02345,Composite Utility Pole — Type 113,Composite Utility Pole,Structures,Each,2029,Medium
+MAT-02346,Crossarm Assembly — Type 113,Crossarm Assembly,Structures,Each,460,Low
+MAT-02347,15 kV Cable — Type 113,15 kV Cable,Conductor,Foot,12,Low
+MAT-02348,35 kV Cable — Type 113,35 kV Cable,Conductor,Foot,24,Low
+MAT-02349,Pad-Mount Transformer 500 kVA — Type 113,Pad-Mount Transformer 500 kVA,Transformers,Each,31997,Critical
+MAT-02350,Pole-Mount Transformer 50 kVA — Type 113,Pole-Mount Transformer 50 kVA,Transformers,Each,5549,Medium
+MAT-02351,Recloser Control Package — Type 113,Recloser Control Package,Protection,Each,14720,High
+MAT-02352,Switchgear Cabinet — Type 113,Switchgear Cabinet,Protection,Each,19556,Critical
+MAT-02353,Smart Meter — Type 113,Smart Meter,Metering,Each,138,High
+MAT-02354,Communication Gateway — Type 113,Communication Gateway,Communications,Each,1055,Medium
+MAT-02355,Grounding Kit — Type 113,Grounding Kit,Accessories,Kit,148,Critical
+MAT-02356,Connector Set — Type 113,Connector Set,Accessories,Kit,70,Critical
+MAT-02357,Composite Utility Pole — Type 114,Composite Utility Pole,Structures,Each,1856,Medium
+MAT-02358,Crossarm Assembly — Type 114,Crossarm Assembly,Structures,Each,350,Medium
+MAT-02359,15 kV Cable — Type 114,15 kV Cable,Conductor,Foot,15,Medium
+MAT-02360,35 kV Cable — Type 114,35 kV Cable,Conductor,Foot,31,Low
+MAT-02361,Pad-Mount Transformer 500 kVA — Type 114,Pad-Mount Transformer 500 kVA,Transformers,Each,22143,Critical
+MAT-02362,Pole-Mount Transformer 50 kVA — Type 114,Pole-Mount Transformer 50 kVA,Transformers,Each,7671,Low
+MAT-02363,Recloser Control Package — Type 114,Recloser Control Package,Protection,Each,17309,High
+MAT-02364,Switchgear Cabinet — Type 114,Switchgear Cabinet,Protection,Each,20002,Medium
+MAT-02365,Smart Meter — Type 114,Smart Meter,Metering,Each,163,High
+MAT-02366,Communication Gateway — Type 114,Communication Gateway,Communications,Each,828,Low
+MAT-02367,Grounding Kit — Type 114,Grounding Kit,Accessories,Kit,120,High
+MAT-02368,Connector Set — Type 114,Connector Set,Accessories,Kit,58,Critical
+MAT-02369,Composite Utility Pole — Type 115,Composite Utility Pole,Structures,Each,2554,Medium
+MAT-02370,Crossarm Assembly — Type 115,Crossarm Assembly,Structures,Each,422,Low
+MAT-02371,15 kV Cable — Type 115,15 kV Cable,Conductor,Foot,13,Medium
+MAT-02372,35 kV Cable — Type 115,35 kV Cable,Conductor,Foot,34,Medium
+MAT-02373,Pad-Mount Transformer 500 kVA — Type 115,Pad-Mount Transformer 500 kVA,Transformers,Each,28048,Critical
+MAT-02374,Pole-Mount Transformer 50 kVA — Type 115,Pole-Mount Transformer 50 kVA,Transformers,Each,5791,Medium
+MAT-02375,Recloser Control Package — Type 115,Recloser Control Package,Protection,Each,15638,High
+MAT-02376,Switchgear Cabinet — Type 115,Switchgear Cabinet,Protection,Each,15642,Medium
+MAT-02377,Smart Meter — Type 115,Smart Meter,Metering,Each,137,Medium
+MAT-02378,Communication Gateway — Type 115,Communication Gateway,Communications,Each,968,Low
+MAT-02379,Grounding Kit — Type 115,Grounding Kit,Accessories,Kit,127,Critical
+MAT-02380,Connector Set — Type 115,Connector Set,Accessories,Kit,66,Critical
+MAT-02381,Composite Utility Pole — Type 116,Composite Utility Pole,Structures,Each,2390,High
+MAT-02382,Crossarm Assembly — Type 116,Crossarm Assembly,Structures,Each,351,Low
+MAT-02383,15 kV Cable — Type 116,15 kV Cable,Conductor,Foot,14,Low
+MAT-02384,35 kV Cable — Type 116,35 kV Cable,Conductor,Foot,22,Medium
+MAT-02385,Pad-Mount Transformer 500 kVA — Type 116,Pad-Mount Transformer 500 kVA,Transformers,Each,26716,Critical
+MAT-02386,Pole-Mount Transformer 50 kVA — Type 116,Pole-Mount Transformer 50 kVA,Transformers,Each,5906,Low
+MAT-02387,Recloser Control Package — Type 116,Recloser Control Package,Protection,Each,17179,High
+MAT-02388,Switchgear Cabinet — Type 116,Switchgear Cabinet,Protection,Each,18293,Medium
+MAT-02389,Smart Meter — Type 116,Smart Meter,Metering,Each,148,Critical
+MAT-02390,Communication Gateway — Type 116,Communication Gateway,Communications,Each,988,Low
+MAT-02391,Grounding Kit — Type 116,Grounding Kit,Accessories,Kit,132,Critical
+MAT-02392,Connector Set — Type 116,Connector Set,Accessories,Kit,85,Critical
+MAT-02393,Composite Utility Pole — Type 117,Composite Utility Pole,Structures,Each,2149,Medium
+MAT-02394,Crossarm Assembly — Type 117,Crossarm Assembly,Structures,Each,453,Medium
+MAT-02395,15 kV Cable — Type 117,15 kV Cable,Conductor,Foot,14,Low
+MAT-02396,35 kV Cable — Type 117,35 kV Cable,Conductor,Foot,25,Medium
+MAT-02397,Pad-Mount Transformer 500 kVA — Type 117,Pad-Mount Transformer 500 kVA,Transformers,Each,28356,Critical
+MAT-02398,Pole-Mount Transformer 50 kVA — Type 117,Pole-Mount Transformer 50 kVA,Transformers,Each,6824,Medium
+MAT-02399,Recloser Control Package — Type 117,Recloser Control Package,Protection,Each,17335,Critical
+MAT-02400,Switchgear Cabinet — Type 117,Switchgear Cabinet,Protection,Each,19006,Critical

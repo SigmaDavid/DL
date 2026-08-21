@@ -6,12 +6,22 @@ skill from the `cmiller-coder/millersigma` repo.
 
 ## Live deliverable
 
-- **Workbook:** https://app.sigmacomputing.com/stridelearning/workbook/3mUnWxD9PF63Trbc0j51q5
-- **Workbook ID:** `6eb61f5e-1e08-4282-9436-d5aa8c01f3dd`
-- **Org:** production `api.us-a.aws.sigmacomputing.com` (org `2be5e6bd-…`)
-- **Folder:** `My Documents / Dominion Energy` (`a1da89c8-…`)
-- **Connection:** `Stride-POC` Snowflake (generated SQL is self-contained, so any
-  live-warehouse connection resolves it).
+- **Workbook:** https://app.sigmacomputing.com/dominion/workbook/4pK670c03YvhmRuLngVeSR
+- **Workbook ID:** `9111f7af-dfb0-4ebc-84d8-9336ac6ef499`
+- **Org:** the **`dominion`** org (`506db5b6-…`) on `api.us-a.aws.sigmacomputing.com`
+- **Folder:** `My Documents / Dominion Energy` (`54d3664a-…`)
+- **Connection:** `Sigma Sample Database` Snowflake (`2fa1c95e-…`); generated SQL is
+  self-contained, so any live-warehouse connection resolves it.
+
+> **Migrated 2026-08-21** from the original demo org (was
+> `app.sigmacomputing.com/stridelearning/workbook/3mUnWxD9PF63Trbc0j51q5`, workbook
+> `6eb61f5e-…`, org `2be5e6bd-…`, `Stride-POC` connection). Migration = export the
+> source spec → remap the `connectionId` (12 refs) to the dominion org's Snowflake
+> connection → `POST /v2/workbooks/spec` in the dominion org → verify render → delete
+> the source copy. All data resolves in the new org. One org-level caveat: the
+> **Copilot/agents show "AI is not configured for this organization"** — Sigma AI is
+> not enabled on the dominion org (an admin setting, not a spec issue); the agent
+> elements themselves migrated intact and will work once AI is enabled.
 - **Surfaces:** Command Center + Rate & Investment Planning (scenario modeler) +
   Customer Segments (cohort builder). Native marker strip (no bespoke plugin).
 - Live spec in [`spec.json`](./spec.json); page renders in [`renders/`](./renders).

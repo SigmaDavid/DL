@@ -1,0 +1,13 @@
+Material_ID,Material_Name,Category,UOM,Standard_Unit_Cost_$,Current_Unit_Cost_$,Lead_Time_Days,Criticality
+MAT-1001,Composite Utility Pole,Structures,Each,1450.0,2100,45,High
+MAT-1002,Crossarm Assembly,Structures,Each,275.0,420,30,Low
+MAT-1003,15 kV Cable,Conductor,Foot,8.5,12,60,Low
+MAT-1004,35 kV Cable,Conductor,Foot,18.0,27,75,Low
+MAT-1005,Pad-Mount Transformer 500 kVA,Transformers,Each,18500.0,26000,120,Critical
+MAT-1006,Pole-Mount Transformer 50 kVA,Transformers,Each,4200.0,6200,90,Low
+MAT-1007,Recloser Control Package,Protection,Each,9800.0,14500,105,High
+MAT-1008,Switchgear Cabinet,Protection,Each,12500.0,19000,135,High
+MAT-1009,Smart Meter,Metering,Each,95.0,145,40,High
+MAT-1010,Communication Gateway,Communications,Each,650.0,980,55,Low
+MAT-1011,Grounding Kit,Accessories,Kit,85.0,130,21,Critical
+MAT-1012,Connector Set,Accessories,Kit,42.0,68,18,High

@@ -31,6 +31,16 @@ Full 3-question text and workflow details live in
 **Project-local (`.claude/skills/`):**
 - `sigma-workbook-conventions` — input resolution, naming, layout, control catalog, and POST-time gotchas when generating workbook specs. Carries **load-bearing rules** (passthrough mandatory, `[Metrics/<Name>]` resolution + DM-switch hard rule, formulas trace to recon, controlId/column collision) plus a chunked `reference/` split under `specification/` (per-element files: `schema`, `charts`, `kpis`, `tables`, `controls`, `layout`, `formulas`, `formatting`, `sources`, `sources-warehouse`, `text`, `containers`, `others`, `maps`) and `workflows/` (`plan`, `crud`, `validate`, `discover`, `from-image`), plus top-level rules (`conventions`, `naming`, `scope-and-edge-cases`, `history`). Pair with `scripts/sigma-resolve.py` (resolver) and `scripts/validate-spec.py` (pre-POST validator — 13 checks; full catalog in `reference/workflows/validate.md`).
 
+Imported from `github.com/cmiller-coder/millersigma` (2026-08-24), the following workbook-pattern skills sit alongside `sigma-workbook-conventions` — see each skill's own description for when to use it over the others:
+- `sigma-company-dashboard` / `sigma-company-dashboard-v2` — flagship end-to-end branded company-dashboard builders (v2 is config-driven, prefer it for new work).
+- `sigma-input-table-app` — interactive data apps (scenario modelers, forecasting/planning, write-back).
+- `sigma-cohort-builder-app` — interactive population-segmentation ("cohort builder") apps.
+- `sigma-embed-portal` — scrape-and-brand Sigma embed portal, deployed via Netlify.
+- `sigma-plugin-development` / `sigma-plugin-patterns` — building and structuring Sigma plugins with the `@sigmacomputing/plugin` SDK.
+- `branded-dashboard-format` / `sigma-workbook-styling` — house dashboard layout + brand kit, and the visual-craft layer (containers, images, color/spacing/typography) for any workbook.
+
+These bring their own `scripts/` (e.g. `sigma-company-dashboard-v2/scripts/`) that are self-contained to the skill; the project-level `scripts/` additions from the same import (`fetch_logo.py`, `get-token-staging.sh`, `register_plugin.py`, `scripts/playwright-sigma-viewer/`, `scripts/api/publish-datamodel.sh`, `scripts/api/query-element.sh`) are shared helpers. The millersigma repo's own `plugins/` directory (client-demo plugin examples) and its variant of `sigma-workbook-conventions` were intentionally left out of this import to avoid clobbering this repo's customized copy.
+
 **Required reading before authoring (HARD GATE).** Before drafting a plan or writing any spec JSON in build mode, `Read` the chunk files mapped to the task type in `.claude/skills/sigma-workbook-conventions/SKILL.md` → "Required reading before authoring." Plans must include a `Chunks Read:` line listing the files consulted. Plans without that line are not approvable. This gate was added 2026-05-19 after a cold-start test session authored two workbooks without ever opening the chunk files — see `.claude/skills/sigma-workbook-conventions/reference/history.md` → "2026-05-19 — Cold-start test session."
 
 Domain-specific workbook-pattern skills (revenue, ops, fin-recon, etc.) get added under `.claude/skills/` as separate folders once we have 2–3 working exemplars to anchor a pattern on. See `docs/skill-authoring.md`.

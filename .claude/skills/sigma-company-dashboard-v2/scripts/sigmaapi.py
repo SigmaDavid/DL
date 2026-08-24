@@ -45,6 +45,14 @@ class SigmaError(RuntimeError):
 
 
 def _read_env():
+    # Prefer already-exported env vars (Claude Code web / CI) so credentials
+    # never need to be written to disk. Fall back to the on-disk convention
+    # for local/CLI use.
+    if os.environ.get("SIGMA_STAGING_CLIENT_ID") and os.environ.get("SIGMA_STAGING_CLIENT_SECRET"):
+        return {
+            "SIGMA_STAGING_CLIENT_ID": os.environ["SIGMA_STAGING_CLIENT_ID"],
+            "SIGMA_STAGING_CLIENT_SECRET": os.environ["SIGMA_STAGING_CLIENT_SECRET"],
+        }
     if not ENV_FILE.exists():
         raise SigmaError(0, "missing %s" % ENV_FILE, str(ENV_FILE))
     env = {}

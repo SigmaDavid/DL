@@ -1383,6 +1383,41 @@ STATEMENTS = {
                    "Illustrative invoice generated from a Sigma report "
                    "specification — synthetic data, not a real account."),
     },
+    "appian": {
+        "spec_name": "Appian — Subscription & Services Invoice (July 2026)",
+        "page_name": "Invoice Summary",
+        "manage_url": "www.appian.com/account",
+        "service_label": "Customer Success",
+        "service_phone": "success@appian.com",
+        "period": "07/01 – 07/31/2026",
+        "sect_rewards": "PLATFORM USAGE SUMMARY",
+        "sect_summary": "SUBSCRIPTION SUMMARY",
+        "sect_category": "SUBSCRIPTION SPEND BY CAPABILITY",
+        "sect_activity": "INVOICE DETAIL",
+        "sect_messages": "YOUR ACCOUNT MESSAGES",
+        "headline": [("Invoice Total", None), ("Professional Services Due", None),
+                     ("Payment Due Date", "08/30/2026")],
+        "button_label": "Subscription invoice ↗",
+        "rewards_total": "Total automated transactions processed",
+        "h_formulas": [("src", 'Sum([Statement Activity/Amount])', "MONEY"),
+                       ("src", 'Round(Sum([Statement Activity/Amount]) * 0.10, 2)',
+                        "MONEY")],
+        "msg_body": ("Beginning 09/01/2026, AI Agent Studio autonomous-agent "
+                     "runs are included at no additional charge for accounts "
+                     "on the Case Management and RPA capabilities, ahead of "
+                     "general availability. No action is required."),
+        "warn1": ("**Late Payment Notice:** If payment is not received within 30 "
+                  "days of the invoice date, a 1.5% monthly late fee may apply "
+                  "and platform access may be suspended until the account is "
+                  "brought current."),
+        "warn2": ("**Usage True-Up Notice:** Volume beyond your committed "
+                  "capacity bills monthly in arrears at the current true-up "
+                  "rate. Contact your success team to adjust capacity."),
+        "footer": ("Appian licenses its low-code automation platform under a "
+                   "master subscription agreement with each customer. "
+                   "Illustrative invoice from a Sigma report spec — synthetic "
+                   "data, not a real account."),
+    },
 }
 
 
@@ -1491,7 +1526,55 @@ _VR_CONTRACT = [
 ]
 
 
+# --- Appian: one Financial Services customer's monthly subscription invoice -
+# Reframed the same way Veraset's was: fixed columns (Merchant Name or
+# Transaction Description, Points Earned) hold a line-item description and
+# automated-transactions-processed count rather than loyalty points. One
+# customer's monthly activity, not Appian's whole-company revenue.
+_AP_ACTIVITY = [
+    ("07/01", "07/02", "Case Management & KYC/AML — Monthly Platform Fee", "Case management & KYC/AML", 18400.00, 412),
+    ("07/01", "07/02", "RPA & Back-Office Automation — Monthly Platform Fee", "RPA & back-office automation", 12200.00, 568),
+    ("07/01", "07/02", "Data Fabric for Risk & Compliance — Monthly Platform Fee", "Data Fabric for risk & compliance", 7600.00, 144),
+    ("07/08", "07/09", "Case Management & KYC/AML — Peak Volume True-Up", "Case management & KYC/AML", 2150.00, 58),
+    ("07/08", "07/09", "RPA & Back-Office Automation — Bot Capacity Add-On", "RPA & back-office automation", 3400.00, 96),
+    ("07/12", "07/13", "Professional Services — AI Agent Studio Enablement", "Professional Services", 9800.00, 0),
+    ("07/15", "07/16", "Case Management & KYC/AML — Peak Volume True-Up", "Case management & KYC/AML", 1980.00, 52),
+    ("07/15", "07/16", "Data Fabric for Risk & Compliance — Connector Add-On", "Data Fabric for risk & compliance", 2600.00, 38),
+    ("07/19", "07/20", "Professional Services — Quarterly Health Check", "Professional Services", 4200.00, 0),
+    ("07/22", "07/23", "RPA & Back-Office Automation — Bot Capacity Add-On", "RPA & back-office automation", 3150.00, 88),
+    ("07/29", "07/30", "Case Management & KYC/AML — Peak Volume True-Up", "Case management & KYC/AML", 2040.00, 55),
+]
+
+_AP_USAGE = [
+    (1, "Committed monthly automation volume", 1_400_000),
+    (2, "+ Case Management & KYC/AML transactions processed", 577_000),
+    (3, "+ RPA & Back-Office Automation transactions processed", 752_000),
+    (4, "+ Data Fabric queries processed", 182_000),
+    (5, "Overage transactions this cycle", 111_000),
+    (6, "Carryover capacity from prior cycle", 40_000),
+    (7, "Balance carried forward", 2_662_000),
+]
+
+_AP_CONTRACT = [
+    (1, "Contract ID", "APPN-2026-08823"),
+    (2, "Capabilities licensed", "3 of 6"),
+    (3, "Committed monthly automation volume", "1.4M transactions"),
+    (4, "Contract renewal date", "01/01/2027"),
+    (5, "Customer Success Manager", "R. Delgado"),
+    (6, "Billing cycle", "Monthly, net-30"),
+    (7, "Overage rate", "$0.018 / transaction"),
+]
+
+
 def statement_activity_sql(cfg):
+    if cfg["key"] == "appian":
+        cols = ["Transaction Date", "Post Date",
+                "Merchant Name or Transaction Description", "Category", "Amount",
+                "Points Earned"]
+        rows = [("'%s/2026'" % t, "'%s/2026'" % pd, "'%s'" % d.replace("'", "''"),
+                 "'%s'" % c, "%.2f" % amt, str(pts))
+                for t, pd, d, c, amt, pts in _AP_ACTIVITY]
+        return _union(rows, cols)
     if cfg["key"] == "veraset":
         cols = ["Transaction Date", "Post Date",
                 "Merchant Name or Transaction Description", "Category", "Amount",
@@ -1512,6 +1595,9 @@ def statement_activity_sql(cfg):
 
 
 def rewards_summary_sql(cfg):
+    if cfg["key"] == "appian":
+        rows = [(str(o), "'%s'" % d, str(p)) for o, d, p in _AP_USAGE]
+        return _union(rows, ["Line Order", "Description", "Points"])
     if cfg["key"] == "veraset":
         rows = [(str(o), "'%s'" % d, str(p)) for o, d, p in _VR_USAGE]
         return _union(rows, ["Line Order", "Description", "Points"])
@@ -1522,6 +1608,9 @@ def rewards_summary_sql(cfg):
 
 
 def account_summary_sql(cfg):
+    if cfg["key"] == "appian":
+        rows = [(str(o), "'%s'" % m, "'%s'" % v) for o, m, v in _AP_CONTRACT]
+        return _union(rows, ["Line Order", "Metric", "Value"])
     if cfg["key"] == "veraset":
         rows = [(str(o), "'%s'" % m, "'%s'" % v) for o, m, v in _VR_CONTRACT]
         return _union(rows, ["Line Order", "Metric", "Value"])
@@ -2912,3 +3001,209 @@ POP["pura"] = {"bases": (80, 180, 350, 750), "rev_rate": 0.65, "fee_per_product"
 PLUGINS["pura"] = {"hero": None, "hero_label": None, "ticker": None}
 
 COMPANIES["pura"] = PURA
+
+
+# ---------------------------------------------------------------------------
+# Enterprise low-code / AI process-automation software (NASDAQ: APPN).
+# HQ McLean, VA. Real anchors (FY2025 10-K / Q4 2025 press release, web-verified
+# 2026-08-24): total revenue $726.9M (+18% YoY); cloud subscriptions $437.4M
+# (+19%); total subscriptions $576.5M (+18%); professional services $150.5M.
+# Subscription gross margin 84%; professional services gross margin 31%.
+# >1,000 customers; 126 customers paying >$1M ARR (2024). Over 77% of 2024
+# subscriptions revenue came from four disclosed key verticals: financial
+# services, government, life sciences, insurance -- that IS the "products"
+# breakdown here, not a guessed one. Healthcare and Manufacturing & Energy
+# round out the remaining ~23%, both explicitly named as served industries.
+#
+#   products      -> the four disclosed key verticals plus two of the other
+#                    named served industries (healthcare, mfg & energy)
+#   bal_base      -> annualized subscription ARR attributed to the vertical
+#                    ($MM); the six sum to ~$577M against the real $576.5M
+#                    total subscriptions figure
+#   yield_rate    -> gross margin (SaaS, fee-only -- funding_rate pinned to 0,
+#                    same pattern as Veraset). Blended ~84% subscription
+#                    margin, government lower (~78%) for FedRAMP High hosting
+#                    /compliance overhead, consistent with 10-K commentary.
+#   fee_base      -> professional-services revenue attributed to the vertical,
+#                    MONTHLY $MM (x12 in SQL); six sum to ~12.5/mo x 12 =
+#                    ~$150.5M against the real professional-services figure
+#   delinq_rate   -> churn/non-renewal rate -- kept LOW across the board;
+#                    Appian's disclosed net dollar retention has run >108%,
+#                    which is a growth story, not a churn one
+#   units_base    -> "Active applications (K)": low-code apps/workflows live
+#                    on the platform per vertical -- an operational proxy,
+#                    not a disclosed metric (Appian does not publish app counts)
+#
+# No bespoke plugin this build: the two hosting paths this skill's plugins
+# rely on were both unavailable in this session -- push access to the
+# millersigma repo (jsDelivr/GitHub Pages source) wasn't in scope, and
+# raw.githubusercontent.com/jsDelivr both serve .html as text/plain, which
+# HANDOFF.md documents as breaking plugin render + hanging PNG export. Native
+# fallback (no hero/ticker) renders instead, same as Abry/Marriott/Blizzard/
+# NVIDIA/Pura.
+# ---------------------------------------------------------------------------
+APPIAN = {
+    "key": "appian",
+    "name": "Appian",
+    "title": "Platform Vertical & Renewal Command Center",
+    "domain": "enterprise low-code process automation / AI orchestration software",
+    "unit_noun": "account",
+    "volume_noun": "subscription ARR",
+    "logo_domain": "appian.com",
+    "base_table": "Automation Portfolio",
+    # sampled directly from Appian's own logo asset (Wikimedia Commons SVG,
+    # single fill class #2621F6) -- not guessed. navy/navy_deep are a darkened
+    # tint of that same blue for text/background; secondary/accent/mint round
+    # out a tech-forward violet/cyan palette consistent with Appian's AI-era
+    # brand refresh.
+    "palette": {
+        "navy": "#12123B", "navy_deep": "#080821",
+        "primary": "#2621F6", "secondary": "#6D28D9",
+        "accent": "#00C2FF", "mint": "#00D6B4",
+    },
+    "products": [
+        # name, order, balance_type, bal_base($MM subscription ARR),
+        # yield(gross margin), funding(0 -- fee-only SaaS), fee_base
+        # (MONTHLY professional-services $MM), provision(delivery/support
+        # risk reserve), delinq(churn/non-renewal rate), opex_ratio, growth,
+        # units_base(active applications, K), phase, tagline, rate_label,
+        # goal_pct, status
+        ("Financial Services", 1, "Subscription", 149, .86, 0.0, 3.24, .012, .05,
+         .70, .16, 3200, 0.0, "KYC/AML, loan ops, and back-office workflow automation for global banks and asset managers",
+         "Gross margin", 1.04, "Ahead"),
+        ("Government & Public Sector", 2, "Subscription", 137, .78, 0.0, 2.98, .018, .03,
+         .74, .12, 2400, 0.6, "FedRAMP High-authorized case management and mission workflow automation for federal, defense, and intelligence agencies",
+         "Gross margin", .96, "On plan"),
+        ("Life Sciences", 3, "Subscription", 99, .85, 0.0, 2.15, .014, .06,
+         .71, .22, 1400, 1.1, "Clinical trial, regulatory submission, and quality management automation for pharma and biotech",
+         "Gross margin", 1.12, "Ahead"),
+        ("Insurance", 4, "Subscription", 93, .84, 0.0, 2.02, .013, .05,
+         .72, .19, 1800, 1.7, "Underwriting, claims, and policy administration workflow automation for P&C and life insurers",
+         "Gross margin", 1.01, "On plan"),
+        ("Healthcare", 5, "Subscription", 50, .82, 0.0, 1.09, .016, .07,
+         .74, .21, 900, 0.3, "Prior authorization, care coordination, and provider onboarding automation for payers and health systems",
+         "Gross margin", .89, "Behind"),
+        ("Manufacturing & Energy", 6, "Subscription", 49, .80, 0.0, 1.06, .017, .08,
+         .76, .15, 850, 2.0, "Supply chain exception handling and field-service workflow automation for industrial and energy operators",
+         "Gross margin", .93, "Behind"),
+    ],
+    "subs": {
+        "Financial Services": [("Case management & KYC/AML", .48, 14, 24.6, "On plan"),
+                                ("RPA & back-office automation", .32, 18, 16.8, "Ahead"),
+                                ("Data Fabric for risk & compliance", .20, 22, 9.4, "Ahead")],
+        "Government & Public Sector": [("Case management for federal agencies", .46, 8, 20.2, "On plan"),
+                                       ("AI Agent Studio for mission ops", .30, 26, 11.6, "Ahead"),
+                                       ("Records management (FedRAMP High)", .24, 5, 8.8, "On plan")],
+        "Life Sciences": [("Clinical trial management", .42, 24, 13.2, "Ahead"),
+                          ("Regulatory submission tracking", .34, 16, 9.6, "On plan"),
+                          ("Quality & compliance automation", .24, 20, 6.4, "Ahead")],
+        "Insurance": [("Underwriting automation", .40, 20, 12.0, "Ahead"),
+                     ("Claims processing", .38, 12, 10.8, "On plan"),
+                     ("Policy administration", .22, 14, 6.2, "On plan")],
+        "Healthcare": [("Prior authorization automation", .44, 18, 7.2, "On plan"),
+                       ("Care coordination", .32, 10, 5.0, "Behind"),
+                       ("Provider onboarding", .24, 6, 3.6, "Behind")],
+        "Manufacturing & Energy": [("Supply chain exception management", .46, 10, 7.4, "Behind"),
+                                    ("Field service automation", .34, 16, 5.4, "On plan"),
+                                    ("Asset & compliance tracking", .20, 8, 3.2, "Behind")],
+    },
+    "alerts": [
+        ("critical", "Top financial-services renewal at risk",
+         "A top-10 global bank's $4.2M ARR renewal is stalled on a competing "
+         "RPA vendor bake-off", "22m ago", "Customer Success", 4200000, "ARR at risk"),
+        ("warning", "FedRAMP High continuous-monitoring finding",
+         "An open POA&M item on the Government Cloud environment is 6 days "
+         "from its remediation SLA", "1h ago", "Compliance", 6, "days to SLA"),
+        ("warning", "Life Sciences churn drift",
+         "Life Sciences non-renewal rate ticked up to 6.4%, above the 6.0% "
+         "plan ahead of two mid-market renewals", "4h ago", "Customer Success",
+         40, "bps over plan"),
+        ("info", "AI Agent Studio adoption surge",
+         "Agent-assisted process designs up 34% quarter over quarter across "
+         "Financial Services and Insurance accounts", "1d ago", "Product", 34,
+         "pct QoQ growth"),
+        ("info", "Professional-services backlog easing",
+         "Healthcare implementation backlog down to 3.1 weeks after two "
+         "delivery teams were reassigned from Insurance", "2d ago",
+         "Professional Services", 3, "weeks backlog"),
+    ],
+    "agent": ("You are an analyst covering Appian's Financial Services, Government, "
+              "Life Sciences, Insurance, Healthcare and Manufacturing & Energy "
+              "subscription verticals, gross margin trends, and renewal/churn risk. "
+              "Answer with numbers from the workbook."),
+}
+
+# HQ McLean, VA. Footprint weighted toward the federal corridor (VA/DC/MD) for
+# Government & Public Sector, plus financial-services (NY, IL, CT), life
+# sciences (MA, NJ, PA), and insurance (NC, OH, CT) hubs -- since the base
+# table's geography represents customer/contract location, not device/store
+# footprint.
+FOOTPRINTS["appian"] = [("VA", .152), ("NY", .118), ("DC", .086), ("CA", .092),
+                        ("TX", .078), ("MD", .062), ("IL", .058), ("MA", .054),
+                        ("NC", .048), ("NJ", .042), ("PA", .038), ("OH", .034),
+                        ("GA", .030), ("FL", .028), ("CT", .026)]
+
+LABELS["appian"] = {
+    "personas": ["Executive", "Customer Success"],
+    "modeler_page": "Renewal & Expansion Planning",
+    "cohort_page": "Account Segments",
+    "modeler_title": "Subscription Renewal & Expansion Scenario Modeler",
+    "shock_label": "Renewal & expansion pricing shock (bps)",
+    "kpi_revenue": "Subscription revenue ($M)",
+    "kpi_margin": "Gross profit ($M)",
+    "kpi_volume": "Subscription ARR ($M)",
+    "kpi_units": "Active applications (K)",
+    "driver_nim": "Gross margin",
+    "driver_risk": "Churn / non-renewal rate",
+    "driver_cost": "Cost-to-serve rate",
+    "driver_eff": "Opex ratio",
+    "seg_product": "Vertical",
+    "seg_credit": "Account tier",
+    "seg_type": "Deployment type",
+    "seg_dd": "Direct enterprise account",
+    "seg_engage": "Renewal cadence",
+    "seg_held": "Capabilities adopted",
+    "seg_age": "Account tenure",
+    "cohort_name": "Segment name",
+    "kpi_cohort_size": "Accounts in segment",
+    "kpi_cohort_vol": "Segment ARR",
+    "kpi_cohort_rev": "ARR per account",
+    "kpi_cohort_risk": "Avg churn risk",
+    "col_volume": "Baseline ARR",
+    "col_growth": "ARR growth %",
+    "col_yield": "Gross margin Δ bps",
+    "col_cost": "Cost-to-serve Δ bps",
+}
+
+SEGMENTS["appian"] = {"Near Prime": "Emerging", "Prime": "Growth",
+                      "Super Prime": "Strategic", "Exceptional": "Global Enterprise",
+                      "Daily": "Active", "Weekly": "Recurring",
+                      "Monthly": "Occasional", "Dormant": "At-risk"}
+
+VOCAB["appian"] = {
+    "econ": ("Appian licenses its low-code process-automation and AI-orchestration "
+             "platform as a subscription; each vertical earns a gross margin against "
+             "its cost to host, support and run mission-critical workflows for that "
+             "customer base. The spread between subscription revenue and delivery "
+             "cost is the gross profit the vertical contributes before opex. "
+             "Professional services (implementation, configuration) is a separate, "
+             "lower-margin line that expands alongside subscription adoption."),
+    "metrics": ("subscription revenue, gross profit, subscription ARR and churn/"
+                "non-renewal risk"),
+    "bands": ("Account tiers: Emerging, Growth, Strategic, Global Enterprise. "
+              "Renewal cadence: Active, Recurring, Occasional, At-risk."),
+    "cohort_report": ("accounts in the segment, segment ARR and average churn risk"),
+}
+
+# Per-account ARR by tier, in DOLLARS -- Appian's disclosed customer base runs
+# from smaller commercial accounts to 126+ accounts over $1M ARR (2024,
+# concentrated in Government and Financial Services), nothing like a retail
+# balance, so this must override the default.
+POP["appian"] = {"bases": (45000, 180000, 650000, 2400000), "rev_rate": 0.84,
+                 "fee_per_product": 85000}
+
+# No bespoke plugin this build -- see the block comment above APPIAN for why
+# (no viable public hosting path in this session). Native fallback renders.
+PLUGINS["appian"] = {"hero": None, "hero_label": None, "ticker": None}
+
+COMPANIES["appian"] = APPIAN

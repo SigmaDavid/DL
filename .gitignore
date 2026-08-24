@@ -27,6 +27,12 @@ prompts/library/train_*.md
 # Phase 1 research artifact — competitor packaging review, internal-only
 docs/twells89-review.md
 
+# sigma-company-dashboard-v2 QA render scratch (PNGs/PDFs from shot.py,
+# qa_pg1.py, shot_report.py) -- specs/ (workbook/report ids, push-state
+# baselines) is kept since build_sofi.py's update-refusal safety gate reads it.
+.claude/skills/sigma-company-dashboard-v2/shots/
+__pycache__/
+
 # OS / editor noise
 .DS_Store
 .idea/

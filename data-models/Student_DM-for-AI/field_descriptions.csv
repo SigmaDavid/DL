@@ -1,0 +1,157 @@
+Element,Source,Field,Type,Description
+RLS Table,New Input Table,User,text,User principal (email) in the row-level-security mapping table.
+RLS Table,New Input Table,Main School ID,text,"School identifier a user is authorized to see, in the row-level-security mapping table."
+Student,RPT_DT_D_SCHOOL,School Name,text,Full name of the school.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Hispanic or Latino,text,Whether the student identifies as Hispanic or Latino.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Cohort Graduation Year (RPT_DT_D_STUDENT_DEMOGRAPHICS),text,Expected on-time high-school graduation year for the student's cohort.
+Student,RPT_DT_D_SCHOOL,School Category,text,Category classification of the school.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Recommended Record,integer,Flag marking the single recommended demographic record to use when a student has multiple (1 = use this record).
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Student Short Name (RPT_DT_D_STUDENT_DEMOGRAPHICS),text,Student's abbreviated/display name.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Gender,text,Student's gender.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Student School,text,Name of the school the student is currently attending.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Is Fay (RPT_DT_D_STUDENT_DEMOGRAPHICS),integer,Full Academic Year flag — whether the student was enrolled for the full academic year (accountability inclusion).
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Student Identity Id (RPT_DT_D_STUDENT_DEMOGRAPHICS),text,Stable unique identifier for the student across schools and years.
+Student,RPT_DT_D_SCHOOL,School,text,School identifier/short name.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Student Name,text,Student's full name.
+Student,RPT_DT_D_SCHOOL,Career Learning,text,Career Learning program segment/indicator for the school or student.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Date of Birth,datetime,Student's date of birth.
+Student,RPT_DT_D_SCHOOL,School Year (RPT_DT_D_SCHOOL),text,"Academic year of the record (e.g., 2025-2026)."
+Student,(calculated),Grade Band,text,"Grouped grade range (e.g., K-5, 6-8, 9-12) derived from grade level."
+Student,RPT_DT_D_SCHOOL,Region,text,Geographic region of the school.
+Student,RPT_ZZ_F_STUDENT,Ap Course Count,integer,Number of Advanced Placement (AP) courses the student is enrolled in.
+Student,RPT_ZZ_F_STUDENT,Cc Att Req Flag,integer,Flag: student is required to attend Class Connect (live synchronous) sessions.
+Student,RPT_ZZ_F_STUDENT,Cc Hrs Attend Opt L 7 D,number,Hours of optional Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Cc Hrs Attend Req L 7 D,number,Hours of required Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Cd Ela Flag,integer,Course-deficiency indicator flag for ELA (1 = deficiency present).
+Student,RPT_ZZ_F_STUDENT,Cd Mth Flag,integer,Course-deficiency indicator flag for Math (1 = deficiency present).
+Student,RPT_ZZ_F_STUDENT,Cd Total Flag,integer,Course-deficiency indicator flag for overall (1 = deficiency present).
+Student,RPT_ZZ_F_STUDENT,Cohort Graduation Year,text,Expected on-time high-school graduation year for the student's cohort.
+Student,RPT_ZZ_F_STUDENT,Course Failing Bckt,text,Bucketed category of how many courses the student is failing.
+Student,RPT_ZZ_F_STUDENT,Course Failing Count,integer,Number of courses the student is currently failing.
+Student,RPT_ZZ_F_STUDENT,Course Passing,number,Share of the student's courses currently passing.
+Student,RPT_ZZ_F_STUDENT,Course Passing Count,integer,Number of courses the student is currently passing.
+Student,RPT_ZZ_F_STUDENT,Days Since Act,text,Days since the student's last course activity.
+Student,RPT_ZZ_F_STUDENT,Days W Act L 7 D,text,Number of days with course activity in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ela Boy to Eoy Growth,integer,ELA assessment growth from beginning-of-year to end-of-year.
+Student,RPT_ZZ_F_STUDENT,Ela Boy to Moy Growth,integer,ELA assessment growth from beginning-of-year to middle-of-year.
+Student,RPT_ZZ_F_STUDENT,Ela Cc Att Req Flag,integer,Flag: student is required to attend ELA Class Connect (live synchronous) sessions.
+Student,RPT_ZZ_F_STUDENT,Ela Cc Hrs Attend Opt L 7 D,number,Hours of optional ELA Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ela Cc Hrs Attend Req L 7 D,number,Hours of required ELA Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ela Cc Hrs Invited Req L 7 D,number,Hours of required ELA Class Connect sessions the student was invited to in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ela Course Duration L 7 D,number,Total time spent in ELA courses over the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ela Crs Ct,integer,Number of ELA courses the student is enrolled in.
+Student,RPT_ZZ_F_STUDENT,Ela Grade,number,Current ELA course grade (percentage).
+Student,RPT_ZZ_F_STUDENT,Ela Grade Quintile,text,Performance quintile (1-5 bucket) of the student's ELA grade.
+Student,RPT_ZZ_F_STUDENT,Ela Mtss Match,text,Whether the student's assigned ELA MTSS tier matches the recommended tier.
+Student,RPT_ZZ_F_STUDENT,Ela Mtss Rec,text,Recommended ELA MTSS intervention tier for the student based on performance data.
+Student,RPT_ZZ_F_STUDENT,Ela Mtss Tier,text,ELA MTSS (Multi-Tiered System of Supports) intervention tier assigned to the student.
+Student,RPT_ZZ_F_STUDENT,Ela Pass Ct,integer,Number of ELA courses the student is passing.
+Student,RPT_ZZ_F_STUDENT,Ela Rem Tool,text,ELA remediation tool/program assigned to the student.
+Student,RPT_ZZ_F_STUDENT,Ela Rem Wkly Time,text,Weekly time spent in ELA remediation.
+Student,RPT_ZZ_F_STUDENT,Ethnicity Id,integer,Numeric identifier for the student's ethnicity.
+Student,RPT_ZZ_F_STUDENT,Four Wk Avg Course Act,text,Four-week rolling average of course activity.
+Student,RPT_ZZ_F_STUDENT,Ft Pt Status,text,Whether the student is enrolled full-time or part-time.
+Student,RPT_ZZ_F_STUDENT,Grade Level,text,Student's current grade level.
+Student,RPT_ZZ_F_STUDENT,Honors Course Count,integer,Number of honors courses the student is enrolled in.
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Ela,text,ELA interim diagnostic assessment result.
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Ela Eoy,text,ELA interim diagnostic assessment result (end-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Ela Moy,text,ELA interim diagnostic assessment result (middle-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Mth,text,Math interim diagnostic assessment result.
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Mth Eoy,text,Math interim diagnostic assessment result (end-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Assessment Mth Moy,text,Math interim diagnostic assessment result (middle-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Ela,integer,Whether the student met the ELA interim assessment benchmark (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Ela Eoy,integer,Whether the student met the ELA interim assessment benchmark (end-of-year) (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Ela Moy,integer,Whether the student met the ELA interim assessment benchmark (middle-of-year) (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Mth,integer,Whether the student met the Math interim assessment benchmark (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Mth Eoy,integer,Whether the student met the Math interim assessment benchmark (end-of-year) (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Benchmark Mth Moy,integer,Whether the student met the Math interim assessment benchmark (middle-of-year) (1 = met).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Ela,integer,Whether the student participated in the ELA interim assessment (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Ela Eoy,integer,Whether the student participated in the ELA interim assessment (end-of-year) (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Ela Moy,integer,Whether the student participated in the ELA interim assessment (middle-of-year) (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Mth,integer,Whether the student participated in the Math interim assessment (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Mth Eoy,integer,Whether the student participated in the Math interim assessment (end-of-year) (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Participation Mth Moy,integer,Whether the student participated in the Math interim assessment (middle-of-year) (1 = participated).
+Student,RPT_ZZ_F_STUDENT,Interim Window Ela,text,ELA interim assessment testing window.
+Student,RPT_ZZ_F_STUDENT,Interim Window Ela Eoy,text,ELA interim assessment testing window (end-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Window Ela Moy,text,ELA interim assessment testing window (middle-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Window Mth,text,Math interim assessment testing window.
+Student,RPT_ZZ_F_STUDENT,Interim Window Mth Eoy,text,Math interim assessment testing window (end-of-year).
+Student,RPT_ZZ_F_STUDENT,Interim Window Mth Moy,text,Math interim assessment testing window (middle-of-year).
+Student,RPT_ZZ_F_STUDENT,Is Fay,text,Full Academic Year flag — whether the student was enrolled for the full academic year (accountability inclusion).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Cc Ela,text,Flag indicating whether the student met the ELA Class Connect attendance KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Cc Mth,text,Flag indicating whether the student met the Math Class Connect attendance KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Cc Overall,text,Flag indicating whether the student met the overall Class Connect attendance KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Course Ela,text,Flag indicating whether the student met the ELA course-activity KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Course Mth,text,Flag indicating whether the student met the Math course-activity KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Course Overall,text,Flag indicating whether the student met the overall course-activity KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Crs Act,text,Flag indicating whether the student met the course-activity KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Pass All,text,Flag indicating whether the student met the passing-all-courses KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Pass Ela,text,Flag indicating whether the student met the ELA passing KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Pass Mth,text,Flag indicating whether the student met the Math passing KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Priority Ela,text,Flag indicating whether the student met the ELA priority-intervention KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Priority Mth,text,Flag indicating whether the student met the Math priority-intervention KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Rem Ela,text,Flag indicating whether the student met the ELA remediation KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Kpi Met Rem Mth,text,Flag indicating whether the student met the Math remediation KPI (Yes/No).
+Student,RPT_ZZ_F_STUDENT,Main School Id,text,Identifier of the student's primary (home) school.
+Student,RPT_ZZ_F_STUDENT,Missed Days Ytd,integer,Number of school days missed year-to-date.
+Student,RPT_ZZ_F_STUDENT,Mth Boy to Eoy Growth,integer,Math assessment growth from beginning-of-year to end-of-year.
+Student,RPT_ZZ_F_STUDENT,Mth Boy to Moy Growth,integer,Math assessment growth from beginning-of-year to middle-of-year.
+Student,RPT_ZZ_F_STUDENT,Mth Cc Att Req Flag,integer,Flag: student is required to attend Math Class Connect (live synchronous) sessions.
+Student,RPT_ZZ_F_STUDENT,Mth Cc Hrs Attend Opt L 7 D,number,Hours of optional Math Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Mth Cc Hrs Attend Req L 7 D,number,Hours of required Math Class Connect sessions attended in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Mth Cc Hrs Invited Req L 7 D,number,Hours of required Math Class Connect sessions the student was invited to in the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Mth Course Duration L 7 D,number,Total time spent in Math courses over the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Mth Crs Ct,integer,Number of Math courses the student is enrolled in.
+Student,RPT_ZZ_F_STUDENT,Mth Grade,number,Current Math course grade (percentage).
+Student,RPT_ZZ_F_STUDENT,Mth Grade Quintile,text,Performance quintile (1-5 bucket) of the student's Math grade.
+Student,RPT_ZZ_F_STUDENT,Mth Mtss Match,text,Whether the student's assigned Math MTSS tier matches the recommended tier.
+Student,RPT_ZZ_F_STUDENT,Mth Mtss Rec,text,Recommended Math MTSS intervention tier for the student based on performance data.
+Student,RPT_ZZ_F_STUDENT,Mth Mtss Tier,text,Math MTSS (Multi-Tiered System of Supports) intervention tier assigned to the student.
+Student,RPT_ZZ_F_STUDENT,Mth Pass Ct,integer,Number of Math courses the student is passing.
+Student,RPT_ZZ_F_STUDENT,Mth Rem Tool,text,Math remediation tool/program assigned to the student.
+Student,RPT_ZZ_F_STUDENT,Mth Rem Wkly Time,text,Weekly time spent in Math remediation.
+Student,RPT_ZZ_F_STUDENT,New Returning Flag,text,Whether the student is new to the school this year or returning.
+Student,RPT_ZZ_F_STUDENT,Pass All Bckt,text,Bucketed category summarizing whether the student is passing all courses.
+Student,RPT_ZZ_F_STUDENT,Pass All Flag,integer,Flag: student is passing all enrolled courses (1 = yes).
+Student,RPT_ZZ_F_STUDENT,Pass All Flag Ela,integer,Flag: student is passing all ELA courses (1 = yes).
+Student,RPT_ZZ_F_STUDENT,Pass All Flag His,integer,Flag: student is passing all History courses (1 = yes).
+Student,RPT_ZZ_F_STUDENT,Pass All Flag Mth,integer,Flag: student is passing all Math courses (1 = yes).
+Student,RPT_ZZ_F_STUDENT,Pass All Flag Sci,integer,Flag: student is passing all Science courses (1 = yes).
+Student,RPT_ZZ_F_STUDENT,Persistence,text,Student persistence status — whether the student remains actively enrolled/engaged.
+Student,RPT_ZZ_F_STUDENT,Py Ela Num Prof Levels,integer,Number of proficiency levels in the prior-year ELA state assessment scale.
+Student,RPT_ZZ_F_STUDENT,Py Ela Proficiency Level,text,Prior-year ELA state-assessment proficiency level (label).
+Student,RPT_ZZ_F_STUDENT,Py Ela Proficiency Number,text,Prior-year ELA proficiency level as a number.
+Student,RPT_ZZ_F_STUDENT,Py Ela Proficient Flag,integer,Flag: student was proficient on the prior-year ELA state assessment (1 = proficient).
+Student,RPT_ZZ_F_STUDENT,Py Ela Test Date,datetime,Date of the prior-year ELA state assessment.
+Student,RPT_ZZ_F_STUDENT,Py Ela Test Name,text,Name of the prior-year ELA state assessment.
+Student,RPT_ZZ_F_STUDENT,Py Mth Num Prof Levels,integer,Number of proficiency levels in the prior-year Math state assessment scale.
+Student,RPT_ZZ_F_STUDENT,Py Mth Proficiency Level,text,Prior-year Math state-assessment proficiency level (label).
+Student,RPT_ZZ_F_STUDENT,Py Mth Proficiency Number,text,Prior-year Math proficiency level as a number.
+Student,RPT_ZZ_F_STUDENT,Py Mth Proficient Flag,integer,Flag: student was proficient on the prior-year Math state assessment (1 = proficient).
+Student,RPT_ZZ_F_STUDENT,Py Mth Test Date,datetime,Date of the prior-year Math state assessment.
+Student,RPT_ZZ_F_STUDENT,Py Mth Test Name,text,Name of the prior-year Math state assessment.
+Student,RPT_ZZ_F_STUDENT,Rem Wk Range,text,Bucketed weekly range of remediation time.
+Student,RPT_ZZ_F_STUDENT,Report Date,datetime,Date of the reporting snapshot for this record.
+Student,RPT_ZZ_F_STUDENT,School Entry Date,datetime,Date the student entered the school.
+Student,RPT_ZZ_F_STUDENT,School of Record,text,The school officially responsible for the student's record and reporting.
+Student,RPT_ZZ_F_STUDENT,School Start Date,datetime,Start date of the student's current school enrollment.
+Student,RPT_ZZ_F_STUDENT,School Student Key,integer,Surrogate key uniquely identifying a student–school–snapshot record; the primary grain of the model and the key used for distinct student counts.
+Student,RPT_ZZ_F_STUDENT,School Year,text,"Academic year of the record (e.g., 2025-2026)."
+Student,RPT_ZZ_F_STUDENT,School Year Start Date,datetime,Start date of the academic year.
+Student,RPT_ZZ_F_STUDENT,Slicer Date,text,Date value used to drive date slicer/parameter selection in downstream reports.
+Student,RPT_ZZ_F_STUDENT,Start Status,text,Student's enrollment start status for the term/year.
+Student,RPT_ZZ_F_STUDENT,Student Identity Id,text,Stable unique identifier for the student across schools and years.
+Student,RPT_ZZ_F_STUDENT,Student Short Name,text,Student's abbreviated/display name.
+Student,RPT_ZZ_F_STUDENT,Total Course Duration L 7 D,number,Total time spent in courses over the last 7 days.
+Student,RPT_ZZ_F_STUDENT,Ytd Avg Days Course Act,text,Year-to-date average number of days with course activity.
+Student,RPT_DT_D_SCHOOL,School Type,text,"Type of school (e.g., online public, private)."
+Student,RPT_DT_D_ETHNICITY,Standardized Ethnicity,text,Student's ethnicity mapped to a standardized category.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Standardized Ethnicity (RPT_DT_D_STUDENT_DEMOGRAPHICS),text,Student's ethnicity mapped to a standardized category.
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Sams Student Id,text,Student's identifier in the SAMS student administration system.
+Student,RPT_DT_D_SCHOOL,School Group,text,"Grouping the school belongs to (e.g., management group)."
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,School Student Key (RPT_DT_D_STUDENT_DEMOGRAPHICS),integer,Surrogate key uniquely identifying a student–school–snapshot record; the primary grain of the model and the key used for distinct student counts.
+Student,(calculated),User (RLS Table),text,"Reference to the authorized user (email) from the RLS security table, used to evaluate row visibility."
+Student,RPT_DT_D_STUDENT_DEMOGRAPHICS,Main School Id (RPT_DT_D_STUDENT_DEMOGRAPHICS),text,Identifier of the student's primary (home) school.
+Student,RPT_DT_D_SCHOOL,State,text,U.S. state of the school.
+Student,(calculated),RLSFlag,text,Row-level-security flag (computed): 'true' when the current user is permitted to see this student's row (member of AIM team or matched via the RLS table).
+Student,RPT_DT_D_SCHOOL,SUPPORT_TIER,error,School support tier. NOTE: this column is currently an unresolved reference (source column RPT_DT_D_SCHOOL.SUPPORT_TIER is missing) and must be repointed before it will populate.

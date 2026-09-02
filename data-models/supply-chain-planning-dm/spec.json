@@ -1,0 +1,502 @@
+{
+  "name": "Supply Chain Planning DM",
+  "folderId": "54d3664a-c82f-494e-9d1c-c47720583f2b",
+  "schemaVersion": 1,
+  "kind": "data-model",
+  "pages": [
+    {
+      "id": "page-data",
+      "name": "Data",
+      "elements": [
+        {
+          "id": "tbl-supply-chain",
+          "kind": "table",
+          "source": {
+            "connectionId": "bf924da6-1179-47b0-a2da-1d3d19a9ebff",
+            "kind": "warehouse-table",
+            "path": [
+              "SE_INTERNAL_DB",
+              "DOMINION",
+              "FCT_SUPPLY_CHAIN_PLANNING"
+            ]
+          },
+          "columns": [
+            {
+              "id": "col-relative-month",
+              "formula": "DateDiff(\"month\", Now(), [month_start])",
+              "name": "relative_month"
+            },
+            {
+              "id": "col-month-start",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Start of Month]",
+              "name": "month_start",
+              "format": {
+                "kind": "datetime",
+                "formatString": "%Y-%m-%d"
+              }
+            },
+            {
+              "id": "col-region",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Region]",
+              "name": "region"
+            },
+            {
+              "id": "col-channel-org",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Channel]",
+              "name": "channel_org"
+            },
+            {
+              "id": "col-channel",
+              "formula": "Switch([channel_org], \"mini\", \"Marketplace\", \"standard\", \"Direct\", \"premium\", \"Indirect\")",
+              "name": "channel"
+            },
+            {
+              "id": "col-brand",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Brand]",
+              "name": "brand"
+            },
+            {
+              "id": "col-demand-base",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Demand Base]",
+              "name": "demand_base",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-demand-season",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Demand Season]",
+              "name": "demand_season",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-demand-growth",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Demand Growth]",
+              "name": "demand_growth",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-demand-fcst",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Demand]",
+              "name": "demand_fcst",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-sales",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Sales]",
+              "name": "sales",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-inv-open",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Inv Open]",
+              "name": "inv_open",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-consumption",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Consumption]",
+              "name": "consumption",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-supply",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Supply]",
+              "name": "supply",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            },
+            {
+              "id": "col-inv-close",
+              "formula": "[FCT_SUPPLY_CHAIN_PLANNING/Volume Inv Close]",
+              "name": "inv_close",
+              "format": {
+                "kind": "number",
+                "formatString": ",d"
+              }
+            }
+          ],
+          "metrics": [
+            {
+              "id": "met-demand-plan",
+              "formula": "Sum([demand_fcst])",
+              "name": "Demand plan, ea",
+              "description": "Total demand plan (volume) in eaches",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            },
+            {
+              "id": "met-supply-plan",
+              "formula": "Sum([supply])",
+              "name": "Supply plan, ea",
+              "description": "Total supply plan (volume) in eaches",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            },
+            {
+              "id": "met-avg-inventory",
+              "formula": "Sum(([inv_open] + [inv_close]) / 2)",
+              "name": "Average inventory, ea",
+              "description": "Mean of opening and closing stock in eaches",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            },
+            {
+              "id": "met-inv-coverage",
+              "formula": "Avg([inv_close]) / Avg([demand_fcst])",
+              "name": "Inventory coverage, months",
+              "description": "How many months of demand current inventory can cover",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month",
+                  "direction": "higher-is-better"
+                }
+              }
+            },
+            {
+              "id": "met-stockout-freq",
+              "formula": "CountIf([inv_close] <= 1) / Count([inv_close])",
+              "name": "Stockout frequency, %",
+              "description": "Percentage of months where inventory = 0",
+              "format": {
+                "kind": "number",
+                "formatString": ",.2%"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month",
+                  "direction": "lower-is-better"
+                }
+              }
+            },
+            {
+              "id": "met-wape",
+              "formula": "If([sales] > 0, 1 - Abs(Sum([sales]) - Sum([demand_fcst])) / NullIf(Sum([sales]), 0))",
+              "name": "Forecast accuracy WAPE, %",
+              "description": "Shows how close total forecasted demand is to actual sales, weighted by sales volume and ignoring months with zero sales",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1%"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            },
+            {
+              "id": "met-bias",
+              "formula": "If([sales] > 0, (Sum([demand_fcst]) - Sum([sales])) / NullIf(Sum([sales]), 0))",
+              "name": "Forecast bias, %",
+              "description": "Shows whether forecasts systematically over- or under-estimate sales; positive = over-forecast, negative = under-forecast",
+              "format": {
+                "kind": "number",
+                "formatString": ",.2%"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month",
+                  "direction": "lower-is-better"
+                }
+              }
+            },
+            {
+              "id": "met-volatility",
+              "formula": "If([sales] > 0, Stddev([sales]) / NullIf(Avg([sales]), 0))",
+              "name": "Demand volatility ratio",
+              "description": "Measures how inconsistent demand is over time; higher values mean more variable sales",
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month",
+                  "direction": "lower-is-better"
+                }
+              }
+            },
+            {
+              "id": "met-actual-sales",
+              "formula": "Sum([sales])",
+              "name": "Actual sales, ea",
+              "description": "Total items sold (volume) in eaches",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            },
+            {
+              "id": "met-inv-eom",
+              "formula": "Sum([inv_close])",
+              "name": "Inventory - EOM, ea",
+              "description": "Closing end-of-month inventory position in eaches",
+              "format": {
+                "kind": "number",
+                "formatString": ",.0f"
+              },
+              "timeline": {
+                "dateColumnId": "col-month-start",
+                "truncation": "month",
+                "comparison": {
+                  "comparisonPeriod": "month"
+                }
+              }
+            }
+          ],
+          "filters": [
+            {
+              "id": "filter-channel",
+              "columnId": "col-channel-org",
+              "kind": "list",
+              "mode": "include",
+              "values": [
+                "standard",
+                "premium",
+                "mini"
+              ]
+            },
+            {
+              "id": "filter-brand",
+              "columnId": "col-brand",
+              "kind": "list",
+              "mode": "include",
+              "values": [
+                "Apple",
+                "Samsung",
+                "HP",
+                "Dell",
+                "ASUS",
+                "Lenovo"
+              ]
+            },
+            {
+              "id": "filter-relative-month",
+              "columnId": "col-relative-month",
+              "kind": "number-range",
+              "includeNulls": "when-no-value-is-selected",
+              "min": -24,
+              "max": 12
+            }
+          ],
+          "folders": [
+            {
+              "id": "folder-dimensions",
+              "name": "dimensions",
+              "items": [
+                "col-relative-month",
+                "col-month-start",
+                "col-region",
+                "col-channel-org",
+                "col-channel",
+                "col-brand"
+              ]
+            },
+            {
+              "id": "folder-metrics",
+              "name": "metrics",
+              "items": [
+                "col-demand-base",
+                "col-demand-season",
+                "col-demand-growth",
+                "col-demand-fcst",
+                "col-sales",
+                "col-inv-open",
+                "col-consumption",
+                "col-supply",
+                "col-inv-close"
+              ]
+            }
+          ],
+          "order": [
+            "folder-dimensions",
+            "folder-metrics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "page-dimensions",
+      "name": "Dimensions",
+      "elements": [
+        {
+          "id": "tbl-products",
+          "kind": "table",
+          "source": {
+            "connectionId": "2fa1c95e-fd69-4bb7-8e02-cce2791ee149",
+            "kind": "warehouse-table",
+            "path": [
+              "RETAIL",
+              "BIG_BUYS",
+              "BIG_BUYS_POS"
+            ]
+          },
+          "columns": [
+            {
+              "id": "dim-l4-brand",
+              "formula": "[BIG_BUYS_POS/Brand]",
+              "name": "L4 product brand"
+            },
+            {
+              "id": "dim-l3-line",
+              "formula": "[BIG_BUYS_POS/Product Line]",
+              "name": "L3 product line"
+            },
+            {
+              "id": "dim-l2-family",
+              "formula": "[BIG_BUYS_POS/Product Family]",
+              "name": "L2 product family"
+            },
+            {
+              "id": "dim-l1-type",
+              "formula": "[BIG_BUYS_POS/Product Type]",
+              "name": "L1 product type"
+            },
+            {
+              "id": "dim-unit-price-avg",
+              "formula": "Avg([unit_price_sku_avg])",
+              "name": "unit_price_avg",
+              "format": {
+                "kind": "number",
+                "formatString": ",.1f"
+              }
+            },
+            {
+              "id": "dim-id-product",
+              "formula": "[BIG_BUYS_POS/Product Key]",
+              "hidden": true
+            },
+            {
+              "id": "dim-name-prd",
+              "formula": "[BIG_BUYS_POS/Product Name]",
+              "hidden": true
+            },
+            {
+              "id": "dim-tier-prd",
+              "formula": "[BIG_BUYS_POS/Product Tier]",
+              "hidden": true
+            },
+            {
+              "id": "dim-unit-price-sku-avg",
+              "formula": "[BIG_BUYS_POS/Price]",
+              "name": "unit_price_sku_avg",
+              "hidden": true
+            }
+          ],
+          "groupings": [
+            {
+              "id": "grp-brand-hierarchy",
+              "groupBy": [
+                "dim-l4-brand",
+                "dim-l3-line",
+                "dim-l2-family",
+                "dim-l1-type"
+              ],
+              "calculations": [
+                "dim-unit-price-avg"
+              ],
+              "sort": [
+                {
+                  "columnId": "dim-l4-brand",
+                  "direction": "ascending",
+                  "nulls": "last"
+                },
+                {
+                  "columnId": "dim-l3-line",
+                  "direction": "ascending",
+                  "nulls": "last"
+                },
+                {
+                  "columnId": "dim-l2-family",
+                  "direction": "ascending",
+                  "nulls": "last"
+                },
+                {
+                  "columnId": "dim-l1-type",
+                  "direction": "ascending",
+                  "nulls": "last"
+                },
+                {
+                  "columnId": "dim-unit-price-avg",
+                  "direction": "descending",
+                  "nulls": "last"
+                }
+              ]
+            }
+          ],
+          "order": [
+            "dim-id-product",
+            "dim-name-prd",
+            "dim-tier-prd",
+            "dim-unit-price-sku-avg"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sigma": {
+      "type": "http",
+      "url": "https://api.us-a.aws.sigmacomputing.com/mcp/v2"
+    }
+  }
+}

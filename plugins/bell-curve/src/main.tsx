@@ -10,8 +10,10 @@ client.config.configureEditorPanel([
   { name: 'densityColumn', type: 'column', source: 'source', allowMultiple: false, allowedTypes: ['number', 'integer'], label: 'Curve Y (density)' },
 
   { name: 'shadeGroup', type: 'group', label: 'Shading & intersection points' },
-  { name: 'shadeFrom', type: 'variable', allowedTypes: ['number'], label: 'Lower intersection (X)' },
-  { name: 'shadeTo', type: 'variable', allowedTypes: ['number'], label: 'Upper intersection (X)' },
+  { name: 'shadeFromColumn', type: 'column', source: 'source', allowMultiple: false, allowedTypes: ['number', 'integer'], label: 'Lower intersection column (e.g. P10)' },
+  { name: 'shadeToColumn', type: 'column', source: 'source', allowMultiple: false, allowedTypes: ['number', 'integer'], label: 'Upper intersection column (e.g. P90)' },
+  { name: 'shadeFrom', type: 'variable', allowedTypes: ['number'], label: 'Lower intersection override (X)' },
+  { name: 'shadeTo', type: 'variable', allowedTypes: ['number'], label: 'Upper intersection override (X)' },
   { name: 'bandLabel', type: 'text', defaultValue: '80% of flows', label: 'Reference line label' },
 
   { name: 'refGroup', type: 'group', label: 'Vertical reference line (optional)' },

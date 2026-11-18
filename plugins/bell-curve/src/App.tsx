@@ -15,12 +15,24 @@ function useNumberVariable(id: string): number | undefined {
   return toNumber(v?.defaultValue?.value);
 }
 
+/** First numeric value in a column (used for per-scenario bounds that repeat on every row). */
+function firstNumber(col: unknown[] | undefined): number | undefined {
+  for (const v of col ?? []) {
+    const n = toNumber(v);
+    if (n !== undefined) return n;
+  }
+  return undefined;
+}
+
 export function App() {
   const config = useConfig();
   const data = useElementData(config.source);
 
-  const shadeFrom = useNumberVariable('shadeFrom');
-  const shadeTo = useNumberVariable('shadeTo');
+  const varFrom = useNumberVariable('shadeFrom');
+  const varTo = useNumberVariable('shadeTo');
+  // Controls override; otherwise fall back to the bound columns so shading follows the data/filters.
+  const shadeFrom = varFrom ?? firstNumber(data?.[config.shadeFromColumn]);
+  const shadeTo = varTo ?? firstNumber(data?.[config.shadeToColumn]);
   const referenceX = useNumberVariable('referenceX');
   const pointMass = useNumberVariable('pointMass');
 

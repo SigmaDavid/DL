@@ -1,6 +1,7 @@
 // Standalone preview with the three scenarios from the design mock-ups. Not used inside Sigma.
 import { createRoot } from 'react-dom/client';
 import { BellCurve } from './BellCurve';
+import './index.css';
 import type { Point } from './math';
 
 const normal = (mu: number, sd: number, lo: number, hi: number): Point[] =>
@@ -19,7 +20,12 @@ const gamma = (k: number, theta: number, hi: number): Point[] =>
 const common = { decimals: 1, curveColor: '#4f5bd5', shadeColor: '#dfe3f7', referenceColor: '#e0524d' };
 const card = { width: 420, height: 300, border: '1px solid #e5e7eb', borderRadius: 8, padding: 8, background: '#fff' };
 
-createRoot(document.getElementById('root')!).render(
+document.documentElement.style.height = 'auto';
+document.body.style.overflow = 'auto';
+document.documentElement.style.overflow = 'auto';
+document.getElementById('root')!.style.height = 'auto';
+const root = document.getElementById('root')!;
+createRoot(root).render(
   <div style={{ display: 'flex', gap: 16, padding: 16, flexWrap: 'wrap', background: '#f6f7f9' }}>
     <div style={card}>
       <BellCurve {...common} format="percent-fraction" points={normal(0.029, 0.105, -0.42, 0.477)}

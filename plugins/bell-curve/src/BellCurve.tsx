@@ -55,7 +55,7 @@ function useSize<T extends HTMLElement>() {
 export function BellCurve(props: BellCurveProps) {
   const [ref, { w, h }] = useSize<HTMLDivElement>();
   return (
-    <div ref={ref} style={{ width: '100%', height: '100%', minHeight: 160 }}>
+    <div ref={ref} style={{ position: 'relative', width: '100%', height: '100%', minHeight: 160, overflow: 'hidden' }}>
       {w > 0 && h > 0 && <Chart {...props} width={w} height={h} />}
     </div>
   );

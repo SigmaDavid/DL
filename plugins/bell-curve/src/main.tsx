@@ -2,6 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { client } from '@sigmacomputing/plugin';
 import { App } from './App';
+import './index.css';
 
 // Editor panel shown to workbook authors. Config ids are read back in App.tsx.
 client.config.configureEditorPanel([

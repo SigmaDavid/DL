@@ -1,0 +1,3 @@
+/* Fill the plugin iframe exactly; never let content drive the height (prevents resize feedback loops). */
+html, body, #root { height: 100%; margin: 0; padding: 0; overflow: hidden; background: transparent; }
+svg { display: block; }
